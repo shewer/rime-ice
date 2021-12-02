@@ -72,8 +72,12 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
+# 引入自己的修改过的 symbols：
+# - 将“/”模式修改为了“v”模式，并新增一些自定义内容
+# - 修改符号映射行为
 punctuator:
-  import_preset: symbols
+  # import_preset: symbols # 默认
+  import_preset: symbols.custom
 
 key_binder:
   import_preset: default
@@ -81,7 +85,6 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
-    # so those who have customized '/' for direct commit won't be affected by
-    # this change.
-    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    # punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 默认
+    # 用 “v” 替换 “/”，并支持大写
+    punct: "^v([a-zA-Z]+|[0-9]0?)$"
