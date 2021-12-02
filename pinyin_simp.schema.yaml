@@ -20,11 +20,21 @@ switches:
   - name: ascii_punct
     reset: 0
     # states: [ 。，, ．， ] 几乎永远不切换，所以注释了
+  - name: traditionalization
+    reset: 0 # 如果不想每次切换 App 都自动变成简体，可以注释这里
+    states: [ 简, 繁繁繁 ]
 
-#TODO 简繁切换
+# 增加简繁切换快捷键
+key_binder:
+  import_preset: default
+  bindings/+:
+    - {accept: "Control+Shift+4", toggle: traditionalization, when: always}
+    - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
+    - {accept: "Control+slash",   toggle: traditionalization, when: always}  # Ctrl + /
 
 engine:
   filters:
+    - simplifier@traditionalize  # 简繁切换
     - uniquifier                 # 去重
   processors:
     - ascii_composer
@@ -47,6 +57,12 @@ engine:
     - table_translator@custom_phrase
   
     #TODO 自定义文本、英文、时间日期
+
+# 简繁切换
+traditionalize:
+  opencc_config: s2t.json
+  option_name: traditionalization
+  tips: all # 简繁提示，注释掉可直接出繁
 
 # 自定义文本：custom_phrase
 custom_phrase:
@@ -92,9 +108,6 @@ translator:
 punctuator:
   # import_preset: symbols # 默认
   import_preset: symbols.custom
-
-key_binder:
-  import_preset: default
 
 recognizer:
   import_preset: default
