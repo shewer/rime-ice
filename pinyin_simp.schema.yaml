@@ -24,6 +24,8 @@ switches:
 #TODO 简繁切换
 
 engine:
+  filters:
+    - uniquifier                 # 去重
   processors:
     - ascii_composer
     - recognizer
@@ -42,7 +44,19 @@ engine:
   translators:
     - punct_translator
     - script_translator
+    - table_translator@custom_phrase
+  
     #TODO 自定义文本、英文、时间日期
+
+# 自定义文本：custom_phrase
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  # 享有最高优先级。但不与其他翻译器共同造句（所以尽量不要配置完整编码的字词，只配置缩写）
+  initial_quality: 1
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
