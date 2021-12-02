@@ -6,20 +6,22 @@ schema:
   name: 袖珍简化字拼音
   version: '0.9'
   author:
-    - 佚名
+    - Dvel
   description: |
-    源自 Android 拼音
-  dependencies:
-    - stroke
+    在官方 pinyin_simp 原版方案上进行了个性化的改动。
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    # states: [ 中文, 西文 ] Shift 切换中英的功能，我个人习惯使用 Cmd + 空格。
   - name: full_shape
-    states: [ 半角, 全角 ]
+    reset: 0
+    # states: [ 半角, 全角 ] 几乎永远不切换，所以注释了
   - name: ascii_punct
-    states: [ 。，, ．， ]
+    reset: 0
+    # states: [ 。，, ．， ] 几乎永远不切换，所以注释了
+
+#TODO 简繁切换
 
 engine:
   processors:
@@ -40,7 +42,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - reverse_lookup_translator
+    #TODO 自定义文本、英文、时间日期
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -70,15 +72,6 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
-reverse_lookup:
-  dictionary: stroke
-  enable_completion: true
-  prefix: "`"
-  suffix: "'"
-  tips: 〔笔画〕
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
-
 punctuator:
   import_preset: symbols
 
@@ -92,4 +85,3 @@ recognizer:
     # so those who have customized '/' for direct commit won't be affected by
     # this change.
     punct: "^/([0-9]+[a-z]*|[a-z]+)$"
-    reverse_lookup: "`[a-z]*'?$"
