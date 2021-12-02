@@ -1,0 +1,50 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# https://github.com/iDvel/rime-settings/
+#
+# 其他
+#
+---
+name: others
+version: "2021-11-20"
+sort: by_weight
+vocabulary: essay-zh-hans
+...
+# 一些杂项，放进 melt 输入方案，不污染正常组词
+&nbsp;	nbsp
+<br>	br
+.DS_Store	dsstore
+
+
+# 生活大爆炸 & 老友记，让 opencc 中的映射起作用
+Sheldon	Sheldon
+Leonard	Leonard
+Penny	Penny
+Howard	Howard
+Rajesh	Rajesh
+Rachel	Rachel
+Monica	Monica
+Joey	Joey
+Ross	Ross
+Chandler	Chandler
+Phoebe	Phoebe
+
+
+# 为了使 opencc 中以下符号映射有效，这里必须要先映射一下
+Cmd	Cmd
+Command	Command
+Ctrl	Ctrl
+Control	Control
+Opt	Opt
+Option	Option
+Shift	Shift
+Tab	Tab
+Caps	Caps
+Return	Return
+Enter	Enter
+Space	Space
+Backspace	Backbackspace
+Del	Del
+Esc	Esc
+Eject	Eject
