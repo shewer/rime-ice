@@ -110,6 +110,11 @@ easy_en:
   initial_quality: 0 # -1
 
 
+# 八股文语言模型
+grammar:
+  language: zh-hans-t-essay-bgw
+
+
 # 挂载拼音主词库
 translator:
   dictionary: pinyin_simp # 挂载拼音主词库 pinyin_simp.dict.yaml
