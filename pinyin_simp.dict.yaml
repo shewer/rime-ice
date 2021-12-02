@@ -18,24 +18,24 @@ import_tables:
 
   # ---------------------- 扩展 ----------------------- #
   - cn_dicts/sys_ext # 自己平时随手偶尔添加的词汇
-  # - cn_dicts/ext     # 偶尔整合的一些扩展词库
-  # - cn_dicts/av      # 著名表演艺术家
-  # - cn_dicts/private # *******私人词库（联系人之类的），请删除此行再部署，否则会报错******* #
+  - cn_dicts/ext     # 偶尔整合的一些扩展词库
+  - cn_dicts/av      # 著名表演艺术家
+  - cn_dicts/private # *******私人词库（联系人之类的），请删除此行再部署，否则会报错******* #
 
 
-  # # ------------------- 其他扩展词库 ------------------- #
-  # # 搜狗网络流行词
-  # - cn_dicts/sogou_liuxing
-  # # 清华大学开源词库 https://github.com/thunlp/THUOCL ，以下直接从 https://github.com/fkxxyz/rime-cloverpinyin 复制
-  # - cn_dicts/THUOCL_animal
-  # - cn_dicts/THUOCL_caijing
-  # - cn_dicts/THUOCL_car
-  # - cn_dicts/THUOCL_chengyu
-  # - cn_dicts/THUOCL_diming
-  # - cn_dicts/THUOCL_food
-  # - cn_dicts/THUOCL_IT
-  # - cn_dicts/THUOCL_law
-  # - cn_dicts/THUOCL_lishimingren
-  # - cn_dicts/THUOCL_medical
-  # - cn_dicts/THUOCL_poem
+  # ------------------- 其他扩展词库 ------------------- #
+  # 搜狗网络流行词
+  - cn_dicts/sogou_liuxing
+  # 清华大学开源词库 https://github.com/thunlp/THUOCL ，以下直接从 https://github.com/fkxxyz/rime-cloverpinyin 复制
+  - cn_dicts/THUOCL_animal
+  - cn_dicts/THUOCL_caijing
+  - cn_dicts/THUOCL_car
+  - cn_dicts/THUOCL_chengyu
+  - cn_dicts/THUOCL_diming
+  - cn_dicts/THUOCL_food
+  - cn_dicts/THUOCL_IT
+  - cn_dicts/THUOCL_law
+  - cn_dicts/THUOCL_lishimingren
+  - cn_dicts/THUOCL_medical
+  - cn_dicts/THUOCL_poem
 ...
