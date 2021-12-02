@@ -7,4 +7,5 @@ build/
 installation.yaml
 user.yaml
 
-dicts/private.dict.yaml
+cn_dicts/private.dict.yaml
+*private*
