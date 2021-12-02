@@ -1,0 +1,34 @@
+patch:
+  # 实际体验没有发现 always 和 appropriate 有什么区别。。。
+  show_notifications_when: always # options: always | never | appropriate
+
+  # 皮肤可参考官方推荐 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
+  # 皮肤展示： https://github.com/qingmail/rime-pifu
+  # 修改教程： https://github.com/qingmail/rime#%E7%9A%AE%E8%82%A4
+  # 图形化的皮肤设计器： https://github.com/LEOYoon-Tsaw/Squirrel-Designer
+
+  style/color_scheme: purity_of_form_custom
+
+  preset_color_schemes:
+    # 对 purity_of_form 进行了略微调整，让色彩更柔和一点
+    purity_of_form_custom:
+      name: 純粹的形式／Purity of Form
+      author: 雨過之後、佛振
+      text_color: 0x333333 #0xc2c2c2
+      back_color: 0x545554 #0x444444
+      candidate_text_color: 0xeeeeee
+      hilited_text_color: 0xeeeeee
+      hilited_back_color: 0x444444
+      hilited_candidate_text_color: 0x000000
+      hilited_candidate_back_color: 0xE3E3E3 #0xfafafa
+      comment_text_color: 0x808080
+      font_face: "PingFangSC"
+      font_point: 18
+      label_font_point: 13
+
+  # 可参考 https://github.com/rime/squirrel/blob/69112996441fdae1d1778ac9a32eb98f6a8e7841/data/squirrel.yaml
+  app_options:    # App默认英文
+    # com.apple.Spotlight:
+    #     ascii_mode: true      # 默认英文
+    com.microsoft.VSCode:
+        ascii_mode: false     # 关闭默认英文
