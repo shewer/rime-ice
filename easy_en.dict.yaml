@@ -1,13 +1,12 @@
 # Rime dictionary
-# mim: set ts=8 sw=8 noet:
 # encoding: utf-8
 #
-# 挂在英文输入方案的词库
+# 挂载英文输入方案的词库
 #
 
 ---
 name: easy_en
-version: "0.2"
+version: "1"
 sort: by_weight
 # vocabulary: essay-zh-hans
 

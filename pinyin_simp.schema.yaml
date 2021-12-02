@@ -8,9 +8,9 @@ schema:
   name: 袖珍简化字拼音
   version: '0.9'
   author:
-    - Dvel (https://github.com/iDvel/rime-settings)
+    - Dvel
   description: |
-    在官方 pinyin_simp 方案上进行了个性化的改动。
+    https://github.com/iDvel/rime-settings
   dependencies:
     - easy_en
 
@@ -35,10 +35,6 @@ switches:
 
 # 输入引擎
 engine:
-  filters:
-    - simplifier@emoji           # Emoji
-    - simplifier@traditionalize  # 简繁切换
-    - uniquifier                 # 去重
   processors:         # ※ 默认组件：處理各類按鍵消息
     - ascii_composer  # ※ 處理西文模式及中西文切換
     - recognizer      # ※ 與 matcher 搭配，處理符合特定規則的輸入碼，如網址、反查等
@@ -60,6 +56,10 @@ engine:
     - table_translator@custom_phrase  # 自定义文本
     - table_translator@easy_en        # 英文输入
     - lua_translator@date_translator  # 时间、日期、星期
+  filters: # ※ 默认组件：過濾翻譯的結果
+    - simplifier@emoji           # Emoji
+    - simplifier@traditionalize  # 简繁切换
+    - uniquifier                 # 去重
 
 
 # Emoji：删除了 Emoji，修改为一些词语和符号映射
@@ -98,7 +98,7 @@ custom_phrase:
 
 # 英文输入方案
 easy_en:
-  dictionary: easy_en # 挂载英文主词库
+  dictionary: easy_en # 挂载英文主词库 easy_en.dict.yaml
   spelling_hints: 9
   enable_completion: true # 关闭后英文不会有提示，只会在打全时才会显示，体验不是很好
   enable_sentence: false
@@ -112,7 +112,7 @@ easy_en:
 
 # 挂载拼音主词库
 translator:
-  dictionary: pinyin_simp
+  dictionary: pinyin_simp # 挂载拼音主词库 pinyin_simp.dict.yaml
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

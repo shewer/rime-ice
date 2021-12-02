@@ -9,33 +9,33 @@ vocabulary: essay-zh-hans
 
 import_tables:
   # ----------------------- 字表 ----------------------- #
-  - dicts/8105    # https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters
+  - cn_dicts/8105    # 《通用汉字规范表》8105 字字表
 
 
-  # --------------------- 基础词库 --------------------- #
-  - dicts/sys     # 华宇野风系统词库
+  # --------------------- 系统词库 --------------------- #
+  - cn_dicts/sys     # 华宇野风系统词库
 
 
-  # -------------------- 自己添加的 -------------------- #
-  - dicts/sys_ext # 自己平时随手偶尔添加的词汇
-  # - dicts/ext     # 偶尔整合的一些扩展词库
-  # - dicts/av      # 著名表演艺术家
-  # - dicts/private # *******私人词库（联系人之类的），请删除此行再部署，否则会报错******* #
+  # ---------------------- 扩展 ----------------------- #
+  - cn_dicts/sys_ext # 自己平时随手偶尔添加的词汇
+  # - cn_dicts/ext     # 偶尔整合的一些扩展词库
+  # - cn_dicts/av      # 著名表演艺术家
+  # - cn_dicts/private # *******私人词库（联系人之类的），请删除此行再部署，否则会报错******* #
 
 
   # # ------------------- 其他扩展词库 ------------------- #
   # # 搜狗网络流行词
-  # - dicts/sogou_liuxing
+  # - cn_dicts/sogou_liuxing
   # # 清华大学开源词库 https://github.com/thunlp/THUOCL ，以下直接从 https://github.com/fkxxyz/rime-cloverpinyin 复制
-  # - dicts/THUOCL_animal
-  # - dicts/THUOCL_caijing
-  # - dicts/THUOCL_car
-  # - dicts/THUOCL_chengyu
-  # - dicts/THUOCL_diming
-  # - dicts/THUOCL_food
-  # - dicts/THUOCL_IT
-  # - dicts/THUOCL_law
-  # - dicts/THUOCL_lishimingren
-  # - dicts/THUOCL_medical
-  # - dicts/THUOCL_poem
+  # - cn_dicts/THUOCL_animal
+  # - cn_dicts/THUOCL_caijing
+  # - cn_dicts/THUOCL_car
+  # - cn_dicts/THUOCL_chengyu
+  # - cn_dicts/THUOCL_diming
+  # - cn_dicts/THUOCL_food
+  # - cn_dicts/THUOCL_IT
+  # - cn_dicts/THUOCL_law
+  # - cn_dicts/THUOCL_lishimingren
+  # - cn_dicts/THUOCL_medical
+  # - cn_dicts/THUOCL_poem
 ...

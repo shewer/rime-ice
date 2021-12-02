@@ -9,7 +9,7 @@
 name: others
 version: "2021-11-20"
 sort: by_weight
-vocabulary: essay-zh-hans
+# vocabulary: essay-zh-hans
 ...
 # 一些杂项，放进 melt 输入方案，不污染正常组词
 &nbsp;	nbsp

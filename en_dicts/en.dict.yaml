@@ -7,7 +7,7 @@
 name: en
 version: "2021-11-11"
 sort: by_weight
-vocabulary: essay-zh-hans
+# vocabulary: essay-zh-hans
 ...
 # 以下为方案原装的词库，注释掉了几个：
 AA	AA	100

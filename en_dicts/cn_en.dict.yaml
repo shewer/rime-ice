@@ -9,7 +9,7 @@
 name: cn_en
 version: "2021-11-20"
 sort: by_weight
-vocabulary: essay-zh-hans
+# vocabulary: essay-zh-hans
 ...
 AD 钙奶	adgainai
 UU 加速器	uujiasuqi

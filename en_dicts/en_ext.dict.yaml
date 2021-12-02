@@ -9,7 +9,7 @@
 name: en_ext
 version: "2021-11-20"
 sort: by_weight
-vocabulary: essay-zh-hans
+# vocabulary: essay-zh-hans
 ...
 Aeron	Aeron
 Aeron Chair	AeronChair

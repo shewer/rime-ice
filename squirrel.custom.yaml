@@ -10,8 +10,7 @@ patch:
   style/color_scheme: purity_of_form_custom
 
   preset_color_schemes:
-    # 对 purity_of_form 进行了略微调整，让色彩更柔和一点
-    purity_of_form_custom:
+    purity_of_form_custom: # 对 purity_of_form 进行了略微调整，让色彩更柔和一点
       name: 純粹的形式／Purity of Form
       author: 雨過之後、佛振
       text_color: 0x333333 #0xc2c2c2
