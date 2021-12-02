@@ -127,7 +127,8 @@ translator:
 # 拼写设定
 speller:
   # alphabet: zyxwvutsrqponmlkjihgfedcba # 默认
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA # 增加大写以响应大写字母开头的英文单词
+  # 因为 easy_en 是以依赖的形式加载的，所以它自己的 alphabet 不管用，必须在此方案设定支持大写
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"
   # 拼音纠错
   algebra: 
@@ -179,11 +180,8 @@ punctuator:
   # import_preset: symbols # 默认
   import_preset: symbols.custom
 
-
-# 因为 easy_en 是以依赖的形式加载的，所以它自己的 recognizer 不管用，必须在此方案设定支持大写
 recognizer:
   import_preset: default
   patterns:
     # punct: "^/([0-9]+[a-z]*|[a-z]+)$" # 默认
-    # 用 “v” 替换 “/”，并支持大写
-    punct: "^v([a-zA-Z]+|[0-9]0?)$"
+    punct: "^v([a-zA-Z]+|[0-9]0?)$" # 用 “v” 替换 “/”，并支持大写
