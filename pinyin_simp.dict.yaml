@@ -13,7 +13,7 @@ import_tables:
 
 
   # --------------------- 系统词库 --------------------- #
-  - cn_dicts/sys     # 华宇野风系统词库
+  - cn_dicts/sys     # 华宇野风系统词库 + 清华大学开源词库 + 修订
 
 
   # ---------------------- 扩展 ----------------------- #
@@ -24,18 +24,5 @@ import_tables:
 
 
   # ------------------- 其他扩展词库 ------------------- #
-  # 搜狗网络流行词
-  - cn_dicts/sogou_liuxing
-  # 清华大学开源词库 https://github.com/thunlp/THUOCL ，以下直接从 https://github.com/fkxxyz/rime-cloverpinyin 复制
-  - cn_dicts/THUOCL_animal
-  - cn_dicts/THUOCL_caijing
-  - cn_dicts/THUOCL_car
-  - cn_dicts/THUOCL_chengyu
-  - cn_dicts/THUOCL_diming
-  - cn_dicts/THUOCL_food
-  - cn_dicts/THUOCL_IT
-  - cn_dicts/THUOCL_law
-  - cn_dicts/THUOCL_lishimingren
-  - cn_dicts/THUOCL_medical
-  - cn_dicts/THUOCL_poem
+  - cn_dicts/sogou_liuxing # 搜狗网络流行词
 ...
