@@ -7,7 +7,7 @@
 #
 ---
 name: sys_ext
-version: "2021-11-20"
+version: "2021-12-03"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -34,8 +34,6 @@ vocabulary: essay-zh-hans
 模样	mo yang
 模样儿	mu yang er
 模样儿	mo yang er
-模板	mu ban
-模板	mo ban
 # 「血 xue xie」，「xie」同「xue」，用于口语，多单用。
 流血	liu xie
 流血	liu xue
@@ -47,9 +45,6 @@ vocabulary: essay-zh-hans
 贫血	pin xie
 血压	xue ya
 血压	xie ya
-# 「说shui|shuo服」，字典中为「shuo」，「游说」「说客」仍然保留着「shui」的读音，「说服」发音混用的很多。
-说服	shuo fu
-说服	shui fu
 # 「主角jue|jiao」，好像港台是念「jiao」的。
 主角	zhu jue
 主角	zhu jiao
@@ -2238,3 +2233,17 @@ vocabulary: essay-zh-hans
 一颗永流传
 永流传
 变回原样
+错号
+叉号
+约等号
+大于号
+小于号
+小于等于号
+大于等于号
+万分号
+美刀
+新加坡币
+方片
+方板
+无穷大符号
+伟途亦可思
