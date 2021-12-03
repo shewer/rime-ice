@@ -7,26 +7,25 @@
 ## 基本套路：
 
 -   Squirrel 0.15.2 简体 全拼
--   「袖珍简化字方案」作为基础  [rime](https://github.com/rime)/**[rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)**
-    -   简繁切换 [rime/home/issues#388](https://github.com/rime/home/issues/388#issuecomment-504572224) 
-    -   动态日期、时间、星期 [KyleBing](https://github.com/KyleBing)/**[rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)**
+-   「[袖珍简化字方案](https://github.com/rime/rime-pinyin-simp)」作为基础
+    -   [简繁切换](https://github.com/rime/home/issues/388#issuecomment-504572224)
+    -   [动态日期、时间、星期](https://github.com/KyleBing/rime-wubi86-jidian)
     -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
-    -   删除了 Emoji，改为词语与符号映射
+    -   没有添加 Emoji，改为词语与符号映射
     -   增加了许多拼音纠错
-
--   融合「easy_en」英文输入方案     [BlindingDark](https://github.com/BlindingDark)/**[rime-easy-en](https://github.com/BlindingDark/rime-easy-en)**
-    -   使用了「融合拼音」的英文词库和拼写规则 [tumuyan](https://github.com/tumuyan)/**[rime-pinyin-simp](https://github.com/tumuyan/rime-pinyin-simp)**  
-
--   纯简体字表、词库、模型（这样在用户词典中也是简体了）
-    -   《通用规范汉字表》8105 字字表   [iDvel](https://github.com/iDvel)/**[The-Table-of-General-Standard-Chinese-Characters](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)**  
-    -   华宇野风系统词库 [华宇拼音输入法论坛 - 华语野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)
-    -   简体八股文语言模型     [lotem](https://github.com/lotem)/**[rime-octagram-data](https://github.com/lotem/rime-octagram-data)**/tree/[hans](https://github.com/lotem/rime-octagram-data/tree/hans)
+-   融合「[easy_en](https://github.com/BlindingDark/rime-easy-en)」英文输入方案
+    -   使用了「[融合拼音](https://github.com/tumuyan/rime-pinyin-simp)」的词库和拼写规则
+-   纯简体字表、词库（这样在用户词典中也是简体了）
+    -   字表：[《通用规范汉字表》的 8105 字字表](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)
+    -   词库：「[华宇野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)」 +「[清华大学开源词库](https://github.com/thunlp/THUOCL)」
+    -   「[简体八股文语言模型](https://github.com/lotem/rime-octagram-data/tree/hans)」
+-   长期持续修订遇到的异形词、错别字、错误注音
 
 <br>
 
-## 说明 & 使用
+## 说明
 
-**部署前请先将 `pinyin_simp.dict.yaml ` 中的 `- cn_dicts/private` 这行删除，这是我自己的私有词库（联系人之类的），否则部署时会报错。**
+**部署前请先将 `pinyin_simp.dict.yaml ` 中的 `- cn_dicts/private` 这行删除，这是我自己的私人词库（联系人之类的），否则部署时会报错。**
 
 <br>
 
@@ -54,7 +53,17 @@
 
 <br>
 
-## 参考 & 感谢：上手时主要参考的一些仓库
+将英文输入方案挂载进拼音输入方案，词库也是独立分开的。
+
+为了完善输入体验，英文的权重设为了「0」，这会导致单编码时，候选项被大量英文占据。
+
+为了解决这个问题，引入了 `custom_phrase.txt` 将单编码固定死，并给予高于英文方案的权重。
+
+<br>
+
+## 参考 & 感谢
+
+希望本配置帮助到了你，以下是我上手时主要参考的仓库，表示感谢：
 
 [qingmail](https://github.com/qingmail)/**[rime](https://github.com/qingmail/rime)** 详细的图文教程及实例
 
