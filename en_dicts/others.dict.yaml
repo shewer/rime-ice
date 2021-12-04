@@ -7,17 +7,18 @@
 #
 ---
 name: others
-version: "2021-11-20"
+version: "2021-12-05"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
-# 一些杂项，放进 melt 输入方案，不污染正常组词
+# 一些杂项，放进 en 输入方案，不污染正常组词
 &nbsp;	nbsp
 <br>	br
 .DS_Store	dsstore
 
 
-# 生活大爆炸 & 老友记，让 opencc 中的映射起作用
+# 和 av 词典一样，为了使 opencc 中以下映射有效，这里必须要先写入词库
+# 生活大爆炸 & 老友记
 Sheldon	Sheldon
 Leonard	Leonard
 Penny	Penny
@@ -29,9 +30,7 @@ Joey	Joey
 Ross	Ross
 Chandler	Chandler
 Phoebe	Phoebe
-
-
-# 为了使 opencc 中以下符号映射有效，这里必须要先映射一下
+# 按键
 Cmd	Cmd
 Command	Command
 Ctrl	Ctrl

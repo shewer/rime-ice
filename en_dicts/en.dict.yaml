@@ -5,11 +5,11 @@
 #
 ---
 name: en
-version: "2021-11-11"
+version: "2021-12-05"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
-# 以下为方案原装的词库，注释掉了几个：
+# 以下为「融合拼音」方案原装的词库，注释掉了几个：
 AA	AA	100
 Trojan	Trojan	100
 AVAST!	AVAST	100
