@@ -7,7 +7,7 @@
 #
 ---
 name: sys_ext
-version: "2021-12-03"
+version: "2021-12-05"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -26,39 +26,15 @@ vocabulary: essay-zh-hans
 
 
 ##### 容错词（或模棱两可的一些词）
+# 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」已在 sys 中实现
 # 「馄饨」正确的读音为「tun」，北方口语中常用的为「dun」
 馄饨	hun tun
 馄饨	hun dun
-# 「模」表示模具、形状、样子时读「mu」，但口语中常见为「mo」
-模样	mu yang
-模样	mo yang
-模样儿	mu yang er
-模样儿	mo yang er
-# 「血 xue xie」，「xie」同「xue」，用于口语，多单用。
-流血	liu xie
-流血	liu xue
-狗血	gou xue
-狗血	gou xie
-鸡血	ji xue
-鸡血	ji xie
-贫血	pin xue
-贫血	pin xie
-血压	xue ya
-血压	xie ya
 # 「主角jue|jiao」，好像港台是念「jiao」的。
 主角	zhu jue
 主角	zhu jiao
 角色	jue se
 角色	jiao se
-# 「伽qie|jia蓝」，字典中是「qie」，但有说法认为，“伽”字表达的是梵文的音译，应读作「jia」。
-伽蓝	qie lan
-伽蓝	jia lan
-伽蓝雨	qie lan yu
-伽蓝雨	jia lan yu
-僧伽蓝	seng qie lan
-僧伽蓝	seng jia lan
-僧伽蓝摩	seng qie lan mo
-僧伽蓝摩	seng jia lan mo
 # 「比萨」，字典中是「bi」，但英文 pizza 发音是「pi」。
 比萨	bi sa
 比萨	pi sa
@@ -122,8 +98,6 @@ vocabulary: essay-zh-hans
 锘锘锘	nuo nuo nuo
 屯屯屯	tun tun tun
 嘚瑟
-角色	jue se
-角色	jiao se
 哔哩
 哔哩哔哩
 黄栌

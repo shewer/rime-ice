@@ -19,13 +19,13 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    # states: [ 中文, 西文 ] Shift 切换中英的功能，我个人习惯使用 Cmd + 空格。
+    # states: [ 中文, 西文 ] 永远不切换，所以注释了
   - name: full_shape
     reset: 0
-    # states: [ 半角, 全角 ] 几乎永远不切换，所以注释了
+    # states: [ 半角, 全角 ] 永远不切换，所以注释了
   - name: ascii_punct
     reset: 0
-    # states: [ 。，, ．， ] 几乎永远不切换，所以注释了
+    # states: [ 。，, ．， ] 永远不切换，所以注释了
   - name: emoji
     reset: 1
   - name: traditionalization
@@ -92,7 +92,7 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   # 享有最高优先级。但不与其他翻译器共同造句（所以尽量不要配置完整编码的字词，只配置缩写）
-  # custom_phrase 的优先级应该比 melt_eng 大，否则英文会冲在最前头，造成选取困难
+  # custom_phrase 的权重应该比 easy_en 大，否则英文会冲在最前头，造成选取困难
   initial_quality: 1
 
 
@@ -174,8 +174,9 @@ speller:
 
 
 # 引入自己的修改过的 symbols：
+# - 标点符号全部直接上屏
 # - 将「/」模式修改为了「v」模式，并新增一些自定义内容
-# - 修改符号映射行为
+# - 自己增加了一点点符号
 punctuator:
   # import_preset: symbols # 默认
   import_preset: symbols.custom
