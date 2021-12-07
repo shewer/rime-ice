@@ -11,21 +11,6 @@ version: "2021-12-07"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
-##### 方便词
-儿	r
-有	u
-一	i
-个	g
-一个	ig
-这	zh
-有个	ug
-有一个	uig
-有一个	uyig
-有一个	uyige
-有没有	umu
-有没有	umeiu
-
-
 ##### 容错词
 # 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」已在 sys 中实现
 #
