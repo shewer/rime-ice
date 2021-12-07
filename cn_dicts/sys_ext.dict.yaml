@@ -7,14 +7,15 @@
 #
 ---
 name: sys_ext
-version: "2021-12-05"
+version: "2021-12-07"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
 ##### 方便词
 儿	r
-一	i
 有	u
+一	i
+个	g
 一个	ig
 这	zh
 有个	ug
@@ -25,8 +26,9 @@ vocabulary: essay-zh-hans
 有没有	umeiu
 
 
-##### 容错词（或模棱两可的一些词）
+##### 容错词
 # 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」已在 sys 中实现
+#
 # 「馄饨」正确的读音为「tun」，北方口语中常用的为「dun」
 馄饨	hun tun
 馄饨	hun dun
@@ -79,30 +81,29 @@ vocabulary: essay-zh-hans
 嬲	nan nv nan
 
 
-##### 扩展：
-中州韵
-鼠须管
-小狼毫
-同文
-同文输入法
-的吧
-的呀
-的啦
+##### 以下开始全是扩展词句：
+中州韵	zhong zhou yun
+鼠须管	shu xu guan
+小狼毫	xiao lang hao
+同文	tong wen
+同文输入法	tong wen shu ru fa
+的吧	de ba
+的呀	de ya
+的啦	de la
 叨扰	tao rao
-昭明
-晦夜
+昭明	zhao ming
+晦夜	hui ye
 瞬光斩黯黮	shun guang zhan an dan
 昭明破晦夜	zhao ming po hui ye
 锟斤拷	kun jin kao
-烫烫烫
+烫烫烫	tang tang tang
 锘锘锘	nuo nuo nuo
 屯屯屯	tun tun tun
-嘚瑟
-哔哩
-哔哩哔哩
-黄栌
-栌木
-通臂拳	tong bei quan
+嘚瑟	de se
+哔哩	bi li
+哔哩哔哩	bi li bi li
+黄栌	huang lu
+栌木	lu mu
 很拗	hen niu
 禅让	shan rang
 嘎吱	ga zhi
@@ -111,809 +112,795 @@ vocabulary: essay-zh-hans
 逶蛇	wei yi
 焙炒	bei chao
 焙烧	bei shao
-参参差差
+参参差差	cen cen ci ci
 扈家庄	hu jia zhuang
-清倌
+清倌	qing guan
+清倌人	qing guan ren
 已臻化境	yi zhen hua jing
 蟊虫	mao chong
-世间安得双全法
-不负如来不负卿
-趟地
+世间安得双全法	shi jian an de shuang quan fa
+不负如来不负卿	bu fu ru lai bu fu qing
+趟地	tang di
 兔起鹘落	tu qi hu luo
-低伏
-行拂乱其所为
-瓦罐不离井上破
-将军难免阵前亡
-锵的
-锵的一声
-夺嫡
-厮斗
-挽狂澜于既倒
-扶大厦之将倾
-吕颐浩
-上德不德
-是以有德
-下德不失德
-是以无德
-上德无为而无以不为
-下德为之而有以不为
-上仁为之而无为
-上义为之而有以为
-上礼为之而莫之应
-则攘臂而扔之
-攘臂而扔之
-故失道而后德
-失道而后德
-失德而后仁
-失仁而后义
-失义而后礼
-夫礼者
-忠信之薄
-而乱之首
-前识者
-道之华
-而愚之始
-是以大丈夫处其厚而不居其薄
-大丈夫处其厚而不居其薄
-处其厚而不居其薄
-处其实而不居其华
-故去彼取此
-去彼取此
-君子之泽
-五世而斩
-矫枉必须过正
-枢密
-拉夫德鲁
-多弗朗明哥
-高斯磁
-高斯磁定律
-姚期智
-欧米伽
-欧米伽红宝石
-霸凌
-田尻智
-杜嘉班纳
-噗呲
-激突
-激凸
-健怡
-健怡可乐
-斐波那契
-群晖
-极客
-既遂
-膈应
-奥恰洛夫
-口嫌体正
-口嫌体正直
-特朗普
-川普
-张嘉倪
-三畿道
-祖娅纳惜
-漆柚
-半泽直树
-泽野弘之
-贾跃亭
-臧天朔
-张文宏
-皂基
-芙丽芳丝
-全球付
-自走棋
-育碧
-育碧软件
-释厄传
-汪苏泷
-七里泷
-虽千万人
-吾往矣
-基努里维斯
-基努
-里维斯
-莫吉托
-莫希托
-死侍
-临兵斗者皆阵列前行
-临兵斗者
-皆阵列前行
-阵列前行
-姚壮宪
-姚仙
-销分
-酷炫
-圣安地列斯
-吱吱
-吱吱吱
-吱吱吱吱
-黄焖鸡
-黄焖鸡米饭
-鸡公煲
-花枝乱颤
-如梦似幻
-藤原拓海
+低伏	di fu
+行拂乱其所为	xing fu luan qi suo wei
+瓦罐不离井上破	wa guan bu li jing shang po
+将军难免阵前亡	jiang jun nan mian zhen qian wang
+锵的	qiang de
+锵的一声	qiang de yi sheng
+夺嫡	duo di
+厮斗	si dou
+挽狂澜于既倒	wan kuang lan yu ji dao
+扶大厦之将倾	fu da sha zhi jiang qing
+吕颐浩	lv yi hao
+去彼取此	qu bi qu ci
+君子之泽	jun zi zhi ze
+五世而斩	wu shi er zhan
+矫枉必须过正	jiao wang bi xu guo zheng
+枢密	shu mi
+拉夫德鲁	la fu de lu
+多弗朗明哥	duo fu lang ming ge
+高斯磁	gao si ci
+高斯磁定律	gao si ci ding lv
+姚期智	yao qi zhi
+欧米伽	ou mi jia
+欧米伽红宝石	ou mi jia hong bao shi
+霸凌	ba ling
+田尻智	tian kao zhi
+杜嘉班纳	du jia ban na
+噗呲	pu ci
+激突	ji tu
+激凸	ji tu
+健怡	jian yi
+健怡可乐	jian yi ke le
+群晖	qun hui
+极客	ji ke
+既遂	ji sui
+膈应	ge ying
+奥恰洛夫	ao qia luo fu
+口嫌体正直	kou xian ti zheng zhi
+特朗普	te lang pu
+川普	chuan pu
+张嘉倪	zhang jia ni
+三畿道	san ji dao
+祖娅纳惜	zu ya na xi
+漆柚	qi you
+半泽直树	ban ze zhi shu
+泽野弘之	ze ye hong zhi
+贾跃亭	jia yue ting
+张文宏	zhang wen hong
+皂基	zao ji
+芙丽芳丝	fu li fang si
+全球付	quan qiu fu
+自走棋	zi zou qi
+育碧	yu bi
+育碧软件	yu bi ruan jian
+释厄传	shi e zhuan
+汪苏泷	wang su long
+七里泷	qi li long
+虽千万人	sui qian wan ren
+吾往矣	wu wang yi
+基努里维斯	ji nu li wei si
+里维斯	li wei si
+莫吉托	mo ji tuo
+莫希托	mo xi tuo
+死侍	si shi
+临兵斗者皆阵列前行	lin bing dou zhe jie zhen lie qian xing
+临兵斗者	lin bing dou zhe
+皆阵列前行	jie zhen lie qian xing
+阵列前行	zhen lie qian xing
+姚壮宪	yao zhuang xian
+姚仙	yao xian
+销分	xiao fen
+酷炫	ku xuan
+圣安地列斯	sheng an di lie si
+黄焖鸡	huang men ji
+黄焖鸡米饭	huang men ji mi fan
+鸡公煲	ji gong bao
+花枝乱颤	hua zhi luan chan
+如梦似幻	ru meng si huan
+藤原拓海	teng yuan tuo hai
 辟谷	bi gu
-反诈中心
-丰腻
+反诈中心	fan zha zhong xin
+丰腻	feng ni
 着道	zhao dao
 着道儿	zhao dao er
-乌美溴铵
-维兰特罗
-粉雾剂
-吸入粉雾剂
-乌美溴铵维兰特罗吸入粉雾剂
-折煞
-勘破
-勘不破
-咪蒙
-基友
-基佬
-搞基
-研表究明
-细思极恐
-细思恐极
-永远滴神
-十动然拒
-注孤生
-人艰不拆
-母胎
-母胎单身
-哇噻
-人干事
-不明觉厉
-我伙呆
-细软跑
-秀下限
-战五渣
-城会玩
-活久见
-草泥马
-也是醉
-叶良辰
-挽尊
-滚粗
-火前留名
-火钳刘明
-累觉不爱
-然并卵
-杠杠的
-中二病
-元芳你怎么看
-语死早
-搞事
-蓝瘦香菇
-厉害了我的哥
-厉害了我的
-老哥稳
-超英赶美
-外宣
-内宣
-角先生
-云翳
-怦怦跳
-怦怦地跳
-闪信
-托腮
-坑货
-这货
-双修
-雨收云散
-可远观
-不可亵玩
-不可亵玩焉
-旧念
-发香
-贪嗔痴
-划清界限
-突破界限
-敌我界限
-简朴
-社保卡
-腆着胸脯
-脑补
-爆笑
-了哦
-翘课
-翘班
-古剑奇谭
-夜合枝头别有春
-坐含风露入清晨
-任他明月能相照
-敛尽芳心不向人
-融在
-舔来舔去
-萌妹子
-卖萌
-很萌
-点卡制
-买断制
-回合制
-即时战斗
-建制派
-橘生淮南则为橘
-生于淮北则为枳
-橘生淮南
-橘生淮北
-则为橘
-则为枳
-扶老挈幼
-挈眷
-山高海阔
-海阔山高
-意象
-鲜花盛放
-盛放
-舞团
-尾行
-退幕
-点映
-怨念
-觍着大脸
-觍着老脸
-觍着一张老脸
-明谋
-势弱
-啰哩吧唆
-炒茶
-装逼
-行了个礼
-之盟
-黑命贵
-喀布尔
-挂印封金
-追责
-明正典刑
-渡过眼前难关
-渡过眼前的难关
+乌美溴铵	wu mei xiu an
+维兰特罗	wei lan te luo
+粉雾剂	fen wu ji
+吸入粉雾剂	xi ru fen wu ji
+乌美溴铵维兰特罗吸入粉雾剂	wu mei xiu an wei lan te luo xi ru fen wu ji
+折煞	zhe sha
+勘破	kan po
+勘不破	kan bu po
+咪蒙	mi meng
+基友	ji you
+基佬	ji lao
+搞基	gao ji
+研表究明	yan biao jiu ming
+细思极恐	xi si ji kong
+细思恐极	xi si kong ji
+永远滴神	yong yuan di shen
+十动然拒	shi dong ran ju
+注孤生	zhu gu sheng
+人艰不拆	ren jian bu chai
+母胎	mu tai
+母胎单身	mu tai dan shen
+哇噻	wa sai
+人干事	ren gan shi
+不明觉厉	bu ming jue li
+我伙呆	wo huo dai
+细软跑	xi ruan pao
+秀下限	xiu xia xian
+战五渣	zhan wu zha
+城会玩	cheng hui wan
+活久见	huo jiu jian
+草泥马	cao ni ma
+也是醉	ye shi zui
+叶良辰	ye liang chen
+挽尊	wan zun
+滚粗	gun cu
+火前留名	huo qian liu ming
+火钳刘明	huo qian liu ming
+累觉不爱	lei jue bu ai
+然并卵	ran bing luan
+杠杠的	gang gang de
+中二病	zhong er bing
+元芳你怎么看	yuan fang ni zen me kan
+语死早	yu si zao
+搞事	gao shi
+蓝瘦香菇	lan shou xiang gu
+厉害了我的哥	li hai le wo de ge
+厉害了我的	li hai le wo de
+老哥稳	lao ge wen
+超英赶美	chao ying gan mei
+外宣	wai xuan
+内宣	nei xuan
+角先生	jiao xian sheng
+云翳	yun yi
+怦怦跳	peng peng tiao
+怦怦地跳	peng peng de tiao
+闪信	shan xin
+托腮	tuo sai
+坑货	keng huo
+这货	zhe huo
+双修	shuang xiu
+雨收云散	yu shou yun san
+可远观	ke yuan guan
+不可亵玩	bu ke xie wan
+不可亵玩焉	bu ke xie wan yan
+旧念	jiu nian
+发香	fa xiang
+贪嗔痴	tan chen chi
+划清界限	hua qing jie xian
+突破界限	tu po jie xian
+敌我界限	di wo jie xian
+简朴	jian pu
+社保卡	she bao ka
+腆着胸脯	tian zhe xiong pu
+脑补	nao bu
+爆笑	bao xiao
+了哦	le o
+翘课	qiao ke
+翘班	qiao ban
+古剑奇谭	gu jian qi tan
+夜合枝头别有春	ye he zhi tou bie you chun
+坐含风露入清晨	zuo han feng lu ru qing chen
+任他明月能相照	ren ta ming yue neng xiang zhao
+敛尽芳心不向人	lian jin fang xin bu xiang ren
+融在	rong zai
+舔来舔去	tian lai tian qu
+萌妹子	meng mei zi
+卖萌	mai meng
+很萌	hen meng
+点卡制	dian ka zhi
+买断制	mai duan zhi
+回合制	hui he zhi
+即时战斗	ji shi zhan dou
+建制派	jian zhi pai
+橘生淮南则为橘	ju sheng huai nan ze wei ju
+生于淮北则为枳	sheng yu huai bei ze wei zhi
+橘生淮南	ju sheng huai nan
+橘生淮北	ju sheng huai bei
+则为橘	ze wei ju
+则为枳	ze wei zhi
+扶老挈幼	fu lao qie you
+挈眷	qie juan
+山高海阔	shan gao hai kuo
+海阔山高	hai kuo shan gao
+意象	yi xiang
+鲜花盛放	xian hua sheng fang
+盛放	sheng fang
+舞团	wu tuan
+尾行	wei xing
+退幕	tui mu
+点映	dian ying
+怨念	yuan nian
+觍着大脸	tian zhe da lian
+觍着老脸	tian zhe lao lian
+觍着一张老脸	tian zhe yi zhang lao lian
+明谋	ming mou
+势弱	shi ruo
+啰哩吧唆	luo li ba suo
+炒茶	chao cha
+装逼	zhuang bi
+行了个礼	xing le ge li
+之盟	zhi meng
+黑命贵	hei ming gui
+喀布尔	ka bu er
+挂印封金	gua yin feng jin
+追责	zhui ze
+明正典刑	ming zheng dian xing
+渡过眼前难关	du guo yan qian nan guan
+渡过眼前的难关	du guo yan qian de nan guan
 牛丼	niu jing
 牛丼饭	niu jing fan
 天丼	tian jing
 亲子丼	qin zi jing
-路引
-爵爷
-万剑穿心
-自己吓自己
-吓晕
-中了毒
-以物喻人
-醒过神
-半是半不是
-喝着酒
-这部书
-做皇帝
-以文乱法
-以武犯禁
-儒以文乱法
-侠以武犯禁
-声话不同步
-声话同步
-祥瑞御免
-邪灵退散
-恶灵退散
-诸恶莫近
-诸邪莫近
-叹了口气
-蹙着眉毛
-微蹙着
-免单
-抗旨
-接旨
-领旨
-自绝于
-喊我
-尤利西斯
-一展歌喉
-可明明
-淡淡清香
-倾倒众生
-正太
-正太脸
-小正太
-七大姑
-八大姨
-七大姑八大姨
-又好气又好笑
-赞誉有加
-威能
-赢麻了
-水滴筹
-开门查水表
-社区送温暖
-爆表
-事出反常
-事出反常必有妖
-疑邻窃斧
-疑邻盗斧
-非礼也
-组件注册
-渺无人迹
-尸毒
-树懒
-筷子兄弟
-王太利
-肖央
-霸面
-挂经
-面经
-力扣
-绿坝
-网信办
-缉盗
-黎叔很生气
-后果很严重
-下载及安装
-输入法引擎
-算法框架
-恋奸情热
-更快了些
-那么嗨
-槽点
+路引	lu yin
+爵爷	jue ye
+万剑穿心	wan jian chuan xin
+自己吓自己	zi ji xia zi ji
+吓晕	xia yun
+中了毒	zhong le du
+以物喻人	yi wu yu ren
+醒过神	xing guo shen
+半是半不是	ban shi ban bu shi
+喝着酒	he zhe jiu
+这部书	zhe bu shu
+做皇帝	zuo huang di
+以文乱法	yi wen luan fa
+以武犯禁	yi wu fan jin
+儒以文乱法	ru yi wen luan fa
+侠以武犯禁	xia yi wu fan jin
+声话不同步	sheng hua bu tong bu
+声话同步	sheng hua tong bu
+祥瑞御免	xiang rui yu mian
+邪灵退散	xie ling tui san
+恶灵退散	e ling tui san
+诸恶莫近	zhu e mo jin
+诸邪莫近	zhu xie mo jin
+叹了口气	tan le kou qi
+蹙着眉毛	cu zhe mei mao
+微蹙着	wei cu zhe
+免单	mian dan
+抗旨	kang zhi
+接旨	jie zhi
+领旨	ling zhi
+自绝于	zi jue yu
+喊我	han wo
+尤利西斯	you li xi si
+一展歌喉	yi zhan ge hou
+可明明	ke ming ming
+淡淡清香	dan dan qing xiang
+倾倒众生	qing dao zhong sheng
+正太	zheng tai
+正太脸	zheng tai lian
+小正太	xiao zheng tai
+七大姑	qi da gu
+八大姨	ba da yi
+七大姑八大姨	qi da gu ba da yi
+又好气又好笑	you hao qi you hao xiao
+赞誉有加	zan yu you jia
+威能	wei neng
+赢麻了	ying ma le
+水滴筹	shui di chou
+开门查水表	kai men cha shui biao
+社区送温暖	she qu song wen nuan
+爆表	bao biao
+事出反常	shi chu fan chang
+事出反常必有妖	shi chu fan chang bi you yao
+疑邻窃斧	yi lin qie fu
+疑邻盗斧	yi lin dao fu
+非礼也	fei li ye
+组件注册	zu jian zhu ce
+渺无人迹	miao wu ren ji
+尸毒	shi du
+树懒	shu lan
+筷子兄弟	kuai zi xiong di
+王太利	wang tai li
+肖央	xiao yang
+霸面	ba mian
+挂经	gua jing
+面经	mian jing
+力扣	li kou
+绿坝	lv ba
+网信办	wang xin ban
+缉盗	ji dao
+黎叔很生气	li shu hen sheng qi
+后果很严重	hou guo hen yan zhong
+下载及安装	xia zai ji an zhuang
+输入法引擎	shu ru fa yin qing
+算法框架	suan fa kuang jia
+恋奸情热	lian jian qing re
+更快了些	geng kuai le xie
+那么嗨	na me hai
+槽点	cao dian
 了无生趣	liao wu sheng qu
 学得会	xue de hui
-雨露之惠
-雨露之恩
+雨露之惠	yu lu zhi hui
+雨露之恩	yu lu zhi en
 朝议	chao yi
-私以为
-政治正确
-双标
-不管你信不信
-我反正是信了
-坑逼
-蠢逼
-逗逼
-傻愣愣
-愣住了
-大道至简
-真谛启示
-互叙别情
-还手之力
-就剩
-办大事
-好威武支持有希望
-好威支有
-文体两开花
-两开花
-有你的世界
-油腻的师姐
-荷官
-性感荷官
-美女荷官
-在线发牌
-以小博大
-紧张刺激
-极速版
-悟空传
-豆瓣评分
-瞎鸡巴
-瞎鸡巴说
-异星工厂
-边缘世界
-环世界
-至纯至强
-铸剑谷
-神机门
-活死人墓
-头上有犄角
-独立寒秋
-湘江北去
-零套路
-盲盒
-盲盒儿
-包子脸
-过肩摔
-背负投
-双腿扫摔
-欲壑
-具体些
-更具体些
-事先提醒
-贪权
-冷冷寂寂
-是赢是输
-是输是赢
-阴影处
-院落处
-黄明志
-吊车尾
-差得太远
-看得下去
-翻两页
-书荒
-剧荒
+私以为	si yi wei
+政治正确	zheng zhi zheng que
+双标	shuang biao
+不管你信不信	bu guan ni xin bu xin
+我反正是信了	wo fan zheng shi xin le
+坑逼	keng bi
+蠢逼	chun bi
+逗逼	dou bi
+傻愣愣	sha leng leng
+愣住了	leng zhu le
+大道至简	da dao zhi jian
+真谛启示	zhen di qi shi
+互叙别情	hu xu bie qing
+还手之力	huan shou zhi li
+就剩	jiu sheng
+办大事	ban da shi
+好威武支持有希望	hao wei wu zhi chi you xi wang
+好威支有	hao wei zhi you
+文体两开花	wen ti liang kai hua
+两开花	liang kai hua
+有你的世界	you ni de shi jie
+油腻的师姐	you ni de shi jie
+荷官	he guan
+性感荷官	xing gan he guan
+美女荷官	mei nv he guan
+在线发牌	zai xian fa pai
+以小博大	yi xiao bo da
+紧张刺激	jin zhang ci ji
+极速版	ji su ban
+悟空传	wu kong zhuan
+豆瓣评分	dou ban ping fen
+瞎鸡巴	xia ji ba
+瞎鸡巴说	xia ji ba shuo
+异星工厂	yi xing gong chang
+边缘世界	bian yuan shi jie
+环世界	huan shi jie
+至纯至强	zhi chun zhi qiang
+铸剑谷	zhu jian gu
+神机门	shen ji men
+活死人墓	huo si ren mu
+头上有犄角	tou shang you ji jiao
+独立寒秋	du li han qiu
+湘江北去	xiang jiang bei qu
+零套路	ling tao lu
+盲盒	mang he
+盲盒儿	mang he er
+包子脸	bao zi lian
+过肩摔	guo jian shuai
+背负投	bei fu tou
+双腿扫摔	shuang tui sao shuai
+欲壑	yu he
+具体些	ju ti xie
+更具体些	geng ju ti xie
+事先提醒	shi xian ti xing
+贪权	tan quan
+冷冷寂寂	leng leng ji ji
+是赢是输	shi ying shi shu
+是输是赢	shi shu shi ying
+阴影处	yin ying chu
+院落处	yuan luo chu
+黄明志	huang ming zhi
+吊车尾	diao che wei
+差得太远	cha de tai yuan
+看得下去	kan de xia qu
+翻两页	fan liang ye
+书荒	shu huang
+剧荒	ju huang
 谪仙人	zhe xian ren
-二简字
-拦路石
-可未必
-旅游的胜地
-观星殿
-看着就像
-这副场面
-那副场面
-堂口
-一份又一份
-一群又一群
-一张又一张
-一章又一章
-一只又一只
-一道又一道
-一个又一个
-他妈的
-特么
-特么的
-你娘的
-夜观天象
-夜观今日天象
-知天下大事
-我爸是李刚
-我爸是
-以命搏命
-隐约察觉
-隐隐察觉
-没卵用
-没个卵用
-没有卵用
-没什么卵用
-有卵用
-有啥卵用
-有个卵用
-不祥的感觉
-抵抗之力
+二简字	er jian zi
+拦路石	lan lu shi
+可未必	ke wei bi
+旅游的胜地	lü you de sheng di
+观星殿	guan xing dian
+看着就像	kan zhe jiu xiang
+这副场面	zhe fu chang mian
+那副场面	na fu chang mian
+堂口	tang kou
+一份又一份	yi fen you yi fen
+一群又一群	yi qun you yi qun
+一张又一张	yi zhang you yi zhang
+一章又一章	yi zhang you yi zhang
+一只又一只	yi zhi you yi zhi
+一道又一道	yi dao you yi dao
+一个又一个	yi ge you yi ge
+他妈的	ta ma de
+特么	te me
+特么的	te me de
+你娘的	ta niang de
+夜观天象	ye guan tian xiang
+夜观今日天象	ye guan jin ri tian xiang
+知天下大事	zhi tian xia da shi
+我爸是李刚	wo ba shi li gang
+我爸是	wo ba shi
+以命搏命	yi ming bo ming
+隐约察觉	yin yue cha jue
+隐隐察觉	yin yin cha jue
+没卵用	mei luan yong
+没个卵用	mei ge luan yong
+没有卵用	mei you luan yong
+没什么卵用	mei shen me luan yong
+有卵用	you luan yong
+有啥卵用	mei sha luan yong
+有个卵用	you ge luan yong
+不祥的感觉	bu xiang de gan jue
+抵抗之力	di kang zhi li
 这搞得	zhe gao de
-从而判断出
-从而判断
-便已进入
-一路直奔
-迁徙而来
-归于一统
-被坑了一回
-当初以为是
-撕毁协议
-谋刺
-躺着也中枪
-任你们
-为此事
-出奇得一致
-逐出去
-拍扁
-威尔逊爱德华兹
-排得上号
-排得上字号
-拜入
-灭了门
-事发时
-因你而起
-因他而起
-因我而起
-先惹的
-没区别
-没有区别
+从而判断出	cong er pan duan chu
+从而判断	cong er pan duan
+便已进入	bian yi jin ru
+一路直奔	yi lu zhi ben
+迁徙而来	qian xi er lai
+归于一统	gui yu yi tong
+被坑了一回	bei keng le yi hui
+当初以为是	dang chu yi wei shi
+撕毁协议	si hui xie yi
+谋刺	mou ci
+躺着也中枪	tang zhe ye zhong qiang
+任你们	ren ni men
+为此事	wei ci shi
+出奇得一致	chu qi de yi zhi
+逐出去	zhu chu qu
+拍扁	pai bian
+威尔逊爱德华兹	wei er xun ai de hua zi
+排得上号	pai de shang hao
+排得上字号	pai de shang zi hao
+拜入	bai ru
+灭了门	mie le men
+事发时	shi fa shi
+因你而起	yin ni er qi
+因他而起	yin ta er qi
+因我而起	yin wo er qi
+先惹的	xian re de
+没区别	mei qu bie
+没有区别	mei you qu bie
 宿头	su tou
-面戴
-失了智
+面戴	mian dai
+失了智	shi le zhi
 地笑	de xiao
-吐槽归吐槽
-淡定归淡定
-说归说
-巡视守卫
-懈怠下去
-一阵风似的
-已败走
-已胜利
-已战胜
-已输了
-已胜了
+吐槽归吐槽	tu cao gui tu cao
+淡定归淡定	dan ding gui dan ding
+说归说	shuo gui shuo
+巡视守卫	xun shi shou wei
+懈怠下去	xie dai xia qu
+一阵风似的	yi zhen feng shi de
+已败走	yi bai zou
+已胜利	yi sheng li
+已战胜	yi zhan sheng
+已输了	yi shu le
+已胜了	yi sheng le
 上解	shang jie
-什么和什么
-这什么和什么
-按这么说
-吉野家
-喜茶
-脸书
-推特
-仙神
-的人来说
-迷途者
-也时常
-这锅
-这锅我背了
-通传
-什么风把
-可面对
-聊死了
-天聊死了
-天儿聊死了
-把天聊死了
-把天儿聊死了
-省点花
-省点用
-砂壶
-之阵
-邪煞
-魔功
-判断一致
-不在一时
-不必急于一时
-一剑斩了
-一刀砍了
-咸吃萝卜
-淡操心
-闻讯而逃
-张继科
-许昕
-大傻逼
-大坑逼
-大大泡泡糖
-阿达连连看
-鞠婧祎
-整这些没用的
-净整这些
-净整这些没用的
-整个人都
-精虫上脑
-啃来啃去
-连瞥都没瞥
-瞥都没瞥
-派刺客
-派高手
-派人手
-发起狠来
-发起疯来
+什么和什么	shen me he shen me
+这什么和什么	zhe shen me he shen me
+按这么说	an zhe me shuo
+吉野家	ji ye jia
+喜茶	xi cha
+脸书	lian shu
+推特	tui te
+仙神	xian shen
+的人来说	de ren lai shuo
+迷途者	mi tu zhe
+也时常	ye shi chang
+这锅	zhe guo
+这锅我背了	zhe guo wo bei le
+通传	tong chuan
+什么风把	shen me feng ba
+可面对	ke mian dui
+聊死了	liao si le
+天聊死了	tian liao si le
+天儿聊死了	tian er liao si le
+把天聊死了	ba tian liao si le
+把天儿聊死了	ba tian er liao si le
+省点花	sheng dian hua
+省点用	sheng dian yong
+砂壶	sha hu
+之阵	zhi zhen
+邪煞	xie sha
+魔功	mo gong
+判断一致	pan duan yi zhi
+不在一时	bu zai yi shi
+不必急于一时	bu bi ji yu yi shi
+一剑斩了	yi jian zhan le
+一刀砍了	yi dao kan le
+咸吃萝卜	xian chi luo bo
+淡操心	dan cao xin
+闻讯而逃	wen xun er tao
+张继科	zhang ji ke
+许昕	xu xin
+大傻逼	da sha bi
+大坑逼	da keng bi
+大大泡泡糖	da da pao pao tang
+阿达连连看	a da lian lian kan
+鞠婧祎	ju jing yi
+整这些没用的	zheng zhe xie mei yong de
+净整这些	jing zheng zhe xie
+净整这些没用的	jing zheng zhe xie mei yong de
+整个人都	zheng ge ren dou
+精虫上脑	jing chong shang nao
+啃来啃去	ken lai ken qu
+连瞥都没瞥	lian pie dou mei pie
+瞥都没瞥	pie dou mei pie
+派刺客	pai ci ke
+派高手	pai gao shou
+派人手	pai ren shou
+发起狠来	fa qi hen lai
+发起疯来	fa qi feng lai
 目眦欲裂	mu zi yu lie
-催情剂
-等等党
-购物党
-十成十
-一波反推
-一波平推
-上高地
-冲塔
-拆塔
-天灾近卫
-近卫天灾
-天灾军团
-近卫军团
-自罚
-气都不敢喘
-大气都不敢喘
-塞回
-一年有余
-剑出鞘
-拔剑出鞘
-万剑归宗
-万剑朝皇
-左一拳右一拳
-左一脚右一脚
-左一拳右一脚
-左一杖右一杖
-左一下右一下
-左一棍右一棍
-挺凶残
-挺满意
-挺合适
-挺棒的
-挺出名
-挺富有
-挑鼻子
-挑鼻子竖眼
-挑鼻子瞪眼
-私宠
-诸事不顺
-憋了一肚子气
-医疗支援
-纠缠已久
-卍解
-卍字
-仙气
-姬叉
-单押
-双押
-三押
-单押双押
-无底线
-没有底线
-读圣贤书
-无外乎
-身无一物
-筑基
-神同步
-撤步
-斗罗大陆
-乾坤戒
-变身
-戏精
-左衽
-右衽
-挠着头
-劫镖
-劫个镖
-劫的镖
-押镖
-押的镖
-蹬鼻子上脸
-废柴
-半盏茶
-刺溜
-关你什么事
-笑出了声
-从前有个灵剑山
-灵剑山
-左拐
-右拐
-听曲
-听曲儿
-说来也巧
-盼我
-劝返
-如实相告
-逛过街
-新衣裳
-埋伏笔
-迪迦
-迪迦奥特曼
-白嫖
-八神
-草雉
-头孢过敏
-扯犊子
-氧气罐
-骨传导
-骨传导耳机
-仙魔
-逆天
-打怪
-没有之一
-龙傲天
-黑化
-杀必死
-鸿篇巨作
-穿不暖
-受尽欺辱
-迟了一步
-晚了一步
-慢了一步
-快了一步
-早了一步
-王境泽
-没理解
-剪刀手
-伟光正
-伟大光荣正确
-胡锡进
-张维为
-踮起脚尖
-大耳光
-一个大耳光
-一记耳光
-一记大耳光
+催情剂	cui qing ji
+等等党	deng deng dang
+购物党	gou wu dang
+十成十	shi cheng shi
+一波反推	yi bo fan tui
+一波平推	yi bo ping tui
+上高地	shang gao di
+冲塔	chong ta
+拆塔	chai ta
+天灾近卫	tian zai jin wei
+近卫天灾	jin wei tian zai
+天灾军团	tian zai jun tuan
+近卫军团	jin wei jun tuan
+自罚	zi fa
+气都不敢喘	qi dou bu gan chuan
+大气都不敢喘	da qi dou bu gan chuan
+塞回	sai hui
+一年有余	yi nian you yu
+剑出鞘	jian chu qiao
+拔剑出鞘	ba jian chu qiao
+万剑归宗	wan jian gui zong
+万剑朝皇	wan jian chao huang
+左一拳右一拳	zuo yi quan you yi quan
+左一脚右一脚	zuo yi jiao you yi jiao
+左一拳右一脚	zuo yi quan you yi jiao
+左一杖右一杖	zuo yi zhang you yi zhang
+左一下右一下	zuo yi xia you yi xia
+左一棍右一棍	zuo yi gun you yi gun
+挺凶残	ting xiong can
+挺满意	ting man yi
+挺合适	ting he shi
+挺棒的	ting bang de
+挺出名	ting chu ming
+挺富有	ting fu you
+挑鼻子	tiao bi zi
+挑鼻子竖眼	tiao bi zi shu yan
+挑鼻子瞪眼	tiao bi zi deng yan
+私宠	si chou
+诸事不顺	zhu shi bu shun
+憋了一肚子气	bie le yi du zi qi
+医疗支援	yi liao zhi yuan
+纠缠已久	jiu chan yi jiu
+卍解	wan jie
+卍字	wan zi
+仙气	xian qi
+姬叉	ji cha
+单押	dan ya
+双押	shuang ya
+三押	san ya
+单押双押	dan ya shuang ya
+无底线	wu di xian
+没有底线	mei you di xian
+读圣贤书	du sheng xian shu
+无外乎	wu wai hu
+身无一物	shen wu yi wu
+筑基	zhu ji
+神同步	shen tong bu
+撤步	che bu
+斗罗大陆	dou luo da lu
+乾坤戒	qian kun jie
+乾坤袋	qian kun dai
+变身	bian shen
+戏精	xi jing
+左衽	zuo ren
+右衽	you ren
+挠着头	nao zhe tou
+劫镖	jie biao
+劫个镖	jie ge biao
+劫的镖	jie de biao
+劫个色	jie ge se
+押镖	ya biao
+押的镖	ya de biao
+蹬鼻子上脸	deng bi zi shang lian
+废柴	fei chai
+半盏茶	ban zhan cha
+刺溜	ci liu
+刺溜一下	ci liu yi xia
+刺溜了个	ci liu le ge
+刺溜了个跟头	ci liu le ge gen tou
+关你什么事	guan ni shen me shi
+笑出了声	xiao chu le sheng
+从前有个灵剑山	cong qian you ge ling jian shan
+灵剑山	ling jian shan
+左拐	zuo guai
+右拐	you guai
+听曲	ting qu
+听曲儿	ting qu er
+说来也巧	shuo lai ye qiao
+盼我	pan wo
+劝返	quan fan
+如实相告	ru shi xiang gao
+逛过街	guang guo jie
+新衣裳	xin yi shang
+埋伏笔	mai fu bi
+迪迦	di jia
+迪迦奥特曼	di jia ao te man
+白嫖	bai piao
+八神	ba shen
+草雉	cao zhi
+头孢过敏	tou bao guo min
+扯犊子	che du zi
+氧气罐	yang qi guan
+骨传导	gu chuan dao
+骨传导耳机	gu chuan dao er ji
+仙魔	xian mo
+逆天	ni tian
+打怪	da guai
+没有之一	mei you zhi yi
+龙傲天	long ao tian
+黑化	hei hua
+杀必死	sha bi si
+鸿篇巨作	hong pian ju zuo
+穿不暖	chuan bu nuan
+受尽欺辱	shou jin qi ru
+迟了一步	chi le yi bu
+早了一步	zao le yi bu
+晚了一步	wan le yi bu
+慢了一步	man le yi bu
+快了一步	kuai le yi bu
+王境泽	wang jing ze
+没理解	mei li jie
+剪刀手	jian dao shou
+伟光正	wei guang zheng
+伟大光荣正确	wei da guang rong zheng que
+胡锡进	hu xi jin
+张维为	zhang wei wei
+沈逸	shen yi
+胡叼盘	hu diao pan
+叼盘	diao pan
+叼盘狗	diao pan gou
+踮起脚尖	dian qi jiao jian
+大耳光	da er guang
+一个大耳光	yi ge da er guang
+一记耳光	yi ji er guang
+一记大耳光	yi ji da er guang
 泫然欲泣	xuan ran yu qi
-餐点
-了无生气
-了无
-黄痰
-绿痰
-黑痰
-灰痰
-彭博社
-柯基
-不再哭泣
-不再哭
-咸因
-心中只有咸因
-只有咸因
-每周几
-每周几更新
-方形之路
-这罐
-这罐罐头
-亮得多
-要亮得多
-光线要亮得多
-非暴力沟通
-暴力沟通
-乐于互助
-一位母亲
-一位父亲
-讨我欢心
-讨他欢心
-讨她欢心
-讨你欢心
-芝加哥市
-深得其乐
-妹妹和妹夫
-内阁成员
-认养
-时间很紧
-手头很紧
-手头紧
-内阁部长
-刚抵达时
-抵达时
-谋杀犯
-天杀的
+餐点	can dian
+了无生气	liao wu sheng qi
+了无	liao wu
+黄痰	huang tan
+绿痰	lü tan
+黑痰	hei tan
+灰痰	hui tan
+彭博社	peng bo she
+柯基	ke ji
+柯基狗	ke ji gou
+单身狗	dan shen gou
+不再哭泣	bu zai ku qi
+不再哭	bu zai ku
+咸因	xian yin
+心中只有咸因	xin zhong zhi you xian yin
+只有咸因	zhi you xian yin
+不敢有二心	bu gan you er xin
+每周几	mei zhou ji
+每周几更新	mei zhou ji geng xin
+方形之路	fang xing zhi lu
+这罐	zhe guan
+这罐罐头	zhe guan guan tou
+亮得多	liang de duo
+要亮得多	yao liang de duo
+光线要亮得多	guang xian yao liang de duo
+非暴力沟通	fei bao li gou tong
+暴力沟通	bao li gou tong
+乐于互助	le yu hu zhu
+一位母亲	yi wei mu qin
+一位父亲	yi wei fu qin
+讨我欢心	tao wo huan xin
+讨他欢心	tao ta huan xin
+讨她欢心	tao ta huan xin
+讨你欢心	tao ni huan xin
+芝加哥市	zhi jia ge shi
+深得其乐	shen de qi le
+妹妹和妹夫	mei mei he mei fu
+姐姐和姐夫	jie jie he jie fu
+弟弟和弟妹	di di he di mei
+哥哥和嫂子	ge ge he sao zi
+内阁成员	nei ge cheng yuan
+认养	ren yang
+时间很紧	shi jian hen jin
+时间紧	shi jian jin
+手头很紧	shou tou hen jin
+手头紧	shou tou jin
+内阁部长	nei ge bu zhang
+刚抵达时	gang di da shi
+抵达时	di da shi
+谋杀犯	mou sha fan
+天杀的	tian sha de
 张若昀	zhang ruo yun
-郭京飞
-大张伟
-映画馆
-七伤拳
-黯然销魂掌
-初创公司
-初创企业
-持续部署
-兑换码
-吴宣仪
-沈梦辰
-杜海涛
-李维嘉
-防杠
-杠精
-别杠
-扫了扫
-扫一扫
-扑了上去
-显胖
-显瘦
-摩铁
-第一弹
-第二弹
-第三弹
-标婷
-薛清秋
-薛牧
-萧炎
-操你妈
-草泥马
-后海大鲨鱼
-后鲨
-还未等
-阴森死寂
-流着口水
-没有多想
-一道残影
-手刀
-快准狠
-快狠准
-狠准快
-狠快准
-准狠快
-准快狠
-横砍
-最后的哀嚎
-从地狱里
-从地域
-地狱里
-尸骨堆积
-小山堆
-一阵绞痛
-恨不得把
-带在身上
-一只恶犬
-尸骨无存
-异见人士
-二小姐
-还要狠毒
-亦不会
-绕到了
-的后颈
-如鬼魅一般
-鬼魅一般
-一击致命
-一枪爆头
-无人敢犯
-小亭子
-灰绿
-在游动
-有鱼儿
-清澈的湖里
-如鱼儿一般
-如鱼儿
-鱼儿一般
-以什么方式
-以何种方式
-经查询
-已为您
-李子柒
-李佳佳
-蟹不肉
+郭京飞	guo jing fei
+大张伟	da zhang wei
+映画馆	ying hua guan
+七伤拳	qi shang quan
+黯然销魂掌	an ran xiao hun zhang
+初创公司	chu chuang gong si
+初创企业	chu chuang qi ye
+持续部署	chi xu bu shu
+兑换码	dui huan ma
+吴宣仪	wu xuan yi
+沈梦辰	shen meng chen
+杜海涛	du hai tao
+李维嘉	li wei jia
+防杠	fang gang
+防杠措施	fang gang cuo shi
+拉满	la man
+杠精	gang jing
+别杠	bie gang
+扫了扫	sao le sao
+扫一扫	sao yi sao
+扑了上去	pu le shang qu
+显胖	xian pang
+显瘦	xian shou
+摩铁	mo tie
+第一弹	di yi dan
+第二弹	di er dan
+第三弹	di san dan
+标婷	biao ting
+薛清秋	xue qing qiu
+薛牧	xue mu
+萧炎	xiao yan
+操你妈	cao ni ma
+草泥马	cao ni ma
+后海大鲨鱼	hou hai da sha yu
+后鲨	hou sha
+还未等	hai wei deng
+阴森死寂	yin sen si ji
+流着口水	liu zhe kou shui
+没有多想	mei you duo xiang
+一道残影	yi dao can ying
+手刀	shou dao
+快准狠	kuai zhun hen
+快狠准	kuai hen zhun
+狠准快	hen zhun kuai
+狠快准	hen kuai zhun
+准狠快	zhun hen kuai
+准快狠	zhun kuai hen
+横砍	heng kan
+最后的哀嚎	zui hou de ai hao
+从地狱里	cong di yu li
+从地狱	cong di yu
+地狱里	di yu li
+尸骨堆积	shi gu dui ji
+小山堆	xiao shan dui
+一阵绞痛	yi zhen jiao tong
+恨不得把	hen bu de ba
+带在身上	dai zai shen shang
+一只恶犬	yi zhi e quan
+尸骨无存	shi gu wu cun
+异见人士	yi jian ren shi
+二小姐	er xiao jie
+三小姐	san xiao jie
+还要狠毒	hai yao hen du
+亦不会	yi bu hui
+绕到了	rao dao le
+的后颈	de hou jing
+如鬼魅一般	ru gui mei yi ban
+鬼魅一般	gui mei yi ban
+一击致命	yi ji zhi ming
+一枪爆头	yi qiang bao tou
+无人敢犯	wu ren gan fan
+小亭子	xiao ting zi
+灰绿	hui lü
+在游动	zai you dong
+有鱼儿	you yu er
+清澈的湖里	qing che de hu li
+如鱼儿一般	ru yu er yi ban
+如鱼儿	ru yu er
+鱼儿一般	yu er yi ban
+以什么方式	yi shen me fang shi
+以何种方式	yi he zhong fang shi
+经查询	jing cha xun
+已为您	yi wei nin
+李子柒	li zi qi
+李佳佳	li jia jia
+蟹不肉	xie bu rou
 幢大楼	zhuang da lou
 一幢大楼	yi zhuang da lou
 两幢大楼	liang zhuang da lou
@@ -929,245 +916,251 @@ vocabulary: essay-zh-hans
 两幢大厦    liang zhuang da sha
 三幢大厦    san zhuang da sha
 几幢大厦    ji zhuang da sha
-三国群英传
-三国群侠传
-威力加强
-威力加强版
-三国杀
-曹操传
-赵云传
-王朗
-王司徒
-王思聪
-王健林
-张予曦
-吴亦凡
-王义全
-孙一宁
-舔狗
-舔狗不得好死
-小奶狗
-小奶猫
-杀人诛心
-诛心
-鹅城
-让子弹飞
-让子弹飞一会
-让子弹飞一会儿
-陈坤
-响马县长
-盗官记
-夜谭十记
-马识途
-小凤仙
-马邦德
-张麻子
-张牧之
-廖凡
-周韵
-彭于晏
-姜武
-汤师爷
-县长夫人
-黄四郎
-杨万楼
-假麻子
-麻匪
-假麻匪
-真假麻匪
-缸中大脑
-缸中之脑
-缸中脑
-无穷大
-无穷大符号
-正无穷
-负无穷
-圆周率
-哈罗
-哈罗出行
-嘀嗒出行
-滴滴出行
-快的打车
-快的出行
-优步中国
-优步
-滴滴打车
-瓜子二手车
-金典
-金典牛奶
-金典有机奶
-特仑苏
-特仑苏牛奶
-不是所有牛奶
-都叫特仑苏
-十字弩
-对话树
-开放世界
-荒野大镖客
-黑暗之魂
-恶魔之魂
-格伦瓦德
-格伦瓦德之战
-可下载内容
-角色扮演游戏
-凉了
-凉凉
-程维
-阿里巴巴集团
-脱贫攻坚
-脱贫攻坚战
-战略合并
-年度商界人物
-零基础
-单镜头反光相机
-单镜头反光
-反光相机
+三国群英传	san guo qun ying zhuan
+三国群侠传	san guo qun xia zhuan
+威力加强	wei li jia qiang
+威力加强版	wei li jia qiang ban
+三国杀	san guo sha
+曹操传	cao cao zhuan
+赵云传	zhao yun zhuan
+王朗	wang lang
+王司徒	wang si tu
+王思聪	wang si cong
+王健林	wang jian lin
+张予曦	zhang yu xi
+吴亦凡	wu yi fan
+王义全	wang yi quan
+孙一宁	sun yi ning
+舔狗	tian gou
+舔狗不得好死	tian gou bu de hao si
+小奶狗	xiao nai gou
+小奶猫	xiao nai mao
+杀人诛心	sha ren zhu xin
+诛心	zhu xin
+鹅城	e cheng
+让子弹飞	rang zi dan fei
+让子弹飞一会	rang zi dan fei yi hui
+让子弹飞一会儿	rang zi dan fei yi hui er
+陈坤	chen kun
+响马县长	xiang ma xian zhang
+盗官记	dao guan ji
+马匪	ma fei
+麻匪	ma fei
+夜谭十记	ye tan shi ji
+马识途	ma shi tu
+小凤仙	xiao feng xian
+马邦德	ma bang de
+张麻子	zhang ma zi
+张牧之	zhang mu zhi
+廖凡	liao fan
+周韵	zhou yun
+彭于晏	peng yu yan
+姜武	jiang wu
+汤师爷	tang shi ye
+县长夫人	xian zhang fu ren
+黄四郎	huang si lang
+杨万楼	yang wan lou
+假麻子	jia ma zi
+假麻匪	jia ma fei
+真麻匪	zhen ma fei
+真假麻匪	zhen jia ma fei
+缸中脑	gang zhong nao
+缸中大脑	gang zhong da nao
+缸中之脑	gang zhong zhi nao
+无穷大	wu qiong da
+无穷大符号	wu qiong da fu hao
+正无穷	zheng wu qiong
+负无穷	fu wu qiong
+哈罗	ha luo
+哈罗出行	ha luo chu xing
+嘀嗒出行	di da chu xing
+滴滴出行	di di chu xing
+快的打车	kuai di da che
+快的出行	kuai di chu xing
+优步中国	you bu zhong guo
+优步	you bu
+滴滴打车	di di da che
+瓜子二手车	gua zi er shou che
+金典	jin dian
+金典牛奶	jin dian niu nai
+金典有机奶	jin dian you ji nai
+特仑苏	te lun su
+特仑苏牛奶	te lun su niu nai
+不是所有牛奶	bu shi suo you niu nai
+都叫特仑苏	dou jiao te lun su
+十字弩	shi zi nu
+对话树	dui hua shu
+开放世界	kai fang shi jie
+荒野大镖客	huang ye da biao ke
+大镖客	da biao ke
+大嫖客	da piao ke
+黑暗之魂	hei an zhi hun
+恶魔之魂	e mo zhi hun
+格伦瓦德	ge lun wa de
+格伦瓦德之战	ge lun wa de zhi zhan
+可下载内容	ke xia zai nei rong
+角色扮演游戏	jue se ban yan you xi
+角色扮演游戏	jiao se ban yan you xi
+凉了	liang le
+凉凉	liang liang
+程维	cheng wei
+阿里巴巴集团	a li ba ba ji tuan
+脱贫攻坚	tuo pin gong jian
+脱贫攻坚战	tuo pin gong jian zhan
+战略合并	zhan lüe he bing
+年度商界人物	nian du shang jie ren wu
+零基础	ling ji chu
+单镜头反光相机	dan jing tou fan guang xiang ji
+单镜头反光	dan jing tou fan guang
+反光相机	fan guang xiang ji
 炁体源流	qi ti yuan liu
-金光咒
-天地玄宗
+金光咒	jin guang zhou
+天地玄宗	tian di xuan zong
 万炁本根	wan qi ben gen
-广修亿劫
-广修浩劫
-证吾神通
-三界内外
-惟道独尊
-体有金光
-覆映吾身
-视之不见
-听之不闻
-包罗天地
-养育群生
-受持万遍
-身有光明
-三界侍卫
-五帝司迎
-万神朝礼
-役使雷霆
-鬼妖丧胆
-精怪亡形
-内有霹雳
-雷神隐名
-洞慧交彻
+广修亿劫	guang xiu yi jie
+广修浩劫	guang xiu hao jie
+证吾神通	zheng wu shen tong
+三界内外	san jie nei wai
+惟道独尊	wei dao du zun
+体有金光	ti you jin guang
+覆映吾身	fu ying wu shen
+视之不见	shi zhi bu jian
+听之不闻	ting zhi bu wen
+包罗天地	bao luo tian di
+养育群生	yang yu qun sheng
+受持万遍	shou chi wan bian
+身有光明	shen you guang ming
+三界侍卫	san jie shi wei
+五帝司迎	wu di si ying
+万神朝礼	wan shen chao li
+役使雷霆	yi shi lei ting
+鬼妖丧胆	gui yao sang dang
+精怪亡形	jing guai wang xing
+内有霹雳	nei you pi li
+雷神隐名	lei shen yin ming
+洞慧交彻	dong hui jiao che
 五炁腾腾	wu qi teng teng
-金光速现
-覆护真人
-辱华
-乳滑
-河对岸
-江对岸
-海对面
-花儿般
-像花儿般
-蜗角斗争
-左触右蛮
-一战连千里
-删号
-删号了
-炸号
-炸号了
-封号了
-先天领周天
-盖周天之变
-化吾为王
-小周天
-大周天
-阿里云
-腾讯云
-京东云
-华为云
-天翼云
-套路云
-良心云
-鱿鱼游戏
-今际之国的闯关者
-今际之国的有栖
-今际之国
-闯关者
-弥留之国的爱丽丝
-弥留之国
+金光速现	jin guang su xian
+覆护真人	fu hu zhen ren
+辱华	ru hua
+乳滑	ru hua
+河对岸	he dui an
+江对岸	jiang dui an
+海对面	hai dui mian
+花儿般	hua er ban
+像花儿般	xiang hua er ban
+蜗角斗争	wo jiao dou zheng
+左触右蛮	zuo chu you man
+一战连千里	yi zhan lian qian li
+删号	shan hao
+删号了	shan hao le
+炸号	zha hao
+炸号了	zha hao le
+封号了	feng hao le
+先天领周天	xian tian ling zhou tian
+盖周天之变	gai zhou tian zhi bian
+化吾为王	hua wu wei wang
+小周天	xiao zhou tian
+大周天	da zhou tian
+阿里云	a li yun
+腾讯云	teng xun yun
+京东云	jing dong yun
+华为云	hua wei yun
+天翼云	tian yi yun
+套路云	tao lu yun
+良心云	liang xin yun
+鱿鱼游戏	you yu you xi
+今际之国的闯关者	jin ji zhi guo de chuang guan zhe
+今际之国的有栖	jin ji zhi guo de you qi
+今际之国	jin ji zhi guo
+闯关者	chuang guan zhe
+弥留之国的爱丽丝	mi liu zhi guo de ai li si
+弥留之国	mi liu zhi guo
 平行世界	ping xing shi jie
 平行宇宙	ping xing yu zhou
-鱿鱼游戏
-一百单八将
-一百单八
-独立游戏
-独立博客
-独立工作室
-错误与异常
-错误和异常
-异常与错误
-异常和错误
-康米
-康米主义
-康米主义者
-糖豆人
-终极挑战赛
-密室逃脱
+鱿鱼游戏	you yu you xi
+一百单八将	yi bai dan ba jiang
+一百单八	yi bai dan ba
+独立游戏	du li you xi
+独立博客	du li bo ke
+独立工作室	du li gong zuo shi
+错误与异常	cuo wu yu yi chang
+错误和异常	cuo wu he yi chang
+异常与错误	yi chang yu cuo wu
+异常和错误	yi chang he cuo wu
+康米	kang mi
+康米主义	kang mi zhu yi
+康米主义者	kang mi zhu yi zhe
+糖豆人	tang dou ren
+终极挑战赛	zhong ji tiao zhan sai
+密室逃脱	mi shi tao tuo
+动物派对	dong wu pai dui
 本尼迪克特·康伯巴奇	ben ni di ke te kang bo ba qi
-本尼迪克特
-康伯巴奇
-卷福
+本尼迪克特	ben ni di ke te
+康伯巴奇	kang bo ba qi
+卷福	juan fu
 汤姆·赫兰德	tang mu he lan de
-荷兰弟
-蹲妹
-劳模姐
-过这村没这店
-过了这个村
-没这个店
-没这店
-身份标签
-身份标签页
-容器标签
-容器标签页
-飞机杯
-计生情趣
-润滑液
-倒模
-阴臀
-震动棒
-震动棒
-转珠棒
-缩阴球
-杰士邦
-超凡持久
-杰士邦超凡持久
-仿真娃娃
-实体娃娃
-锁精环
-排卵验孕
-验孕试纸
-排卵试纸
-仿真阳具
-铂金矽胶
-矽胶
-灯笼草
-灯笼果
+荷兰弟	he lan di
+蹲妹	dun mei
+劳模姐	lao mo jie
+过这村没这店	guo zhe cun mei zhe dian
+过了这个村	guo le zhe ge cun
+没这个店	mei zhe ge dian
+没这店	mei zhe dian
+没有这个店	mei you zhe ge dian
+身份标签	shen fen biao qian
+身份标签页	shen fen biao qian ye
+容器标签	rong qi biao qian
+容器标签页	rong qi biao qian ye
+飞机杯	fei ji bei
+计生情趣	ji sheng qing qu
+润滑液	run hua ye
+倒模	dao mu
+阴臀	yin tun
+震动棒	zhen dong bang
+转珠棒	zhuan zhu bang
+缩阴球	suo yin qiu
+杰士邦	jie shi bang
+超凡持久	chao fan chi jiu
+杰士邦超凡持久	jie shi bang chao fan chi jiu
+仿真娃娃	fang zhen wa wa
+实体娃娃	shi ti wa wa
+锁精环	suo jing huan
+排卵验孕	pai luan yan yun
+验孕试纸	yan yun shi zhi
+排卵试纸	pai luan shi zhi
+仿真阳具	fang zhen yang ju
+铂金矽胶	bo jin xi jiao
+矽胶	xi jiao
+灯笼草	deng long cao
+灯笼果	deng long guo
 凉薄	liang bo
-爱与情
-畅怀
-愿每个人
-出张先相部屋
-出张先
-相部屋
-杜淳
-张小斐
-贾玲
-许君聪
-限韩令
-精壮汉子
-仿似被
-窄道
-大石门
-少年的青涩
-风林火山
-故其疾如风
-其疾如风
-疾如风
-其徐如林
-侵掠如火
-不动如山
-难知如阴
-动如雷震
+爱与情	ai yu qing
+畅怀	chang huai
+愿每个人	yuan mei ge ren
+愿所有人	yuan suo you ren
+出张先相部屋	chu zhang xian xiang bu wu
+出张先	chu zhang xian
+相部屋	xiang bu wu
+杜淳	du chun
+张小斐	zhang xiao fei
+贾玲	jia ling
+许君聪	xu jun cong
+限韩令	xian han ling
+精壮汉子	jing zhuang han zi
+仿似被	fang si bei
+窄道	zhai dao
+大石门	da shi men
+少年的青涩	shao nian de qing se
+风林火山	feng lin huo shan
+故其疾如风	gu qi ji ru feng
+其疾如风	qi ji ru feng
+疾如风	ji ru feng
+其徐如林	qi xu ru lin
+侵掠如火	qin lue ru huo
+不动如山	bu dong ru shan
+难知如阴	nan zhi ru yin
+动如雷震	dong ru lei zhen
 垂下眼
 赤着膊
 没什么伤
@@ -1452,9 +1445,9 @@ vocabulary: essay-zh-hans
 干他妈
 干他妈的
 盘他
-得了便宜
-得了便宜卖乖
-得了便宜还卖乖
+得了便宜	de le pian yi
+得了便宜卖乖	de le pian yi mai guai
+得了便宜还卖乖	de le pian yi hai mai guai
 必须赢
 必须胜
 必须胜利
@@ -1526,7 +1519,7 @@ vocabulary: essay-zh-hans
 一壶浊酒
 喜相逢
 古今多少事
-都付笑谈中
+都付笑谈中	dou fu xiao tan zhong
 笑谈中
 洗洗睡了
 长点心	zhang dian xin
@@ -1701,9 +1694,9 @@ vocabulary: essay-zh-hans
 这辈子不可能打工
 这辈子不可能
 不可能打工
-这里个个都是人才
-这里个个都是
-个个都是人才
+这里个个都是人才	zhe li ge ge dou shi ren cai
+这里个个都是	zhe li ge ge dou shi
+个个都是人才	ge ge dou shi ren cai
 说话又好听
 沪上情欲流
 你忍一下
@@ -1849,7 +1842,7 @@ vocabulary: essay-zh-hans
 轻轻地用
 地笑了笑
 温和地笑了笑
-都晓得
+都晓得	dou xiao de
 穿了件
 浪了
 别浪了
@@ -1972,7 +1965,7 @@ vocabulary: essay-zh-hans
 没几步
 没两步
 没走两步
-还没走两步
+还没走两步	hai mei zou liang bu
 已不省人事
 伴我长大
 拭血论茶
@@ -2121,7 +2114,7 @@ vocabulary: essay-zh-hans
 家政妇
 扯什么淡
 尽扯淡
-还扯淡
+还扯淡	hai che dan
 瞎扯淡
 别扯淡
 在扯淡
@@ -2221,3 +2214,28 @@ vocabulary: essay-zh-hans
 方板
 无穷大符号
 伟途亦可思
+双十二
+双十一
+六一八
+告五人
+披星戴月地想你	pi xing dai yue de xiang ni
+爱人错过	ai ren cuo guo
+差集	cha ji
+补集	bu ji
+朙月拼音	ming yue pin yin
+哪吒	ne zha
+曱甴	yue you
+佇列	zhu lie
+郭明錤	guo ming ji
+飘飖兮若流风之回雪	piao yao xi ruo liu feng zhi hui xue
+苦蘵	ku zhi
+秘鲁苦蘵	bi lu ku zhi
+声嘒嘒兮	sheng hui hui xi
+哼唷	heng yao
+懒死了	lan si le
+我懒	wo lan
+这么懒	zhe me lan
+插排	cha pai
+中概股	zhong gai gu
+中丐股	zhong gai gu
+不太行啊	bu tai xing a

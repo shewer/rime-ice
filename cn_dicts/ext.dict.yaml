@@ -34,7 +34,7 @@
 ##### 进击的巨人
 ---
 name: ext
-version: "2021-12-02"
+version: "2021-12-07"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -6632,6 +6632,7 @@ X·德雷克	x de lei ke
 王建国
 建国
 李诞
+诞总
 池子
 王勉
 杨笠
@@ -6704,9 +6705,9 @@ X·德雷克	x de lei ke
 琅琊榜首
 江左梅郎
 麒麟之才
-得之可得天下
-得之
-可得天下
+得之可得天下	de zhi ke de tian xia
+得之	de zhi
+可得天下	ke de tian xia
 遥映人间冰雪样
 暗香幽浮曲临江
 遍识天下英雄路

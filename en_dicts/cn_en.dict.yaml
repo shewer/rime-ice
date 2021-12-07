@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2021-12-05"
+version: "2021-12-07"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -147,3 +147,4 @@ z 逆变换	znibianhuan	100
 D 之国	dzhiguo
 D 之一族	dzhiyizu
 Beta 版	betaban
+AV 女优	avnvyou

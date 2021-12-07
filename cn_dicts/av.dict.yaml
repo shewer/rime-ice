@@ -10,7 +10,7 @@
 # 输入「相泽南」后，会被映射为「相泽南 相沢みなみ」。
 ---
 name: av
-version: "2021-12-05"
+version: "2021-12-07"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -25,6 +25,7 @@ vocabulary: essay-zh-hans
 藤森里穂
 河北彩花
 前田桃杏
+夏目彩春
 
 # 简体和日文不同的：
 爱田飞鸟

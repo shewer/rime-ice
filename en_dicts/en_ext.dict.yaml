@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2021-12-05"
+version: "2021-12-07"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -764,3 +764,5 @@ Stack Overflow	StackOverflow
 PyWebIO	PyWebIO
 Launchpad	Launchpad
 Squoosh	Squoosh
+Win	Win
+cosplay	cosplay
