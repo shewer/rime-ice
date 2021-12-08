@@ -7,7 +7,7 @@
 #
 ---
 name: sys_ext
-version: "2021-12-07"
+version: "2021-12-08"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -22,7 +22,7 @@ vocabulary: essay-zh-hans
 主角	zhu jiao
 角色	jue se
 角色	jiao se
-# 「比萨」，字典中是「bi」，但英文 pizza 发音是「pi」。
+# 「比萨」，字典中是「bi」，但念了一辈子「pi sa」，改不了了。
 比萨	bi sa
 比萨	pi sa
 比萨饼	bi sa bing
@@ -32,6 +32,9 @@ vocabulary: essay-zh-hans
 # 「扑街」，正确发音为「jie」，常用口语为「gai」。
 扑街	pu jie
 扑街	pu gai
+# 「说服」，正确发音为「shuo」，但「游说」、「说客」仍然保留着「shui」的读音。
+说服	shuo fu
+说服	shui fu
 
 
 ##### 叠字（「jjj」→「鑫」，「jinjj」→「鑫」，「jjjin」→「鑫」）
@@ -477,7 +480,7 @@ vocabulary: essay-zh-hans
 二简字	er jian zi
 拦路石	lan lu shi
 可未必	ke wei bi
-旅游的胜地	lü you de sheng di
+旅游的胜地	lv you de sheng di
 观星殿	guan xing dian
 看着就像	kan zhe jiu xiang
 这副场面	zhe fu chang mian
@@ -752,7 +755,7 @@ vocabulary: essay-zh-hans
 了无生气	liao wu sheng qi
 了无	liao wu
 黄痰	huang tan
-绿痰	lü tan
+绿痰	lv tan
 黑痰	hei tan
 灰痰	hui tan
 彭博社	peng bo she
@@ -872,7 +875,7 @@ vocabulary: essay-zh-hans
 一枪爆头	yi qiang bao tou
 无人敢犯	wu ren gan fan
 小亭子	xiao ting zi
-灰绿	hui lü
+灰绿	hui lv
 在游动	zai you dong
 有鱼儿	you yu er
 清澈的湖里	qing che de hu li
@@ -992,7 +995,7 @@ vocabulary: essay-zh-hans
 阿里巴巴集团	a li ba ba ji tuan
 脱贫攻坚	tuo pin gong jian
 脱贫攻坚战	tuo pin gong jian zhan
-战略合并	zhan lüe he bing
+战略合并	zhan lve he bing
 年度商界人物	nian du shang jie ren wu
 零基础	ling ji chu
 单镜头反光相机	dan jing tou fan guang xiang ji
@@ -1195,7 +1198,7 @@ vocabulary: essay-zh-hans
 五子连珠	wu zi lian zhu
 禁手	jin shou
 维基词库	wei ji ci ku
-痴女	chi nü
+痴女	chi nv
 寝取	qin qu
 龙之家族	long zhi jia zu
 火与血	huo yu xue
@@ -1475,7 +1478,7 @@ vocabulary: essay-zh-hans
 我再想想	wo zai xiang xiang
 你再想想	ni zai xiang xiang
 他再想想	ta zai xiang xiang
-虐菜	nüe cai
+虐菜	nue cai
 佛媛	fo yuan
 佛系名媛	fo xi ming yuan
 雪中悍刀行	xue zhong han dao xing
@@ -1731,7 +1734,7 @@ vocabulary: essay-zh-hans
 你妈妈喊你	ni ma ma han ni
 你妈喊你	ni ma han ni
 很傻很天真	hen sha hen tian zhen
-虐猫事件	nüe mao shi jian
+虐猫事件	nue mao shi jian
 一个馒头引发的血案	yi ge man tou yin fa de xue an
 馒头引发的血案	man tou yin fa de xue an
 一个馒头引发	yi ge man tou yin fa
@@ -1772,7 +1775,7 @@ vocabulary: essay-zh-hans
 人类高质量男性	ren lei gao zhi liang nan xing
 人类高质量女性	ren lei gao zhi liang nv xing
 高质量男性	gao zhi liang nan xing
-高质量女性	gao zhi liang nü xing
+高质量女性	gao zhi liang nv xing
 徐勤根	xu qin gen
 阻生智齿	zu sheng zhi chi
 阻生第三臼齿	zu sheng di san jiu chi
@@ -1884,9 +1887,9 @@ vocabulary: essay-zh-hans
 虽然会迟到	sui ran hui chi dao
 但是最终会到达	dan shi zui zhong hui dao da
 碧然德	bi ran de
-滤水壶	lü shui hu
+滤水壶	lv shui hu
 净水壶	jing shui hu
-多效滤芯	duo xiao lü xin
+多效滤芯	duo xiao lv xin
 脱毛仪	tuo mao yi
 健康宝	jian kang bao
 北京健康宝	bei jing jian kang bao
@@ -1986,7 +1989,7 @@ vocabulary: essay-zh-hans
 任意一个	ren yi yi ge
 读条	du tiao
 马致远	ma zhi yuan
-驴得水	lü de shui
+驴得水	lv de shui
 刘皇叔	liu huang shu
 刘玄德	liu xuan de
 关云长	guan yun chang
@@ -2039,7 +2042,7 @@ vocabulary: essay-zh-hans
 伸得很短	shen de hen duan
 手伸得很长	shou shen de hen chang
 的手伸得很长	de shou shen de hen chang
-郑女士	zheng nü shi
+郑女士	zheng nv shi
 蒋龙	jiang long
 抽电子烟	chou dian zi yan
 种子公司	zhong zi gong si
@@ -2258,3 +2261,99 @@ vocabulary: essay-zh-hans
 不太行啊	bu tai xing a
 超爱	chao ai
 超喜欢	chao xi huan
+立不住脚	li bu zhu jiao
+可证伪	ke zheng wei
+光嘴说	guang zui shuo
+用嘴说	yong zui shuo
+也抵不过	ye di bu guo
+打不过啊	da bu guo a
+太牛逼了	tai niu bi le
+屈从逢迎	qu cong feng ying
+阿鼻	a bi
+阿鼻地狱	a bi di yu
+阿昌语	a chang yu
+阿塔	a ta
+符号映射	fu hao ying she
+对象关系	dui xiang guan xi
+对象关系映射	dui xiang guan xi ying she
+拼音纠错	pin yin jiu cuo
+取快递	qu kuai di
+拿快递	na kuai di
+寄快递	ji kuai di
+叫快递	jiao kuai di
+快递小哥	kuai di xiao ge
+快递小哥儿	kuai di xiao ge er
+外卖小哥	wai mai xiao ge
+外卖小哥儿	wai mai xiao ge er
+饿了么	e le me
+美团	mei tuan
+美团外卖	mei tuan wai mai
+百度外卖	bai du wai mai
+取个东西	qu ge dong xi
+新冠	xin guan
+新型冠状	xin xing guan zhuang
+新型冠状病毒	xin xing guan zhuang bing du
+新型冠状病毒肺炎	xin xing guan zhuang bing du fei yan
+冠状病毒病	guan zhuang bing du bing
+新冠肺炎	xin guan fei yan
+打给我	da gei wo
+买买买	mai mai mai
+剁手	duo shou
+我这手	wo zhe shou
+杀人啦	sha ren la
+杀人了	sha ren le
+你大爷	ni da ye
+你大爷的	ni da ye de
+去你大爷的	qu ni da ye de
+叫爸爸	jiao ba ba
+强哥	qiang ge
+刘华强	liu hua qiang
+生瓜蛋子	sheng gua dan zi
+这瓜保熟	zhe gua bao shu
+这瓜保熟	zhe gua bao shou
+这瓜	zhe gua
+保熟	bao shu
+保熟	bao shou
+保熟吗	bao shu ma
+保熟吗	bao shou ma
+极限挑战	ji xian tiao zhan
+先富带后富	xian fu dai hou fu
+总体概念	zong ti gai nian
+长期任务	chang qi ren wu
+内在逻辑	nei zai luo ji
+利民惠民	li min hui min
+一天一苹果	yi tian yi ping guo
+医生远离我	yi sheng yuan li wo
+四方阵	si fang zhen
+流星蝴蝶剑	liu xing hu die jian
+孟星魂	meng xing hun
+孙蝶	sun die
+高寄萍	gao ji ping
+高老大	gao lao da
+孙玉伯	sun yu bo
+十二飞鹏	shi er fei peng
+十二飞鹏帮	shi er fei peng bang
+龙门帮	long men bang
+乾坤刀	qian kun dao
+指虎	zhi hu
+双刺	shuang ci
+两省交界	liang sheng jiao jie
+两省交界处	liang sheng jiao jie chu
+地区方言	di qu fang yan
+颜值	yan zhi
+什么水平	shen me shui ping
+飞书	fei shu
+高德导航	gao de dao hang
+百度导航	bai du dao hang
+阿里系	a li xi
+头条系	tou tiao xi
+操你大爷	cao ni da ye
+肏你大爷	cao ni da ye
+开什么玩笑	kai shen me wan xiao
+别开玩笑	bie kai wan xiao
+你在开什么玩笑	ni zai kai shen me wan xiao
+拉鸡巴倒	la ji ba dao
+不干拉倒	bu gan la dao
+哪些方向	na xie fang xiang
+微信聊天	wei xin liao tian
+在看着你	zai kan zhe ni
