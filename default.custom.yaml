@@ -1,3 +1,4 @@
+# 继承自 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/default.yaml
 patch:
   schema_list:
     - schema: pinyin_simp
@@ -19,11 +20,14 @@ patch:
 
   # 切换方案、简繁、全半角的快捷键
   switcher/hotkeys:
-    # - "Control+grave" # Ctrl + `
-    # 如果只有一个方案，且不切换简繁、全半角（仍可使用自己设定的其他快捷键），此处留空会将值设为空。
+    # - Control+grave
+    # - Control+Shift+grave
+    # - F4
+    [] # 无快捷键：只有一个方案、不切换全半角、不切换简繁等，可以设置为空数组
 
 
-  # 按键绑定 https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+  # 按键绑定： https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+  # 本地文件： /Library/Input Methods/Squirrel.app/Contents/SharedSupport/key_bindings.yaml
   key_binder/bindings:
     # emacs_editing:
     # - { when: composing, accept: Control+p, send: Up }
