@@ -11,7 +11,7 @@
     -   [简繁切换](https://github.com/rime/home/issues/388#issuecomment-504572224)
     -   [动态日期、时间、星期](https://github.com/KyleBing/rime-wubi86-jidian)
     -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
-    -   没有添加 Emoji，改为词语与符号映射
+    -   删除了「[Emoji](https://github.com/rime/rime-emoji)」，改为词语与符号映射
     -   增加了许多拼音纠错
 -   融合「[easy_en](https://github.com/BlindingDark/rime-easy-en)」英文输入方案
     -   使用了「[融合拼音](https://github.com/tumuyan/rime-pinyin-simp)」的词库和拼写规则
