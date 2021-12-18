@@ -34,108 +34,106 @@
 ##### 进击的巨人
 ---
 name: ext
-version: "2021-12-08"
+version: "2021-12-18"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
 ##### 仙剑奇侠传
-仙剑
-奇侠传
-仙剑奇侠
-仙剑奇侠传
-仙剑奇侠传系列
-大宇
-大宇资讯
-软星
-北京软星
-上海软星
-仙剑客栈
-仙一
-仙剑一
-仙剑奇侠传一
-李逍遥
-李三思
-南盗侠
-赵灵儿
-灵儿
-女娲后裔
-苗疆公主
-林月如
-月如
-林天南
-刘晋元
-南武林盟主
-武林盟主
-阿奴
-白苗少主
-南蛮王
-酒剑仙
-司徒钟
-仙二
-仙剑二
-仙剑奇侠传二
-王小虎
-李大娘
-穿云掌
-沈欺霜
-仙霞五奇
-苏媚
-李忆如
-忆如
-仙三
-仙剑三
-仙剑奇侠传三
-景天
-神将飞蓬
-飞蓬神将
-神将
-飞蓬
-姜国太子龙阳
-姜国
-姜国太子
-龙阳
-新安当
-永安当
-蜀山剑仙
-唐雪见
-雪见
-神女夕瑶
-夕瑶
-花楹
-龙葵
-剑魂
-人格分裂
-紫萱
-徐长卿
-仙三外
-仙剑三外传
-仙剑奇侠传三外传
-南宫煌
-星璇
-温慧
-王蓬絮
-五毒兽
-雷元戈
-鬼差
-仙四
-仙剑四
-仙剑奇侠传四
-云天河
-天河
-云天青
-天青
-夙玉
-慕容紫英
-慕容
-紫英
-玄霄
-韩菱纱
-菱纱
-盗墓世家
-望舒剑
-柳梦璃
-梦璃
-幻瞑妖界
+仙剑	xian jian
+奇侠传	qi xia zhuan
+仙剑奇侠	xian jian qi xia
+仙剑奇侠传	xian jian qi xia zhuan
+仙剑奇侠传系列	xian jian qi xia zhuan xi lie
+大宇	da yu
+大宇资讯	da yu zi xun
+软星	ruan xing
+北京软星	bei jing ruan xing
+上海软星	shang hai ruan xing
+仙剑客栈	xian jian ke zhan
+仙一	xian yi
+仙剑一	xian jian yi
+仙剑奇侠传一	xian jian qi xia zhuan yi
+李逍遥	li xiao yao
+李三思	li san si
+南盗侠	nan dao xia
+赵灵儿	zhao ling er
+灵儿	ling er
+女娲后裔	nv wa hou yi
+苗疆公主	miao jiang gong zhu
+林月如	lin yue ru
+月如	yue ru
+林天南	lin tian nan
+刘晋元	liu jin yuan
+南武林盟主	nan wu lin meng zhu
+武林盟主	wu lin meng zhu
+阿奴	a nu
+白苗少主	bai miao shao zhu
+南蛮王	nan man wang
+酒剑仙	jiu jian xian
+司徒钟	si tu zhong
+仙二	xian er
+仙剑二	xian jian er
+仙剑奇侠传二	xian jian qi xia zhuan er
+王小虎	wang xiao hu
+李大娘	li da niang
+穿云掌	chuan yun zhang
+沈欺霜	shen qi shuang
+仙霞五奇	xian xia wu qi
+苏媚	su mei
+李忆如	li yi ru
+忆如	yi ru
+仙三	xian san
+仙剑三	xian jian san
+仙剑奇侠传三	xian jian qi xia zhuan san
+景天	jing tian
+神将飞蓬	shen jiang fei peng
+飞蓬神将	fei peng shen jiang
+神将	shen jiang
+飞蓬	fei peng
+姜国太子龙阳	jiang guo tai zi long yang
+姜国	jiang guo
+姜国太子	jiang guo tai zi
+龙阳	long yang
+新安当	xin an dang
+永安当	yong an dang
+蜀山剑仙	shu shan jian xian
+唐雪见	tang xue jian
+雪见	xue jian
+神女夕瑶	shen nv xi yao
+夕瑶	xi yao
+花楹	hua ying
+龙葵	long kui
+剑魂	jian hun
+紫萱	zi xuan
+徐长卿	xu chang qing
+仙三外	xian san wai
+仙剑三外传	xian jian san wai zhuan
+仙剑奇侠传三外传	xian jian qi xia zhuan san wai zhuan
+南宫煌	nan gong huang
+星璇	xing xuan
+温慧	wen hui
+王蓬絮	wang peng xu
+五毒兽	wu du shou
+雷元戈	lei yuan ge
+鬼差	gui chai
+仙四	xian si
+仙剑四	xian jian si
+仙剑奇侠传四	xian jian qi xia zhuan si
+云天河	yun tian he
+天河	tian he
+云天青	yun tian qing
+天青	tian qing
+夙玉	su yu
+慕容紫英	mu rong zi ying
+紫英	zi ying
+玄霄	xuan xiao
+韩菱纱	han ling sha
+菱纱	ling sha
+盗墓世家	dao mu shi jia
+望舒剑	wang shu jian
+柳梦璃	liu meng li
+梦璃	meng li
+幻瞑妖界	huan ming yao jie
 仙五
 仙剑五
 仙剑奇侠传五
@@ -505,6 +503,7 @@ vocabulary: essay-zh-hans
 登云霄
 日上三竿不觉醒
 天天梦里乐陶陶
+探云手	tan yun shou
 
 
 ##### 宝可梦
@@ -3386,6 +3385,8 @@ vocabulary: essay-zh-hans
 克莱皮克
 莱斯利
 温克尔
+组成头部	zu cheng tou bu
+我来组成头部	wo lai zu cheng tou bu
 
 
 ##### 老友记
@@ -3609,6 +3610,9 @@ vocabulary: essay-zh-hans
 
 
 ##### 三国杀
+三国杀
+铁索连环
+南蛮入侵
 刘备
 仁德
 惟贤惟德
@@ -3779,7 +3783,6 @@ vocabulary: essay-zh-hans
 早晚要还的
 鬼才
 天命
-哈哈哈哈
 吾乃天命之子
 吾乃
 天命之子
@@ -3912,7 +3915,6 @@ vocabulary: essay-zh-hans
 在血和暗的深渊里
 在深渊里
 英姿
-哈哈哈哈
 汝等给我看好了
 汝等
 给我看好了
@@ -4668,9 +4670,7 @@ vocabulary: essay-zh-hans
 大海贼时代
 海贼时代
 蒙奇
-蒙奇·D·龙	mengqidlong
 文斯莫克家族
-蒙奇·D·路飞	mengqidlufei
 路飞
 罗罗诺亚·佐罗	luo luo nuo ya zuo luo
 罗罗诺亚·索隆	luo luo nuo ya suo long
@@ -4735,7 +4735,6 @@ vocabulary: essay-zh-hans
 月光·莫利亚	yue guang mo li ya
 沙·克洛克达尔	sha ke luo ke da er
 克洛克达尔
-马歇尔·D·蒂奇	maxieerddiqi
 马歇尔
 蒂奇
 顶上战争
@@ -4766,7 +4765,6 @@ vocabulary: essay-zh-hans
 黄猿
 青雉
 斯摩格
-哥尔·D·罗杰	geerdluojie
 哥尔
 罗杰
 西尔巴兹·雷利	xi er ba zi lei li
@@ -4784,7 +4782,6 @@ vocabulary: essay-zh-hans
 巴兹尔·霍金斯	ba zi er huo jin si
 巴兹尔
 霍金斯
-X·德雷克	xdeleike
 德雷克
 打碟音·阿普	da die yin a pu
 斯库拉奇曼·阿普	si ku la qi man a pu
@@ -4881,7 +4878,6 @@ X·德雷克	xdeleike
 无风带
 海底龙宫
 龙宫城
-蒙奇·D·卡普	mengqidkapu
 卡普
 铁拳卡普
 英雄卡普
@@ -4895,7 +4891,6 @@ X·德雷克	xdeleike
 见闻色
 见闻色霸气
 爱之铁拳
-波特卡斯·D·艾斯	potekasidaisi
 波特卡斯
 艾斯
 战国
@@ -4943,6 +4938,11 @@ X·德雷克	xdeleike
 音贝
 庞克哈萨德
 德雷斯罗萨
+毛皮族	mao pi zu
+皮毛族	pi mao zu
+空岛	kong dao
+艾涅尔	ai nie er
+艾尼路	ai ni lu
 
 
 ##### 火影忍者
@@ -6453,10 +6453,11 @@ X·德雷克	xdeleike
 ##### 诛仙
 诛仙
 诛仙剑
+一剑诛仙
 萧鼎
 幻剑书盟
 何为正道
-天地不仁
+天地不仁	tian di bu ren
 以万物为刍狗
 朝华出版社
 花山文艺出版社
@@ -6686,6 +6687,7 @@ X·德雷克	xdeleike
 卡姆
 卡姆吸毒
 卡姆永远活在我心中
+没有卡姆的日子
 想念卡姆
 肉食动物
 橙色预警
@@ -8126,7 +8128,6 @@ X·德雷克	xdeleike
 日女
 红毛怪
 蚂蚱
-老司机
 伤害爆表
 成吨的
 成吨的伤害

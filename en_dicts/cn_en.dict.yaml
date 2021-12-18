@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2021-12-07"
+version: "2021-12-18"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -28,6 +28,7 @@ A 杖	azhang
 U 盘	youpan
 U 盘	upan
 B 站	bzhan
+B 站	bizhan
 V 站	vzhan
 P 站	pzhan
 大 V	dav
@@ -148,3 +149,27 @@ D 之国	dzhiguo
 D 之一族	dzhiyizu
 Beta 版	betaban
 AV 女优	avnvyou
+X 战警	xzhanjing
+A4	asi
+A4 纸	asizhi
+A4 纸	aszhi
+A4 纸	aszh
+A4 纸	asz
+A4 腰	asiyao
+A4 腰	asyao
+A4 腰	asya
+A4 腰	asy
+N 多	nduo
+N 多个	nduoge
+N 次	nci
+N 遍	nbian
+蒙奇·D·路飞	mengqidlufei
+蒙奇·D·龙	mengqidlong
+乔治·R·R·马丁	qiaozhirrmading
+哥尔·D·罗杰	geerdluojie
+马歇尔·D·蒂奇	maxieerddiqi
+X·德雷克	xdeleike
+蒙奇·D·卡普	mengqidkapu
+波特卡斯·D·艾斯	potekasidaisi
+VIP 中 P	vipzhongp
+QQ 秀	qqxiu

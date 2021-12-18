@@ -5,7 +5,7 @@
 #
 ---
 name: en
-version: "2021-12-05"
+version: "2021-12-18"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -230,7 +230,7 @@ United Kingdom	UnitedKingdom	100
 United States	UnitedStates	100
 Wales	Wales	100
 Welsh	Welsh	100
-a	a	100
+# a	a	100
 abandon	abandon	100
 abbreviation	abbreviation	100
 abdomen	abdomen	100

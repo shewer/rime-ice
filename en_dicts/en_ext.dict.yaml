@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2021-12-07"
+version: "2021-12-18"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -204,7 +204,14 @@ Tokyo	Tokyo
 Rachel	Rachel
 uTools	uTool
 uTools	uTools
+AirPods	AirPod
 AirPods	AirPods
+AirPods Pro	AirPod
+AirPods Pro	AirPods
+AirPods Pro	AirPodsPro
+AirPods Max	AirPod
+AirPods Max	AirPods
+AirPods Max	AirPodsMax
 CallKit	CallKit
 OSS	OSS
 YouTube Music	YouTubeM
@@ -556,6 +563,7 @@ MacAppDeals	MacAppDeals
 MacBook	MacBook
 MacBook Air	MacBookAir
 MacBook Pro	MacBookPro
+Mac Pro	MacPro
 MacID	MacID
 MacTips	MacTips
 MacUpdate Desktop	MacUpdateDesktop
@@ -766,3 +774,11 @@ Launchpad	Launchpad
 Squoosh	Squoosh
 Win	Win
 cosplay	cosplay
+Gravatar	Gravatar
+Max	Max
+Copilot	Copilot
+Fleet	Fleet
+Xshell	Xshell
+Nokia	Nokia
+OCR	OCR
+Déjà vu	Dejavu
