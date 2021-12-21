@@ -7,10 +7,14 @@
 #
 ---
 name: en_ext
-version: "2021-12-18"
+version: "2021-12-21"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
+CapsLock	CapsL
+CapsLock	CapsLo
+CapsLock	CapsLoc
+CapsLock	CapsLock
 Aeron	Aeron
 Aeron Chair	AeronChair
 RPG	RPG
@@ -782,3 +786,4 @@ Xshell	Xshell
 Nokia	Nokia
 OCR	OCR
 Déjà vu	Dejavu
+FFmpeg	FFmpeg

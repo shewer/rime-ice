@@ -7,7 +7,7 @@
 #
 ---
 name: sys_ext
-version: "2021-12-18"
+version: "2021-12-21"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -45,6 +45,16 @@ vocabulary: essay-zh-hans
 比萨饼	pi sa bing
 吃比萨	chi bi sa
 吃比萨	chi pi sa
+超级至尊比萨	chao ji zhi zun bi sa
+超级至尊比萨	chao ji zhi zun pi sa
+至尊比萨	zhi zun bi sa
+至尊比萨	zhi zun pi sa
+大西洋珍鲑比萨	da xi yang zhen gui bi sa
+大西洋珍鲑比萨	da xi yang zhen gui pi sa
+海鲜比萨	hai xian bi sa
+海鲜比萨	hai xian pi sa
+蔬菜比萨	shu cai bi sa
+蔬菜比萨	shu cai pi sa
 # 「扑街」，正确发音为「jie」，常用口语为「gai」。
 扑街	pu jie
 扑街	pu gai
@@ -390,6 +400,7 @@ vocabulary: essay-zh-hans
 赞誉有加	zan yu you jia
 威能	wei neng
 赢麻了	ying ma le
+赢麻	ying ma
 水滴筹	shui di chou
 开门查水表	kai men cha shui biao
 社区送温暖	she qu song wen nuan
@@ -959,7 +970,6 @@ vocabulary: essay-zh-hans
 张牧之	zhang mu zhi
 廖凡	liao fan
 周韵	zhou yun
-彭于晏	peng yu yan
 姜武	jiang wu
 汤师爷	tang shi ye
 县长夫人	xian zhang fu ren
@@ -3868,6 +3878,9 @@ vocabulary: essay-zh-hans
 褚禄山	chu lu shan
 杨皓宇	yang hao yu
 黄阵图	huang zhen tu
+剑九黄	jian jiu huang
+黄老九	huang lao jiu
+隋斜谷	sui xie gu
 张天阳	zhang tian yang
 吕钱塘	lv qian tang
 离阳	li yang
@@ -3971,4 +3984,322 @@ vocabulary: essay-zh-hans
 割包皮	ge bao pi
 小雷音寺	xiao lei yin si
 雷音寺	lei yin si
+假雷音寺	jia lei yin si
+真雷音寺	zhen lei yin si
+真假雷音寺	zhen jia lei yin si
 我不信你	wo bu xin ni
+门槛低	men kan di
+门槛高	men kan gao
+高门槛	gao men kan
+低门槛	di men kan
+经受得起	jing shou de qi
+经受不住	jing shou bu zhu
+数码爱好者	shu ma ai hao zhe
+程序员们	cheng xu yuan men
+戒网疗程	jie wang liao cheng
+云服务器	yun fu wu qi
+性价比低	xing jia bi di
+联通光猫	lian tong guang mao
+电信光猫	dian xin guang mao
+移动光猫	yi dong guang mao
+请求测试	qing qiu ce shi
+开什么车	kai shen me che
+买什么车	mai shen me che
+打车软件	da che ruan jian
+坐顺风车	zuo shun feng che
+被攻击	bei gong ji
+攻防演练	gong fang yan lian
+违法上访	wei fa shang fang
+非法上访	fei fa shang fang
+攒积分	zan ji fen
+顺丰速递	shun feng su di
+吃灰	chi hui
+桌面版	zhuo mian ban
+网页版	wang ye ban
+不正常人类研究中心	bu zheng chang ren lei yan jiu zhong xin
+好框架	hao kuang jia
+搭好框架	da hao kuang jia
+搭框架	da kuang jia
+搭个框架	da ge kuang jia
+用力点按	yong li dian an
+测试分析	ce shi fen xi
+会爆炸	hui bao zha
+成龙大哥	cheng long da ge
+霸王防脱	ba wang fang tuo
+防脱	fang tuo
+抢救一下	qiang jiu yi xia
+再抢救一下	zai qiang jiu yi xia
+助助兴	zhu zhu xing
+助助兴吧	zhu zhu xing ba
+把我杀了	ba wo sha le
+王重楼	wang chong lou
+沈保平	shen bao ping
+宁峨眉	ning e mei
+高泰宇	gao tai yu
+鱼幼薇	yu you wei
+李淳罡	li chun gang
+舒羞	shu xiu
+张艺上	zhang yi shang
+孟子义	meng zi yi
+王仙芝	wang xian zhi
+于荣光	yu rong guang
+杨太岁	yang tai sui
+王绘春	wang hui chun
+李义山	li yi shan
+刘佩琦	liu pei qi
+韩貂寺	han diao si
+杜玉明	du yu ming
+轩辕敬城	xuan yuan jing cheng
+赵玉台	zhao yu tai
+裴南苇	pei nan wei
+隋俊波	sui jun bo
+吴素	wu su
+徐渭熊	xu wei xiong
+文咏珊	wen yong shan
+魏叔阳	wei shu yang
+田小洁	tian xiao jie
+李念	li nian
+徐脂虎	xu zhi hu
+轩辕青锋	xuan yuan qing feng
+洪洗象	hong xi xiang
+张晓晨	zhang xiao chen
+徐龙象	xu long xiang
+荣梓杉	rong zi shan
+赵希抟	zhao xi tuan
+湖底老魁	hu di lao kui
+隋珠公主	sui zhu gong zhu
+陈情令	chen qing ling
+豆瓣网	dou ban wang
+遭诅咒	zao zu zhou
+最后的决斗	zui hou de jue dou
+倒数时刻	dao shu shi ke
+废柴舅舅	fei chai jiu jiu
+上帝之鞭	shang di zhi bian
+党鞭	dang bian
+草包书记	cao bao shu ji
+跨省抓捕	kua sheng zhua bu
+纸牌屋	zhi pai wu
+我的牌	wo de pai
+早年生涯	zao nian sheng ya
+外貌特征	wai mao te zheng
+蒙杜克	meng du ke
+布列达	bu lie da
+文化形象	wen hua xing xiang
+凤凰传奇	feng huang chuan qi
+套马的汉子	tao ma de han zi
+烟花易冷	yan hua yi leng
+永恒之塔	yong heng zhi ta
+伤不起	shang bu qi
+东风破	dong feng po
+甩葱歌	shuai cong ge
+山楂树之恋	shan zha shu zhi lian
+广场舞	guang chang wu
+广场舞大妈	guang chang wu da ma
+中国大妈	zhong guo da ma
+左眼皮跳跳	zuo yan pi tiao tiao
+左眼皮跳	zuo yan pi tiao
+右眼皮跳	you yan pi tiao
+左眼皮	zuo yan pi
+右眼皮	you yan pi
+愤怒的小鸟	fen nu de xiao niao
+卡农	ka nong
+唐伯虎点秋香	tang bo hu dian qiu xiang
+断桥残雪	duan qiao can xue
+以爱之名	yi ai zhi ming
+爱我你就抱抱我	ai wo ni jiu bao bao wo
+抱抱我	bao bao wo
+爱情呼叫转移	ai qing hu jiao zhuan yi
+神马都是浮云	shen ma dou shi fu yun
+一生无悔	yi sheng wu hui
+玫瑰花的葬礼	mei gui hua de zang li
+夏天的乐队	xia tian de yue dui
+天上掉下个林妹妹	tian shang diao xia ge lin mei mei
+天上掉	tian shang diao
+统一推送	tong yi tui song
+夜航星	ye hang xing
+傻逼玩意	sha bi wan yi
+傻逼玩意儿	sha bi wan yi er
+关闭后	guan bi hou
+都关闭后	dou guan bi hou
+使劲地	shi jin de
+敲一下	qiao yi xia
+阿迪	a di
+力宏	li hong
+酒桌选妃	jiu zhuo xuan fei
+蓬莱东路	peng lai dong lu
+眼都不眨	yan dou bu zha
+一眼都不眨	yi yan dou bu zha
+眼睛干	yan jing gan
+眼睛干涩	yan jing gan se
+接私活	jie si huo
+无显卡	wu xian ka
+编写语言	bian xie yu yan
+喝多少酒	he duo shao jiu
+三斤	san jin
+两斤	liang jin
+虽好	sui hao
+百度杀毒	bai du sha du
+明文上传	ming wen shang chuan
+密码明文	mi ma ming wen
+推断出来	tui duan chu lai
+真相只有一个	zhen xiang zhi you yi ge
+凶手就是	xiong shou jiu shi
+我是你爹	wo shi ni die
+坑儿子	keng er zi
+老坑爹	lao keng die
+食品制造	shi pin zhi zao
+食品制造业	shi pin zhi zao ye
+统一方便面	tong yi fang bian mian
+老坛酸菜	lao tan suan cai
+老坛酸菜牛肉面	lao tan suan cai niu rou mian
+美少女变身	mei shao nv bian shen
+苏宁易购	su ning yi gou
+吸烟有害	xi yan you hai
+吸烟有害健康	xi yan you hai jian kang
+人人都是酸菜鱼	ren ren dou shi suan cai yu
+又酸又菜又多余	you suan you cai you duo yu
+又酸又菜	you suan you cai
+我是一条酸菜鱼	wo shi yi tiao suan cai yu
+大西洋珍鲑	da xi yang zhen gui
+抖音外放	dou yin wai fang
+大局域网	da ju yu wang
+男乒	nan ping
+女乒	nv ping
+又赢了	you ying le
+又赢	you ying
+乒乓球锦标赛	ping pang qiu jin biao sai
+最高荣誉	zui gao rong yu
+公会	gong hui
+商人团体	shang ren tuan ti
+立省	li sheng
+空气净化器	kong qi jing hua qi
+起点网	qi dian wang
+起点小说	qi dian xiao shuo
+起点中文	qi dian zhong wen
+起点中文网	qi dian zhong wen wang
+男生小说	nan sheng xiao shuo
+女生小说	nv sheng xiao shuo
+男频	nan pin
+女频	nv pin
+私密会所	si mi hui suo
+西西里的美丽传说	xi xi li de mei li chuan shuo
+贝鲁奇	bei lu qi
+美人妻	mei ren qi
+物流团队	wu liu tuan dui
+屏幕使用时间	ping mu shi yong shi jian
+快问快答	kuai wen kuai da
+世袭罔替	shi xi wang ti
+踏路而行	ta lu er xing
+自有前程	zi you qian cheng
+插标卖首	cha biao mai shou
+有球用	you qiu yong
+有球儿用	you qiu er yong
+大局观	da ju guan
+踢球儿	ti qiu er
+又是何意	you shi he yi
+这是何意	zhe shi he yi
+开盒	kai he
+万一哪天	wan yi na tian
+多口交换机	duo kou jiao huan ji
+抢滩登陆战	qiang tan deng lu zhan
+抢滩登陆战系列	qiang tan deng lu zhan xi lie
+粉蛆	fen qu
+游久网	you jiu wang
+剧迷	ju mi
+有点好笑	you dian hao xiao
+威胁电话	wei xie dian hua
+打威胁电话	da wei xie dian hua
+寄刀片	ji dao pian
+寄刀片儿	ji dao pian er
+说得很对	shuo de hen dui
+云鬟	yun huan
+双鬟	shuang huan
+抱摔	bao shuai
+熊来了	xiong lai le
+早该管管了	zao gai guan guan le
+早该图图了	zao gai tu tu le
+蛮累	man lei
+蛮累的	man lei de
+是个备胎	shi ge bei tai
+是备胎	shi bei tai
+现代浏览器	xian dai liu lan qi
+超级会员	chao ji hui yuan
+江湖丛谈	jiang hu cong tan
+未读提醒	wei du ti xing
+控制切换	kong zhi qie huan
+革命小将	ge ming xiao jiang
+文革小将	wen ge xiao jiang
+烧烤架	shao kao jia
+吃烧烤	chi shao kao
+烤串	kao chuan
+烤串儿	kao chuan er
+撸串	lu chuan
+撸串儿	lu chuan er
+羊肉串儿	yang rou chuan er
+串儿	chuan er
+押一付一	ya yi fu yi
+押一付三	ya yi fu san
+押二付三	ya er fu san
+押三付三	ya san fu san
+月月光	yue yue guang
+还强	hai qiang
+红芯浏览器	hong xin liu lan qi
+慢性阻塞性肺病	man xing zu se xing fei bing
+慢阻肺	man zu fei
+老慢支	lao man zhi
+塞尔达	sai er da
+塞尔达传说	sai er da chuan shuo
+荒野之息	huang ye zhi xi
+四险一金	si xian yi jin
+六险一金	liu xian yi jin
+六险二金	liu xian er jin
+雅蠛蝶	ya mie die
+小泥人	xiao ni ren
+小混蛋	xiao hun dan
+小王八	xiao wang ba
+键盘膜	jian pan mo
+六千里	liu qian li
+婚恋市场	hun lian shi chang
+吸星大法	xi xing da fa
+本故事	ben gu shi
+不可言说	bu ke yan shuo
+不可说	bu ke shuo
+欺负我	qi fu wo
+任逍遥	ren xiao yao
+家目录	jia mu lu
+自定义文本	zi ding yi wen ben
+虎夔	hu kui
+四大凶兽	si da xiong shou
+凶兽	xiong shou
+穷奇	qiong qi
+梼杌	tao wu
+养鲲	yang kun
+开局一只鲲	kai ju yi zhi kun
+一只鲲	yi zhi kun
+进化全靠吞	jin hua quan kao tun
+北冥有鱼	bei ming you yu
+其名为鲲	qi ming wei kun
+鲲之大	kun zhi da
+古代文献	gu dai wen xian
+一级字	yi ji zi
+二级字	er ji zi
+三级字	san ji zi
+大凉龙雀剑	da liang long que jian
+大凉龙雀	da liang long que jian
+龙雀剑	long que jian
+看了直呼	kan le zhi hu
+深夜诱惑	shen ye you huo
+小粉灯	xiao fen deng
+春天小姐	chun tian xiao jie
+好心提醒	hao xin ti xing
+懒得动了	lan de dong le
+懒得刷了	lan de shua le
+懒得管你	lan de guan ni
+魔法上网	mo fa shang wang
+正常上网	zheng chang shang wang
+晶哥	jing ge
+体制内	ti zhi nei
+中病毒了	zhong bing du le
+通勤时间	tong qin shi jian
+三挡	san dang
+勤换挡	qin huan dang
