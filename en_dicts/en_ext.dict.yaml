@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2021-12-21"
+version: "2021-12-27"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -787,3 +787,6 @@ Nokia	Nokia
 OCR	OCR
 Déjà vu	Dejavu
 FFmpeg	FFmpeg
+Pokémon	Pokemon
+DMCA	DMCA
+PUA	PUA

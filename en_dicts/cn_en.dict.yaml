@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2021-12-18"
+version: "2021-12-27"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -173,3 +173,7 @@ X·德雷克	xdeleike
 波特卡斯·D·艾斯	potekasidaisi
 VIP 中 P	vipzhongp
 QQ 秀	qqxiu
+Big 胆	bigdan
+我叫 MT	wojiaomt
+谜拟 Ｑ	miniq
+多边兽 Z	duobianshouz
