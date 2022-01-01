@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2021-12-27"
+version: "2022-01-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -177,3 +177,8 @@ Big 胆	bigdan
 我叫 MT	wojiaomt
 谜拟 Ｑ	miniq
 多边兽 Z	duobianshouz
+藤子·F·不二雄	tengzifbuerxiong
+PC 版	pcban
+A 塔	ata
+平 A	pinga
+立 Flag	liflag

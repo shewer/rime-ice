@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2021-12-27"
+version: "2022-01-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -790,3 +790,6 @@ FFmpeg	FFmpeg
 Pokémon	Pokemon
 DMCA	DMCA
 PUA	PUA
+Docker	Docker
+Darcula	Darcula
+Objective-C	ObjectiveC
