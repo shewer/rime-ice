@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2022-01-01"
+version: "2022-01-08"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -182,3 +182,4 @@ PC 版	pcban
 A 塔	ata
 平 A	pinga
 立 Flag	liflag
+C 罗	cluo

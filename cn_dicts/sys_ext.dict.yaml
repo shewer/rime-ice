@@ -7,17 +7,17 @@
 #
 ---
 name: sys_ext
-version: "2022-01-01"
+version: "2022-01-08"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
 ##### 方便词
-#！ 会导致 zh 无法参与超级简拼，个人用「zh」打「这」习惯了。
-这	zh
+# ！ 会导致 zh 无法参与超级简拼
+# 这	zh
+# ！ 单编码的声母同样会导致无法参与超级简拼，如「lir」无法响应「例如」。
+# 儿	r
 一	i
 有	u
-#！ 单编码的声母同样会导致无法参与超级简拼，如「lir」无法响应「例如」。
-# 儿	r
 一个	ig
 有个	ug
 有一个	uig
@@ -47513,3 +47513,200 @@ vocabulary: essay-zh-hans
 左梓轩	zuo zi xuan
 佐佐木绯世	zuo zuo mu fei shi
 佐佐木小次郎	zuo zuo mu xiao ci lang
+驻颜术	zhu yan shu
+京秦	jing qin
+京秦高速	jing qin gao su
+京秦高速公路	jing qin gao su gong lu
+出结果	chu jie guo
+裸域名	luo yu ming
+裸域	luo yu
+简转繁	jian zhuan fan
+繁转简	fan zhuan jian
+台湾正体	tai wan zheng ti
+耍狗坨子	shua gou tuo zi
+玩狗坨子	wan gou tuo zi
+正体中文	zheng ti zhong wen
+炸点薯条	zha dian shu tiao
+炸点薯条吧	zha dian shu tiao ba
+网址检查	wang zhi jian cha
+新提交	xin ti jiao
+坐高铁	zuo gao tie
+共享汽车	gong xiang qi che
+香港繁体	xiang gang fan ti
+申请测试	shen qing ce shi
+收费了	shou fei le
+隐约听到	yin yue ting dao
+隐约听见	yin yue ting jian
+澳门葡京	ao men pu jing
+葡京	pu jing
+入职体检	ru zhi ti jian
+谎言的诞生	huang yan de dan sheng
+未接来电	wei jie lai dian
+已接来电	yi jie lai dian
+躲猫猫	duo mao mao
+小肉球	xiao rou qiu
+黄帽子	huang mao zi
+黑帽子	hei mao zi
+婴幼儿节目	ying you er jie mu
+运气成分	yun qi cheng fen
+建索引	jian suo yin
+创建索引	chuang jian suo yin
+页面信息	ye mian xin xi
+儿童游戏	er tong you xi
+黑群晖	hei qun hui
+白群晖	bai qun hui
+群晖科技	qun hui ke ji
+翁英晖	weng ying hui
+吕青鸿	lv qing hong
+网络附接存储	wang luo fu jie cun chu
+附接存储	fu jie cun chu
+块级存储	kuai ji cun chu
+华芸科技	hua yun ke ji
+普安科技	pu an ke ji
+诠力科技	quan li ke ji
+威联通科技	wei lian tong ke ji
+桦赋科技	hua bin ke ji
+色卡司	se ka si
+广盛科技	guang sheng k ji
+著名产品	zhu ming chan pin
+小品演员	xiao pin yan yuan
+演小品	yan xiao pin
+翻个番	fan ge fan
+引力波	yin li bo
+命根儿	ming gen er
+人点蜡	ren dian la
+哇咔咔	wa ka ka
+高级设置	gao ji she zhi
+面壁人	mian bi ren
+道德选择	dao de xuan ze
+很持久	hen chi jiu
+即时战术	ji shi zhan shu
+图个乐	tu ge le
+骑马与砍杀	qi ma yu kan sha
+骑砍	qi kan
+百玩不腻	bai wan bu ni
+星露谷	xing lu gu
+星露谷物语	xing lu gu wu yu
+旅者	lv zhe
+恋爱养成	lian ai yang cheng
+但说实话	dan shuo shi hua
+立绘	li hui
+人物立绘	ren wu li hui
+归家异途	gui jia yi tu
+漫野奇谭	man ye qi tan
+爱之深	ai zhi shen
+恨之切	hen zhi qie
+爱之深恨之切	ai zhi shen hen zhi qie
+爱之深则恨之切	ai zhi shen ze hen zhi qie
+满园春色关不住	man yuan chun se guan bu zhu
+那倒没有	na dao mei you
+写在纸上	xie zai zhi shang
+记在纸上	ji zai zhi shang
+实锤	shi chui
+名场面	ming chang mian
+经典名场面	jing dian ming chang mian
+永恒之火	yong heng zhi huo
+王权陨落	wang quan yun luo
+王权的陨落	wang quan de yun luo
+巫师之昆特牌	wu shi zhi kun te pai
+没牙仔	mei ya zai
+打开链接	da kai lian jie
+新标签	xin biao qian
+新标签页	xin biao qian ye
+新建标签页	xin jian biao qian ye
+栽有一棵	zai you yi ke
+杜松树	du song shu
+十分开心	shi fen kai xin
+回了屋	hui le wu
+一一拾起	yi yi shi qi
+一一吃掉	yi yi chi diao
+安葬在	an zang zai
+掴他耳光	guai ta er guang
+当然啦	dang ran la
+亲爱的宝贝	qin ai de bao bei
+就在这时	jiu zai zhe shi
+合上了	he hsang le
+怕极了	pa ji le
+哭个不停	ku ge bu ting
+端上桌	duan shang zhuo
+告个别	gao ge bie
+道个别	dao ge bie
+一大碗	yi da wan
+盛一大碗	cheng yi da wan
+都不剩	dou bu sheng
+烧得正旺	shao de zheng wang
+烧得旺	shao de wang
+金链子	jin lian zi
+一只拖鞋	yi zhi tuo xie
+再唱一遍	zai chang yi bian
+再说一遍	zai shuo yi bian
+山寨版	shan zhai ban
+开年大戏	kai nian da xi
+养成类	yang cheng lei
+养成类游戏	yang cheng lei you xi
+一爪子	yi zhua zi
+拍死你	pai si ni
+回应字段	hui ying zi duan
+协议头	xie yi tou
+字符串格式	zi fu chuan ge shi
+权重的质量	quan zhong de zhi liang
+火越烧越旺	huo yue shao yue wang
+酒越喝越暖	jiu yue he yue nuan
+暖暖的	nuan nuan de
+好贴心	hao tie xin
+野爹	ye die
+双胞胎哥哥	shuang bao tai ge ge
+杀人游戏	sha ren you xi
+屠边	tu bian
+一座围城	yi zuo wei cheng
+爱熄灭了灯	ai xi mie le deng
+心围一座城	xin wei yi zuo cheng
+熄灭了灯	xi mie le deng
+熄了灯	xi le deng
+灭了灯	mie le deng
+一座城池	yi zuo cheng chi
+比惨	bi can
+全民运动	quan min yun dong
+豆瓣读书	dou ban du shu
+豆瓣阅读	dou ban yue du
+微信读书	wei xin du shu
+应用下载	ying yong xia zai
+下载应用	xia zai ying yong
+打网游	da wang you
+找死啊	zhao si a
+一片荒野	yi pian huang ye
+看见前边	kan jian qian bian
+雇我	gu wo
+雇我吧	gu wo ba
+跟我走吧	gen wo zou ba
+帮得上	bang de shang
+帮得上忙	bang de shang mang
+逃得过	tao de guo
+逃得过我	tao de guo wo
+真够可以	zhen gou ke yi
+带上吧	dai shang ba
+抖个不停	dou ge bu ting
+我的体质	wo de ti zhi
+忽然见到	hu ran jian dao
+突然见到	tu ran jian dao
+长得能	chang de neng
+一枚戒指	yi mei jie zhi
+弯下腰	wan xia yao
+很惊讶	hen jing ya
+算你幸运	suan ni xing yun
+算你走运	suan ni zou yun
+算你好运	suan ni hao yun
+一小滴	yi xiao di
+一小滴酒	yi xiao di jiu
+一小滴水	yi xiao di shui
+请些客人	qing xie ke ren
+我准你	wo zhun ni
+也已解决	ye yi jie jue
+捣的什么鬼	dao de shen me gui
+开的什么玩笑	kai de shen me wan xiao
+六个仆人	liu ge pu ren
+犀利哥	xi li ge
+玩蛋去	wan dan qu
+玩儿蛋去	wan er dan qu
+十年之约	shi nian zhi yue
+有脸说	you lian shuo

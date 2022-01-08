@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2022-01-01"
+version: "2022-01-08"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -390,7 +390,33 @@ GBA	GBA
 GBC	GBC
 Game Boy	GameBoy
 uBlacklist	uBlacklist
-macOS	macOS	100
+Mac OS X	MacOSX	999
+Mac OS X Cheetah	MacOSX	1
+Mac OS X Puma	MacOSX	2
+Mac OS X Jaguar	MacOSX	3
+Mac OS X Panther	MacOSX	4
+Mac OS X Tiger	MacOSX	5
+Mac OS X Leopard	MacOSX	6
+Mac OS X Snow Leopard	MacOSX	7
+Mac OS X Lion	MacOSX	8
+Cheetah	Cheetah
+Puma	Puma
+Jaguar	Jaguar
+Panther	Panther
+Tiger	Tiger
+Leopard	Leopard
+Snow Leopard	SnowLeopard
+Lion	Lion
+OS X	OSX	999
+OS X Mountain Lion	OSX	1
+OS X Mavericks	OSX	2
+OS X Yosemite	OSX	3
+OS X El Capitan	OSX	4
+Mountain Lion	MountainLion
+Mavericks	Mavericks
+Yosemite	Yosemite
+El Capitan	ElCapitan
+macOS	macOS	999
 macOS Sierra	macOS	1
 macOS High Sierra	macOS	2
 macOS Mojave	macOS	3
@@ -403,12 +429,12 @@ macOS Mojave	macOSMojave
 macOS Catalina	macOSCatalina
 macOS Big Sur	macOSBigSur
 macOS Monterey	macOSMonterey
-Sierra	sierra
-High Sierra	highsierra
-Mojave	mojave
-Catalina	catalina
-Big Sur	bigsur
-Monterey	monterey
+Sierra	Sierra
+High Sierra	HighSierra
+Mojave	Mojave
+Catalina	Catalina
+Big Sur	BigSur
+Monterey	Monterey
 Apple	Apple
 Apple Watch	AppleWatch
 AppleCare	AppleCare
@@ -699,7 +725,8 @@ uBlock	uBlock
 Ulysses	Ulysses
 USB	USB
 Versions	Versions
-VPN	VPN
+VPN	VPN	2
+virtual private network	VPN	1
 Watch	Watch
 watchOS	watchOS
 Wi-Fi	waifai	100
@@ -793,3 +820,22 @@ PUA	PUA
 Docker	Docker
 Darcula	Darcula
 Objective-C	ObjectiveC
+Google Analytics	GoogleAnalytics
+Cloudflare Pages	CloudflarePages
+GitHub Pages	GitHubPages
+Coding Pages	CodingPages
+Gitee Pages	GiteePages
+CNAME	CNAME
+MX	MX
+macOS Server	macOSServer
+Darwin	Darwin
+NAS	NAS
+Olympic	Olympic
+Fork	Fork
+CommonMark	CommonMark
+Goldmark	Goldmark
+blackFriday	blackFriday
+Online	Online
+Raycast	Raycast
+CloudFront	CloudFront
+RSS	RSS
