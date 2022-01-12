@@ -27,4 +27,4 @@
 
 <br>
 
-详细介绍：[我的 Rime 配置 2022](https://dvel.me/post/2022-01-01/)
+详细介绍：[我的 Rime 配置 2022](https://dvel.me/post/my-rime-setting-2022/)
