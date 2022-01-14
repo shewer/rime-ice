@@ -7,10 +7,11 @@
 #
 ---
 name: en_ext
-version: "2022-01-08"
+version: "2022-01-14"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
+Dvel	Dvel
 CapsLock	CapsL
 CapsLock	CapsLo
 CapsLock	CapsLoc
@@ -839,3 +840,30 @@ Online	Online
 Raycast	Raycast
 CloudFront	CloudFront
 RSS	RSS
+gosh	gosh
+CocoaPods	CocoaPods
+Zsh	Zsh
+Oh My Zsh	OhMyZsh
+deploy	deploy
+SSH	SSH	2
+Secure Shell	SSH	1
+Secure Shell	SecureShell
+ProxyChains	ProxyChains
+AdSense	AdSense
+Google AdSense	GoogleAdSense
+Disqus	Disqus
+Waline	Waline
+Valine	Valine
+LeanCloud	LeanCloud
+PaperMod	PaperMod
+Vercel	Vercel
+chore	chore
+chores	chores
+SWAG	SWAG
+CS	CS
+Backblaze	Backblaze
+WebP	WebP
+CleanShot X	CleanShotX
+Setapp	Setapp
+IE	IE
+GraphQL	GraphQL

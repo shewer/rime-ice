@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2022-01-08"
+version: "2022-01-14"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -183,3 +183,4 @@ A 塔	ata
 平 A	pinga
 立 Flag	liflag
 C 罗	cluo
+IE 浏览器	ieliulanqi
