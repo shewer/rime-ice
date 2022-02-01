@@ -11,7 +11,7 @@
 # 词库不全，仅仅是自己看过的，觉得还不错的。。。
 ---
 name: av
-version: "2022-01-08"
+version: "2022-02-01"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -107,3 +107,4 @@ vocabulary: essay-zh-hans
 藤森里穗	teng sen li sui
 木村穗乃香	mu cun sui nai xiang
 神宫寺奈绪	shen gong si nai xu
+水卜樱	shui bu ying

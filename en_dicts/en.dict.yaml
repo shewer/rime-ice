@@ -5,7 +5,7 @@
 #
 ---
 name: en
-version: "2021-12-18"
+version: "2022-02-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -55,7 +55,7 @@ PS	PS	100
 Wire	Wire	100
 Guard	Guard	100
 GND	GND	100
-VCC	VCC	100
+# VCC	VCC	100
 API	API	100
 Alt+	Alt+	100
 Ctrl+	Ctrl+	100

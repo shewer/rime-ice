@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2022-01-14"
+version: "2022-02-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -376,9 +376,10 @@ gakki	gakki
 hey	hey
 iMazing	iMazing
 jQuery	jQuery
-jpg	jpg
-png	png
-gif	gif
+JPG	JPG
+JPEG	JPEG
+PNG	PNG
+GIF	GIF
 DNS	DNS
 shit	shit
 Mod	Mod
@@ -867,3 +868,37 @@ CleanShot X	CleanShotX
 Setapp	Setapp
 IE	IE
 GraphQL	GraphQL
+TOTP	TOTP	2
+Time-based One-Time Password	TOTP	1
+Unclutter	Unclutter
+Sitemap	Sitemap
+DuckDuckGo	DuckDuckGo
+Yandex	Yandex
+Geralt	Geralt
+ServerCat	ServerCat
+Zoho	Zoho
+Harington	Harington
+Hades	Hades
+Gecko	Gecko
+Omicron	Omicron
+TinyPNG	TinyPNG
+Thanos	Thanos
+Byte	Byte
+bytes	bytes
+bit	bit
+XML	XML
+Googlebot	Googlebot
+Baiduspider	Baiduspider
+Bingbot	Bingbot
+SogouSpider	SogouSpider
+YoudaoBot	YoudaoBot
+SWAT	SWAT
+footer	footer
+header	header
+GitHub Copilot	GitHubCopilot
+Blog	Blog
+iPadOS	iPadOS
+Apple Pencil	ApplePencil
+Reddit	Reddit
+HHKB	HHKB	2
+Happy Hacking Keyboard	HHKB	1
