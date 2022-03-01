@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2022-02-01"
+version: "2022-03-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -248,6 +248,7 @@ qBittorrent Enhanced Edition	qEE
 qBittorrent Enhanced Edition	qBEE
 qBittorrent Enhanced Edition	qBitEE
 qBittorrent Enhanced Edition	qBittorrentEE
+qBittorrent Enhanced Edition	qBittorrentEnhancedEdition
 Bittorrent	Bittorrent
 YAML	YAML
 TOML	TOML
@@ -446,7 +447,7 @@ Apple Store	AppleStore
 Apple TV	AppleTV
 Apple Developer	AppleDeveloper
 Apple File System	AppleFileSystem
-Apple ID	Apple ID
+Apple ID	AppleID
 Apple News	AppleNews
 Apple Pay	ApplePay
 AMD	AMD
@@ -502,7 +503,6 @@ Developer Preview	DeveloperPreview
 DEVONthink	DEVONthink
 Disk Utility	DiskUtility
 Diumoo	Diumoo
-DNA	DNA
 Dock	Dock
 Dropbox	Dropbox
 Dropzone	Dropzone
@@ -816,7 +816,7 @@ Nokia	Nokia
 OCR	OCR
 Déjà vu	Dejavu
 FFmpeg	FFmpeg
-Pokémon	Pokemon
+Pokemon	Pokemon
 DMCA	DMCA
 PUA	PUA
 Docker	Docker
@@ -902,3 +902,17 @@ Apple Pencil	ApplePencil
 Reddit	Reddit
 HHKB	HHKB	2
 Happy Hacking Keyboard	HHKB	1
+MAPPA	MAPPA
+SEO	SEO
+OCSP	OCSP
+Arthas	Arthas
+Wordle	Wordle
+Silicon Valley	SiliconValley
+Silicon	Silicon
+Pied Piper	PiedPiper
+Pikachu	Pikachu
+Fastmail	Fastmail
+rumour	rumour
+WordPress	WordPress
+done	done
+AOSP	AOSP

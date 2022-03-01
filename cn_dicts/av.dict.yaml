@@ -11,7 +11,7 @@
 # 词库不全，仅仅是自己看过的，觉得还不错的。。。
 ---
 name: av
-version: "2022-02-01"
+version: "2022-03-01"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -108,3 +108,5 @@ vocabulary: essay-zh-hans
 木村穗乃香	mu cun sui nai xiang
 神宫寺奈绪	shen gong si nai xu
 水卜樱	shui bu ying
+爱音麻里亚	ai yin ma li ya
+良音荠	liang yin ji
