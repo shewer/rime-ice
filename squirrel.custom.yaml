@@ -3,12 +3,14 @@ patch:
   show_notifications_when: always # options: always | never | appropriate
 
   # 皮肤可参考官方推荐 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
-  # 皮肤展示： https://github.com/qingmail/rime-pifu
-  # 修改教程： https://github.com/qingmail/rime#%E7%9A%AE%E8%82%A4
+  # 皮肤展示： https://github.com/NavisLab/rime-pifu
+  # 修改教程： https://github.com/ssnhd/rime
   # 图形化的皮肤设计器： https://github.com/LEOYoon-Tsaw/Squirrel-Designer
 
+  # 选择皮肤
   style/color_scheme: purity_of_form_custom
 
+  # 皮肤列表
   preset_color_schemes:
     purity_of_form_custom: # 对 purity_of_form 进行了略微调整，让色彩更柔和一点
       name: 純粹的形式／Purity of Form

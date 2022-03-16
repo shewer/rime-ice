@@ -23,7 +23,7 @@ patch:
     # - Control+grave
     # - Control+Shift+grave
     # - F4
-    [] # 无快捷键：只有一个方案、不切换全半角、不切换简繁等，可以设置为空数组
+    ~ # 无快捷键：只有一个方案、不切换全半角、不切换简繁等，可以设置为空
 
 
   # 按键绑定： https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
