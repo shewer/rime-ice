@@ -7,11 +7,14 @@
 #
 ---
 name: en_ext
-version: "2022-03-01"
+version: "2022-04-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
-Dvel	Dvel
+iPhone	iPhone	4
+iPhone 13	iPhone	3
+iPhone 13 Pro	iPhone	2
+iPhone SE	iPhone	1
 CapsLock	CapsL
 CapsLock	CapsLo
 CapsLock	CapsLoc
@@ -328,7 +331,6 @@ Markdown	Markdo
 Markdown	Markdow
 Markdown	Markdown
 Microsoft Access	Access
-Microsoft SQL Server	SQLServer
 MongoDB	Mong
 MongoDB	Mongo
 MongoDB	MongoD
@@ -350,7 +352,9 @@ Rust	Rust
 segmentfault	segmentfault
 SPA	SPA
 SQL	SQL
-SQL Server	SQLServer
+SQL Server	SQLServer	2
+Microsoft SQL Server	SQLServer	1
+Microsoft SQL Server	MicrosoftSQLServer
 SQLite	SQLite
 Sourcetree	Sourcetree
 Spiritfarer	Spiritfarer
@@ -441,10 +445,11 @@ Monterey	Monterey
 Apple	Apple
 Apple Watch	AppleWatch
 AppleCare	AppleCare
-AppleCare+	AppleCare+
+AppleCare+	AppleCare
 ATI	ATI
 Apple Store	AppleStore
 Apple TV	AppleTV
+Apple TV+	AppleTV
 Apple Developer	AppleDeveloper
 Apple File System	AppleFileSystem
 Apple ID	AppleID
@@ -561,7 +566,6 @@ iPad	iPad
 iPad Air	iPadAir
 iPad mini	iPadmini
 iPad Pro	iPadPro
-iPhone	iPhone
 IPN	IPN
 iPod	iPod
 IPTV	IPTV
@@ -902,6 +906,7 @@ Apple Pencil	ApplePencil
 Reddit	Reddit
 HHKB	HHKB	2
 Happy Hacking Keyboard	HHKB	1
+Happy Hacking Keyboard	HappyHackingKeyboard
 MAPPA	MAPPA
 SEO	SEO
 OCSP	OCSP
@@ -916,3 +921,52 @@ rumour	rumour
 WordPress	WordPress
 done	done
 AOSP	AOSP
+React	React
+TypeScript	TypeScript
+Unity	Unity
+MIUI	MIUI
+Shottr	Shottr
+Turbo Boost	TurboBoost
+Turbo Boost Switcher	TurboBoostSwitcher
+P2P	ptop
+OPPO	OPPO
+vivo	vivo
+Uno	Uno
+Gopher	Gopher
+GDPR	GDPR
+Netlify	Netlify
+Mac Studio	MacStudio
+Studio Display	StudioDisplay
+iPhone SE	iPhoneSE
+OC	OC
+Objective-C	OC
+Mac mini	Macmini
+Garena	Garena
+children	children
+WonderCV	WonderCV
+Spark	Spark
+WebKit	WebKit
+Blink	Blink
+Opera	Opera
+Igalia	Igalia
+WebCore	WebCore
+GNU	GNU
+Brave	Brave
+iPhone X	iPhoneX
+iPhone XS	iPhoneXS
+iPhone XS Max	iPhoneXSMax
+iPhone XR	iPhoneXR
+Delta	Delta
+Ukraine	Ukraine
+Minions	Minions
+Rush B	RushB
+Rush A	RushA
+AK	AK
+AK47	AK
+AK74	AK
+Mastercard	Mastercard
+COVID	COVID
+COVID-19	COVID
+Wallpaper Engine	WallpaperEngine
+Erlang	Erlang
+FAQ	FAQ

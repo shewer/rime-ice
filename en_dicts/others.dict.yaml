@@ -7,7 +7,7 @@
 #
 ---
 name: others
-version: "2021-12-05"
+version: "2022-04-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -43,7 +43,8 @@ Caps	Caps
 Return	Return
 Enter	Enter
 Space	Space
-Backspace	Backbackspace
+Backspace	Backspace
 Del	Del
+Delete	Delete
 Esc	Esc
 Eject	Eject

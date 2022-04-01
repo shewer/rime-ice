@@ -11,7 +11,7 @@
 # 词库不全，仅仅是自己看过的，觉得还不错的。。。
 ---
 name: av
-version: "2022-03-01"
+version: "2022-04-01"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -28,6 +28,7 @@ vocabulary: essay-zh-hans
 夏目彩春	xia mu cai chun
 星谷瞳	xing gu tong
 星野遥	xing ye yao
+本田岬	ben tian jia
 
 # 简体和日文不同的：
 爱田飞鸟	ai tian fei niao
@@ -110,3 +111,7 @@ vocabulary: essay-zh-hans
 水卜樱	shui bu ying
 爱音麻里亚	ai yin ma li ya
 良音荠	liang yin ji
+本庄铃	ben zhuang ling
+明日花绮罗	ming ri hua qi luo
+大桥未久	da qiao wei jiu
+濑名光莉	lai ming guang li

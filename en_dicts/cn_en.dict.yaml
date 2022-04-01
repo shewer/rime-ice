@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2022-03-01"
+version: "2022-04-01"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -16,7 +16,7 @@ UU 加速器	uujiasuqi
 Cinity 厅	Cinity
 Cinity 厅	Cinityting
 Eul 的神圣法杖	eul
-Eul 的神圣法杖	eul de shen sheng fa zhang
+Eul 的神圣法杖	euldeshenshengfazhang
 A 杖	azhang
 红 Buff	hongbuff
 蓝 Buff	lanbuff
@@ -193,3 +193,9 @@ B 面	bmian
 C 面	cmian
 D 面	dmian
 Server 酱	serverjiang
+P 图	ptu
+P 个图	pgetu
+P 一下	pyixia
+芭比 Q	babiq
+S 级	sji
+QQ 堂	qqtang
