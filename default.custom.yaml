@@ -1,5 +1,6 @@
 # 继承自 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/default.yaml
 patch:
+  # 可以挂载多个方案
   schema_list:
     - schema: pinyin_simp
 
@@ -8,17 +9,17 @@ patch:
   menu/page_size: 5
 
 
-  # 下面设置的整体效果：不用 CapsLock 和 Shift 切换输入法，切换输入法使用系统快捷键，如 Ctrl/Cmd + 空格
+  # 下面设置的整体效果：不用 CapsLock 和 Shift 切换输入法或中英，使用系统快捷键切换输入法，如 Ctrl/Cmd + 空格
   ascii_composer/good_old_caps_lock: true # Caps 只切换大小写
   ascii_composer/switch_key:
     Caps_Lock: commit_text # 打字打到一半时按下了 Caps 后： commit_code 上屏拼音的英文字母； commit_text 上屏拼音拼出的词语
-    Shift_L: noop
-    Shift_R: noop
+    Shift_L: noop # 或 commit_code，用 Shift 切换中英文
+    Shift_R: noop # 或 commit_code，用 Shift 切换中英文
     Control_L: noop
     Control_R: noop
 
 
-  # 切换方案、简繁、全半角的快捷键
+  # 呼出输入法菜单的快捷键，切换方案、简繁、全半角、中英文符号等。
   switcher/hotkeys:
     # - Control+grave
     # - Control+Shift+grave
