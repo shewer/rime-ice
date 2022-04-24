@@ -1,6 +1,6 @@
 # 继承自 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/default.yaml
 patch:
-  # 可以挂载多个方案
+  # 方案列表
   schema_list:
     - schema: pinyin_simp
 
@@ -9,12 +9,11 @@ patch:
   menu/page_size: 5
 
 
-  # 下面设置的整体效果：不用 CapsLock 和 Shift 切换输入法或中英，使用系统快捷键切换输入法，如 Ctrl/Cmd + 空格
   ascii_composer/good_old_caps_lock: true # Caps 只切换大小写
   ascii_composer/switch_key:
-    Caps_Lock: commit_text # 打字打到一半时按下了 Caps 后： commit_code 上屏拼音的英文字母； commit_text 上屏拼音拼出的词语
-    Shift_L: noop # 或 commit_code，用 Shift 切换中英文
-    Shift_R: noop # 或 commit_code，用 Shift 切换中英文
+    Caps_Lock: commit_text # 打字打到一半时按下了 Caps 后： commit_code 上屏拼音的英文字母 | commit_text 上屏拼音拼出的词语
+    Shift_L: noop # noop | commit_code ，是否用 Shift 切换中英文
+    Shift_R: noop # macOS 不会单独响应这个，设定上面那个，左右 Shift 都管用
     Control_L: noop
     Control_R: noop
 
@@ -27,9 +26,17 @@ patch:
     ~ # 无快捷键：只有一个方案、不切换全半角、不切换简繁等，可以设置为空
 
 
-  # 按键绑定： https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
-  # 本地文件： /Library/Input Methods/Squirrel.app/Contents/SharedSupport/key_bindings.yaml
+  # 快捷键设定
   key_binder/bindings:
+    # 简繁切换
+    - {accept: "Control+Shift+4", toggle: traditionalization, when: always}
+    - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
+    - {accept: "Control+slash",   toggle: traditionalization, when: always}  # Ctrl + /
+    # 切换中英文标点
+    # - {accept: "Control+Shift+A", toggle: ascii_punct, when: always}
+
+# 按键绑定： https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+# 本地文件： /Library/Input Methods/Squirrel.app/Contents/SharedSupport/key_bindings.yaml
     # emacs_editing:
     # - { when: composing, accept: Control+p, send: Up }
     # - { when: composing, accept: Control+n, send: Down }
