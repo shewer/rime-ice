@@ -1,8 +1,5 @@
 patch:
-  # 实际体验没有发现 always 和 appropriate 有什么区别。。。
-  show_notifications_when: always # options: always | never | appropriate
-
-  # 皮肤可参考官方推荐 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
+  # 皮肤可参考官方内置 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
   # 皮肤展示： https://github.com/NavisLab/rime-pifu
   # 修改教程： https://github.com/ssnhd/rime
   # 图形化的皮肤设计器： https://github.com/LEOYoon-Tsaw/Squirrel-Designer
@@ -21,13 +18,13 @@ patch:
       hilited_text_color: 0xeeeeee
       hilited_back_color: 0x444444
       hilited_candidate_text_color: 0x000000
-      hilited_candidate_back_color: 0xE3E3E3 #0xfafafa
+      hilited_candidate_back_color: 0xe3e3e3 #0xfafafa
       comment_text_color: 0x808080
       font_face: "PingFangSC"
       font_point: 18
       label_font_point: 13
 
-  # 可参考 https://github.com/rime/squirrel/blob/69112996441fdae1d1778ac9a32eb98f6a8e7841/data/squirrel.yaml
+  # 可参考 https://github.com/rime/squirrel/blob/master/data/squirrel.yaml
   app_options:    # App默认英文
     # com.apple.Spotlight:
     #     ascii_mode: true      # 默认英文
