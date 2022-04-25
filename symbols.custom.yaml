@@ -10,7 +10,7 @@
 # 星座、节气、八卦、人民币大写等改成了简体（保留了八卦的「乾」）
 # 增加了一些个人用的 Emoji 和符号
 
-config_version: '2022-04-01'
+config_version: '2022-04-25'
 
 patch:
   punctuator/import_preset: symbols
@@ -386,6 +386,10 @@ punctuator:
     'vxia': [↓]
     'vzuo': [←]
     'vyou': [→, 'V 友']
+    'vzuoshang': [↖]
+    'vyoushang': [↗]
+    'vzuoxia': [↙]
+    'vyouxia': [↘]
     'vzuoyou': [↔︎, ⇔, ⇋]
     'vdian': [·]
     'vjgh': [·]
@@ -394,9 +398,13 @@ punctuator:
     'vcuo': [✗, ✘, ❎, ❌]
     'vcheng': [×]
     'vchu': [÷]
+    'vxiaoyu': [<, ≤]
+    'vdayu': ['>', ≥]
+    'vbudeng': [≠]
+    'vbudengyu': [≠]
     'vssd': [°C]
     'vhsd': [°F]
-    'vdu': [°]
+    'vdu': [°, °C, °F]
     'vpi': [π]
     'vpai': [π]
     'vwanzi': [卍]

@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2022-04-01"
+version: "2022-04-25"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -199,3 +199,13 @@ P 一下	pyixia
 芭比 Q	babiq
 S 级	sji
 QQ 堂	qqtang
+PIN 码	pinma
+PUK 码	pukma
+关底 BOSS	guandiboss
+AA 吧	aaba
+喊 cut	hancut
+ASCII 码	asciima
+Go 圣经	goshengjing
+江南 Style	jiangnanstyle
+goroutines	goroutines
+头文字 D	touwenzid

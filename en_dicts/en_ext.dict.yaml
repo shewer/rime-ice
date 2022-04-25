@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2022-04-01"
+version: "2022-04-25"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -66,6 +66,8 @@ Benjamin	Benjamin
 AlphaGo	AlphaGo
 Valve	Valve
 CS:GO	CSGO
+Counter-Strike: Global Offensive	CSGO
+Counter-Strike	CounterStrike
 Tesla	Tesla
 Polo	Polo
 Code Runner	CodeRunner
@@ -243,6 +245,7 @@ Shadowsocks	Shadowsocks
 PC	PC
 iStat	iStat
 ClashX	ClashX
+ClashX Pro	ClashXPro
 tracker	tracker
 trackers	trackers
 qBittorrent	qBittorrent
@@ -486,6 +489,7 @@ Charles	Charles
 CheatSheet	CheatSheet
 ChemBioDraw	ChemBioDraw
 Clean My Mac	CleanMyMac
+Clean My Mac X	CleanMyMacX
 CloudApp	CloudApp
 CloudMagic	CloudMagic
 Coda	Coda
@@ -724,7 +728,6 @@ Trello	Trello
 Tumblr	Tumblr
 tvOS	tvOS
 Tweetbot	Tweetbot
-Twitter	Twitter
 Typora	Typora
 Uber	Uber
 uBlock	uBlock
@@ -970,3 +973,39 @@ COVID-19	COVID
 Wallpaper Engine	WallpaperEngine
 Erlang	Erlang
 FAQ	FAQ
+Panamera	Panamera
+FaceTime	FaceTime
+Jordan	Jordan
+Thompson	Thompson
+LMAO	LMAO
+Vivaldi	Vivaldi
+Cryptomator	Cryptomator
+WTF	WTF
+ASAP	ASAP
+PUBG	PUBG
+Ruby	Ruby
+GFM	GFM	2
+GitHub Flavored Markdown	GFM	1
+GitHub Flavored Markdown	GitHubFlavoredMarkdown
+GeekNote	GeekNote
+GUI	GUI	2
+Graphical User Interface	GUI	1
+Graphical User Interface	GraphicalUserInterface
+VPS	VPS
+BIOS	BIOS
+unbelievable	unbelievable
+goroutine	goroutine
+Celsius	Celsius
+Fahrenheit	Fahrenheit
+nil	nil
+NULL	NULL
+Slice	Slice
+Map	Map
+Mojito	Mojito
+ISO	ISO	2
+ISO 8601	ISO	1
+RFC	RFC	2
+RFC 3339	RFC	1
+Bob	Bob
+Toolbox	Toolbox
+Weasel	Weasel

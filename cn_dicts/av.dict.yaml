@@ -5,13 +5,13 @@
 #
 # 著名表演艺术家
 #
-# 希望的效果是：输入艺术家的名字后，希望第一个候选项永远是中文，第二个候选项永远是日文（方便在某些网站上检索）
+# 希望的效果是：输入艺术家的名字后，希望第一个候选项永远是中文，第二个候选项永远是日文（方便在 javdb.com 上检索😅）
 # 对于中日文不同的，需要现在这里添加进词库，这样在 opcc/ 中的映射就会起作用了。
 # 输入「相泽南」后，会被映射为「相泽南 相沢みなみ」。
 # 词库不全，仅仅是自己看过的，觉得还不错的。。。
 ---
 name: av
-version: "2022-04-01"
+version: "2022-04-25"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -115,3 +115,6 @@ vocabulary: essay-zh-hans
 明日花绮罗	ming ri hua qi luo
 大桥未久	da qiao wei jiu
 濑名光莉	lai ming guang li
+栗山莉绪	li shan li xu
+纱纱原百合	sha sha yuan bai he
+堀北湾	ku bei wan
