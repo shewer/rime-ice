@@ -7,7 +7,7 @@
 #
 ---
 name: cn_en
-version: "2022-04-25"
+version: "2022-04-28"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -209,3 +209,4 @@ Go 圣经	goshengjing
 江南 Style	jiangnanstyle
 goroutines	goroutines
 头文字 D	touwenzid
+三无 Marblue	sanwumarblue

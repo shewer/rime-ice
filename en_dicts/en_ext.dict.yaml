@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2022-04-25"
+version: "2022-04-28"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -1009,3 +1009,7 @@ RFC 3339	RFC	1
 Bob	Bob
 Toolbox	Toolbox
 Weasel	Weasel
+Niconico	Niconico
+TickTick	TickTick
+CHDBits	CHDBits
+M-team	Mteam
