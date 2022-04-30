@@ -5,7 +5,7 @@
 #
 ---
 name: en
-version: "2022-02-01"
+version: "2022-04-30"
 sort: by_weight
 # vocabulary: essay-zh-hans
 ...
@@ -87,7 +87,7 @@ Arch	Arch	100
 iOS	iOS	100
 Linux	Linux	100
 Ubuntu	Ubuntu	100
-Windows	Windows	100
+# Windows	Windows	100
 Microsoft	Microsoft	100
 Nintendo	Nintendo	100
 Google	Google	100
@@ -6349,7 +6349,7 @@ yet	yet	100
 yield	yield	100
 yoke	yoke	100
 yolk	yolk	100
-you	you	100
+# you	you	100
 young	young	100
 youngster	youngster	100
 your	your	100
