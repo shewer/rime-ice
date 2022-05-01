@@ -7,8 +7,7 @@
 #
 ---
 name: sys_ext
-# 版本号与搜狗流行词同步 https://pinyin.sogou.com/dict/detail/index/4
-version: "2022-04-29"
+version: "2022-05-01"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -370,6 +369,7 @@ vocabulary: essay-zh-hans
 艾俄洛斯	ai e luo si
 艾恩葛朗特	ai en ge lang te
 艾尔巴	ai er ba
+艾尔宾	ai er bin
 爱而不藏	ai er bu cang
 艾尔登	ai er deng
 艾尔登法环	ai er deng fa huan
@@ -1393,6 +1393,7 @@ vocabulary: essay-zh-hans
 八点零	ba dian ling
 八斗士	ba dou shi
 八斗之才	ba dou zhi cai
+八渡笋	ba du sun
 八段摔	ba duan shuai
 芭朵斯	ba duo si
 八恶人	ba e ren
@@ -2636,7 +2637,6 @@ vocabulary: essay-zh-hans
 八匹马	ba pi ma
 八片儿	ba pian er
 芭瓢虫	ba piao chong
-八婆	ba po
 八七八八	ba qi ba ba
 八七八八年	ba qi ba ba nian
 八七八二	ba qi ba er
@@ -4928,6 +4928,7 @@ vocabulary: essay-zh-hans
 包汤圆	bao tang yuan
 宝通科技	bao tong ke ji
 包头疫情	bao tou yi qing
+包头鱼	bao tou yu
 抱团养老	bao tuan yang lao
 报完道	bao wan dao
 报完税	bao wan shui
@@ -5387,6 +5388,7 @@ vocabulary: essay-zh-hans
 逼都让你装了	bi dou rang ni zhuang le
 必读书	bi du shu
 必读书目	bi du shu mu
+避毒丸	bi du wan
 比对复查	bi dui fu cha
 比尔博	bi er bo
 比尔吉沃特	bi er ji wo te
@@ -6209,6 +6211,7 @@ vocabulary: essay-zh-hans
 不出校	bu chu xiao
 不出小区	bu chu xiao qu
 不出阴阳八卦形	bu chu yin yang ba gua xing
+不出渝	bu chu yu
 不出远门	bu chu yuan men
 不传豹	bu chuan bao
 不传播	bu chuan bo
@@ -6265,8 +6268,10 @@ vocabulary: essay-zh-hans
 不到十天	bu dao shi tian
 不到四百	bu dao si bai
 不得不放弃	bu de bu fang qi
+不得不服	bu de bu fu
 不得不服老	bu de bu fu lao
 不得不服老啊	bu de bu fu lao a
+不得不说	bu de bu shuo
 不得不死	bu de bu si
 不得低于	bu de di yu
 不得回	bu de hui
@@ -6585,6 +6590,8 @@ vocabulary: essay-zh-hans
 不可能不知道	bu ke neng bu zhi dao
 不可能打工	bu ke neng da gong
 不可能打工的	bu ke neng da gong de
+不可能的事	bu ke neng de shi
+不可能的事儿	bu ke neng de shi er
 不可配送	bu ke pei song
 不可弃	bu ke qi
 不可取消	bu ke qu xiao
@@ -6664,6 +6671,7 @@ vocabulary: essay-zh-hans
 不离深	bu li shen
 不离市	bu li shi
 布里斯托尔	bu li si tuo er
+不离穗	bu li sui
 不离校	bu li xiao
 不离邕	bu li yong
 不离渝	bu li yu
@@ -7215,6 +7223,7 @@ vocabulary: essay-zh-hans
 不要温度	bu yao wen du
 不要下雨	bu yao xia yu
 不要心急	bu yao xin ji
+不要犹豫	bu yao you yu
 不要再这样	bu yao zai zhe yang
 不要再这样了	bu yao zai zhe yang le
 不要战争	bu yao zhan zheng
@@ -7269,6 +7278,7 @@ vocabulary: essay-zh-hans
 不在京	bu zai jing
 不再哭	bu zai ku
 不再哭泣	bu zai ku qi
+不再枯燥	bu zai ku zao
 不再年轻	bu zai nian qing
 不再去	bu zai qu
 不在一个位面	bu zai yi ge wei mian
@@ -8040,6 +8050,7 @@ vocabulary: essay-zh-hans
 长生仙	chang sheng xian
 常石磊	chang shi lei
 长十米	chang shi mi
+尝试去	chang shi qu
 昌叔	chang shu
 长舒了口气	chang shu le kou qi
 常熟人	chang shu ren
@@ -9576,6 +9587,7 @@ vocabulary: essay-zh-hans
 穿搭达人	chuan da da ren
 穿搭秀	chuan da xiu
 川岛爱	chuan dao ai
+穿的衣服	chuan de yi fu
 传递国旗	chuan di guo qi
 传递火炬	chuan di huo ju
 传递能量	chuan di neng liang
@@ -10325,6 +10337,7 @@ vocabulary: essay-zh-hans
 大耳光	da er guang
 达尔坎	da er kan
 达尔坎德拉希尔	da er kan de la xi er
+大而宽	da er kuan
 大发明	da fa ming
 大发明家	da fa ming jia
 大发明家黑默丁格	da fa ming jia hei mo ding ge
@@ -10885,6 +10898,7 @@ vocabulary: essay-zh-hans
 大娃	da wa
 大洼村	da wa cun
 答完卷	da wan juan
+大碗宽面	da wan kuan mian
 打完疫苗后	da wan yi miao hou
 大碗娱乐	da wan yu le
 大湾仔	da wan zai
@@ -11759,6 +11773,8 @@ vocabulary: essay-zh-hans
 得了便宜还卖乖	de le pian yi hai mai guai
 得了便宜卖乖	de le pian yi mai guai
 德雷尔	de lei er
+德雷克船长	de lei ke chuan zhang
+德雷克船长的宝藏	de lei ke chuan zhang de bao zang
 德雷克塔尔	de lei ke ta er
 德雷斯罗萨	de lei si luo sa
 德里克罗斯	de li ke luo si
@@ -12458,6 +12474,7 @@ vocabulary: essay-zh-hans
 电光舞	dian guang wu
 电耗子	dian hao zi
 电弧灯	dian hu deng
+电话号	dian hua hao
 电火桶	dian huo tong
 点火仪式	dian huo yi shi
 癫火之王	dian huo zhi wang
@@ -12548,13 +12565,16 @@ vocabulary: essay-zh-hans
 点一下赞	dian yi xia zan
 点一盏灯	dian yi zhan deng
 点映	dian ying
+电影版	dian ying ban
 电萤虫	dian ying chong
+电影地狱	dian ying di yu
 电影票价	dian ying piao jia
 电影评分	dian ying ping fen
 电影奇迹	dian ying qi ji
 电影试镜	dian ying shi jing
 电影天堂	dian ying tian tang
 电影宇宙	dian ying yu zhou
+电影院倒闭	dian ying yuan dao bi
 电影原声带	dian ying yuan sheng dai
 点赞榜	dian zan bang
 店长盖伦	dian zhang gai lun
@@ -12864,6 +12884,8 @@ vocabulary: essay-zh-hans
 东都屹景	dong du yi jing
 冻耳朵	dong er duo
 懂法守法	dong fa shou fa
+东方不亮	dong fang bu liang
+东方不胜	dong fang bu sheng
 东方电缆	dong fang dian lan
 东方风云榜	dong fang feng yun bang
 东方红一号	dong fang hong yi hao
@@ -13258,6 +13280,7 @@ vocabulary: essay-zh-hans
 毒臭鼬	du chou you
 毒刺水母	du ci shui mu
 杜达雄	du da xiong
+杜导正	du dao zheng
 杜德利	du de li
 堵得要死	du de yao si
 读懂中国	du dong zhong guo
@@ -14219,6 +14242,7 @@ vocabulary: essay-zh-hans
 尔等看好了	er deng kan hao le
 尔等受死	er deng shou si
 二段线	er duan xian
+二对二	er dui er
 二二八八	er er ba ba
 二二八八年	er er ba ba nian
 二二八二	er er ba er
@@ -14744,6 +14768,7 @@ vocabulary: essay-zh-hans
 二连跪	er lian gui
 二连破	er lian po
 二连胜	er lian sheng
+二两粮教	er liang liang jiao
 二零八八	er ling ba ba
 二〇八八	er ling ba ba
 二零八八年	er ling ba ba nian
@@ -17031,6 +17056,7 @@ vocabulary: essay-zh-hans
 范广惠	fan guang hui
 反光镜乐队	fan guang jing yue dui
 反光相机	fan guang xiang ji
+犯过错误	fan guo cuo wu
 翻过那座山	fan guo na zuo shan
 番海大桥	fan hai da qiao
 泛海控股	fan hai kong gu
@@ -17060,6 +17086,7 @@ vocabulary: essay-zh-hans
 返老孩童	fan lao hai tong
 范老三	fan lao san
 翻了船	fan le chuan
+犯了错误	fan le cuo wu
 樊丽明	fan li ming
 翻两页	fan liang ye
 反垄断局	fan long duan ju
@@ -17092,6 +17119,7 @@ vocabulary: essay-zh-hans
 饭圈	fan quan
 饭圈女孩	fan quan nv hai
 凡人二重唱	fan ren er chong chang
+凡人问道	fan ren wen dao
 凡人英雄	fan ren ying xiong
 凡人之躯	fan ren zhi qu
 繁荣发展	fan rong fa zhan
@@ -18370,6 +18398,8 @@ vocabulary: essay-zh-hans
 弗朗西斯卡	fu lang xi si ka
 扶老挈幼	fu lao qie you
 付了定金	fu le ding jin
+服了服了	fu le fu le
+服了吗	fu le ma
 服了你	fu le ni
 服了你了	fu le ni le
 富乐山	fu le shan
@@ -18382,6 +18412,7 @@ vocabulary: essay-zh-hans
 弗雷尔卓德之心	fu lei er zhuo de zhi xin
 弗雷尔卓德之心布隆	fu lei er zhuo de zhi xin bu long
 芙蕾娜	fu lei na
+弗雷斯彻	fu lei si che
 富力半岛	fu li ban dao
 福利车	fu li che
 弗里茨	fu li ci
@@ -18446,6 +18477,7 @@ vocabulary: essay-zh-hans
 负面评价	fu mian ping jia
 富民桥	fu min qiao
 富民为始	fu min wei shi
+傅明修	fu ming xiu
 附魔	fu mo
 伏魔录	fu mo lu
 伏魔团	fu mo tuan
@@ -18714,7 +18746,6 @@ vocabulary: essay-zh-hans
 盖利德	gai li de
 盖里奇	gai li qi
 该留下来	gai liu xia lai
-该溜子	gai liu zi
 盖楼房	gai lou fang
 盖伦打野	gai lun da ye
 盖伦特	gai lun te
@@ -19761,6 +19792,7 @@ vocabulary: essay-zh-hans
 跟别人跑了	gen bie ren pao le
 跟打	gen da
 跟党走	gen dang zou
+跟风者	gen feng zhe
 跟个娘儿们似的	gen ge niang er men shi de
 跟个娘们似的	gen ge niang men shi de
 跟过年	gen guo nian
@@ -20298,6 +20330,7 @@ vocabulary: essay-zh-hans
 古典玄幻	gu dian xuan huan
 固定链接	gu ding lian jie
 古董人偶	gu dong ren ou
+鼓动人心	gu dong ren xin
 孤独长生	gu du chang sheng
 孤独的光辉	gu du de guang hui
 孤独的狼	gu du de lang
@@ -20316,6 +20349,7 @@ vocabulary: essay-zh-hans
 顾二叔	gu er shu
 古法秘制	gu fa mi zhi
 顾非池	gu fei chi
+顾逢恩	gu feng en
 古风卡	gu feng ka
 古戈尔	gu ge er
 谷个歌	gu ge ge
@@ -20624,6 +20658,7 @@ vocabulary: essay-zh-hans
 官方提示	guan fang ti shi
 官方提醒	guan fang ti xing
 官方通报	guan fang tong bao
+官方推荐	guan fang tui jian
 官方推特	guan fang tui te
 官方文档	guan fang wen dang
 官方账号	guan fang zhang hao
@@ -20668,6 +20703,7 @@ vocabulary: essay-zh-hans
 观今夜天象	guan jin ye tian xiang
 关菊英	guan ju ying
 官俊臣	guan jun chen
+冠军鼎	guan jun ding
 冠军盾	guan jun dun
 冠军飞将	guan jun fei jiang
 冠军粉	guan jun fen
@@ -20712,7 +20748,6 @@ vocabulary: essay-zh-hans
 关山湖	guan shan hu
 关山桥	guan shan qiao
 观山太保	guan shan tai bao
-莞式	guan shi
 莞式服务	guan shi fu wu
 关淑怡	guan shu yi
 管他几岁	guan ta ji sui
@@ -21741,6 +21776,7 @@ vocabulary: essay-zh-hans
 海利生物	hai li sheng wu
 海狸先生	hai li xian sheng
 海利亚	hai li ya
+海量的	hai liang de
 海龙湖	hai long hu
 海楼石	hai lou shi
 海楼石手铐	hai lou shi shou kao
@@ -24344,6 +24380,7 @@ vocabulary: essay-zh-hans
 还房贷	huan fang dai
 换封面	huan feng mian
 换个地址	huan ge di zhi
+换个工作	huan ge gong zuo
 换个口味	huan ge kou wei
 还给你吧	huan gei ni ba
 还给你钱	huan gei ni qian
@@ -25026,6 +25063,7 @@ vocabulary: essay-zh-hans
 回应了	hui ying le
 回应字段	hui ying zi duan
 惠邕保	hui yong bao
+惠友到家	hui you dao jia
 会有红包	hui you hong bao
 惠游湖北	hui you hu bei
 会有惊喜	hui you jing xi
@@ -25637,6 +25675,7 @@ vocabulary: essay-zh-hans
 吉克隽逸	ji ke jun yi
 饥渴难耐	ji ke nan nai
 几颗糖	ji ke tang
+即刻为止	ji ke wei zhi
 极客鞋谈	ji ke xie tan
 吉克·耶格尔	ji ke ye ge er
 寄快递	ji kuai di
@@ -26379,6 +26418,7 @@ vocabulary: essay-zh-hans
 坚持自我革命	jian chi zi wo ge ming
 剑出鞘	jian chu qiao
 剪窗花	jian chuang hua
+健达巧克力	jian da qiao ke li
 煎蛋饼	jian dan bing
 简单的几何学	jian dan de ji he xue
 简单的幸福	jian dan de xing fu
@@ -26980,6 +27020,7 @@ vocabulary: essay-zh-hans
 饺饼筒	jiao bing tong
 叫不到车	jiao bu dao che
 交不了费	jiao bu liao fei
+教场中路	jiao chang zhong lu
 交车贷	jiao che dai
 蛟川街道	jiao chuan jie dao
 焦大鹏	jiao da peng
@@ -27385,6 +27426,8 @@ vocabulary: essay-zh-hans
 结义树	jie yi shu
 解引用	jie yin yong
 解忧铺	jie you pu
+解忧杂货店	jie you za huo dian
+解忧杂货铺	jie you za huo pu
 届雨果奖	jie yu guo jiang
 结缘教堂	jie yuan jiao tang
 皆愿生啖你肉	jie yuan sheng dan ni rou
@@ -28036,6 +28079,8 @@ vocabulary: essay-zh-hans
 金州湾	jin zhou wan
 金砖会议	jin zhuan hui yi
 金装律师	jin zhuang lv shi
+尽自己	jin zi ji
+尽自己最大	jin zi ji zui da
 金字旁	jin zi pang
 金紫怡	jin zi yi
 禁足令	jin zu ling
@@ -29174,6 +29219,7 @@ vocabulary: essay-zh-hans
 九九一五年	jiu jiu yi wu nian
 九九一一	jiu jiu yi yi
 九九一一年	jiu jiu yi yi nian
+就觉得压抑	jiu jue de ya yi
 九君子	jiu jun zi
 就靠你了	jiu kao ni le
 九颗星	jiu ke xing
@@ -31512,7 +31558,9 @@ vocabulary: essay-zh-hans
 绝不手软	jue bu shou ruan
 绝不原谅	jue bu yuan liang
 决策过程中	jue ce guo cheng zhong
+绝代美女	jue dai mei nv
 绝代艳后	jue dai yan hou
+觉得压抑	jue de ya yi
 绝地反击	jue di fan ji
 绝地反杀	jue di fan sha
 绝地求生	jue di qiu sheng
@@ -31701,6 +31749,7 @@ vocabulary: essay-zh-hans
 咖啡市	ka fei shi
 咖啡因公园	ka fei yin gong yuan
 咖啡遇上香草	ka fei yu shang xiang cao
+卡副本	ka fu ben
 卡冈图雅	ka gang tu ya
 卡盒剑	ka he jian
 卡喉咙	ka hou long
@@ -31762,6 +31811,7 @@ vocabulary: essay-zh-hans
 卡彭	ka peng
 卡彭·贝基	ka peng bei ji
 卡朋特乐队	ka peng te yue dui
+卡片儿	ka pian er
 卡片上	ka pian shang
 卡普	ka pu
 卡璞蝶蝶	ka pu die die
@@ -31803,6 +31853,7 @@ vocabulary: essay-zh-hans
 卡伊洛斯	ka yi luo si
 卡遇境	ka yu jing
 卡在中间	ka zai zhong jian
+卡住了	ka zhu le
 卡兹克	ka zi ke
 凯奥斯	kai ao si
 开冰箱	kai bing xiang
@@ -32824,6 +32875,7 @@ vocabulary: essay-zh-hans
 可以写完	ke yi xie wan
 可以制作	ke yi zhi zuo
 可以自己做	ke yi zi ji zuo
+克油克油	ke you ke you
 可与人说	ke yu ren shuo
 可与人说无一二	ke yu ren shuo wu yi er
 可与人言	ke yu ren yan
@@ -33310,11 +33362,13 @@ vocabulary: essay-zh-hans
 狂武藏	kuang wu zang
 狂小狗	kuang xiao gou
 旷学	kuang xue
+旷野教	kuang ye jiao
 狂野模式	kuang ye mo shi
 狂野男孩	kuang ye nan hai
 狂野女猎手	kuang ye nv lie shou
 狂野女猎手奈德丽	kuang ye nv lie shou nai de li
 狂野西部	kuang ye xi bu
+旷野窄门	kuang ye zhai men
 旷野之息	kuang ye zhi xi
 狂饮琼浆数百盅	kuang yin qiong jiang shu bai zhong
 狂战斧	kuang zhan fu
@@ -33841,6 +33895,7 @@ vocabulary: essay-zh-hans
 蓝又时	lan you shi
 兰渝铁路	lan yu tie lu
 蓝原延珠	lan yuan yan zhu
+揽月阁	lan yue ge
 蓝战士	lan zhan shi
 蓝杖	lan zhang
 蓝照国	lan zhao guo
@@ -34701,6 +34756,7 @@ vocabulary: essay-zh-hans
 李茜	li qian
 李前宽	li qian kuan
 李千娜	li qian na
+李千雅	li qian ya
 李乔治	li qiao zhi
 李沁	li qin
 李亲顾	li qin gu
@@ -35196,6 +35252,7 @@ vocabulary: essay-zh-hans
 莲叶童子	lian ye tong zi
 连音社	lian yin she
 连营	lian ying
+鲢鳙鱼	lian yong yu
 镰鼬	lian you
 镰鼬之术	lian you zhi shu
 炼狱茨木童子	lian yu ci mu tong zi
@@ -35676,6 +35733,7 @@ vocabulary: essay-zh-hans
 林家栋	lin jia dong
 林家街	lin jia jie
 鳞甲龙	lin jia long
+林嘉佩	lin jia pei
 林家堡	lin jia pu
 林家堡主霸一方	lin jia pu zhu ba yi fang
 林佳蓉	lin jia rong
@@ -39191,6 +39249,7 @@ vocabulary: essay-zh-hans
 柳子琪	liu zi qi
 刘子曦	liu zi xi
 刘子行	liu zi xing
+刘宗保	liu zong bao
 刘宗立	liu zong li
 刘祖德	liu zu de
 龙傲天	long ao tian
@@ -39604,6 +39663,7 @@ vocabulary: essay-zh-hans
 乱步轩	luan bu xuan
 乱穿衣	luan chuan yi
 乱打分	luan da fen
+乱刀峪	luan dao yu
 乱哈拉	luan ha la
 乱哈拉什么东西	luan ha la shen me dong xi
 孪河城	luan he cheng
@@ -39855,6 +39915,7 @@ vocabulary: essay-zh-hans
 罗忆诗	luo yi shi
 罗一舟	luo yi zhou
 罗英锡	luo ying xi
+落樱小屋	luo ying xiao wu
 落英掌	luo ying zhang
 罗永祥	luo yong xiang
 裸域	luo yu
@@ -39931,6 +39992,7 @@ vocabulary: essay-zh-hans
 绿色奥运	lv se ao yun
 绿色办奥	lv se ban ao
 绿色长城	lv se chang cheng
+绿色的	lv se de
 绿色恶魔	lv se e mo
 绿色发展	lv se fa zhan
 绿色公交	lv se gong jiao
@@ -41394,6 +41456,7 @@ vocabulary: essay-zh-hans
 没有教养的人都是	mei you jiao yang de ren dou shi
 没有脚印的土壤	mei you jiao yin de tu rang
 没有节假日	mei you jie jia ri
+没有捷径	mei you jie jing
 没有卡姆的日子	mei you ka mu de ri zi
 没有考好	mei you kao hao
 没有考上	mei you kao shang
@@ -41560,6 +41623,7 @@ vocabulary: essay-zh-hans
 梦飞船	meng fei chuan
 梦浮灯	meng fu deng
 梦符祭	meng fu ji
+蒙福派	meng fu pai
 梦歌奈亚	meng ge nai ya
 蒙葛特	meng ge te
 蒙格温	meng ge wen
@@ -41632,6 +41696,7 @@ vocabulary: essay-zh-hans
 猛兽区	meng shou qu
 蒙速办	meng su ban
 蒙特祖玛	meng te zu ma
+蒙头教	meng tou jiao
 梦图记	meng tu ji
 孟晚舟	meng wan zhou
 孟晚舟女士	meng wan zhou nv shi
@@ -41731,6 +41796,7 @@ vocabulary: essay-zh-hans
 密接码	mi jie ma
 密接人员	mi jie ren yuan
 密接者	mi jie zhe
+秘境探险	mi jing tan xian
 秘境召唤	mi jing zhao huan
 蜜橘之夏	mi ju zhi xia
 米卡莎	mi ka sha
@@ -42736,6 +42802,7 @@ vocabulary: essay-zh-hans
 牧业经济	mu ye jing ji
 木叶烈风	mu ye lie feng
 木叶忍者	mu ye ren zhe
+木叶三忍	mu ye san ren
 木叶十二忍	mu ye shi er ren
 木叶丸	mu ye wan
 木叶旋风	mu ye xuan feng
@@ -42814,6 +42881,7 @@ vocabulary: essay-zh-hans
 拿户口本	na hu kou ben
 那画面太美	na hua mian tai mei
 那几个学校	na ji ge xue xiao
+那集里	na ji li
 那几所	na ji suo
 娜吉雅	na ji ya
 娜迦公主	na jia gong zhu
@@ -42947,6 +43015,7 @@ vocabulary: essay-zh-hans
 那学费	na xue fei
 那一巴掌	na yi ba zhang
 哪一班	na yi ban
+哪一集	na yi ji
 哪一季	na yi ji
 那一间	na yi jian
 哪一排	na yi pai
@@ -44407,6 +44476,8 @@ vocabulary: essay-zh-hans
 排废水	pai fei shui
 派高手	pai gao shou
 排个便	pai ge bian
+拍黄片	pai huang pian
+拍黄片儿	pai huang pian er
 派军队	pai jun dui
 排考场	pai kao chang
 排扣裤	pai kou ku
@@ -44870,6 +44941,7 @@ vocabulary: essay-zh-hans
 偏厂儿	pian chang er
 片断经验	pian duan jing yan
 骗粉丝	pian fen si
+骗鬼呢	pian gui ne
 偏好设定	pian hao she ding
 骗老人	pian lao ren
 骗老人钱	pian lao ren qian
@@ -44897,6 +44969,7 @@ vocabulary: essay-zh-hans
 嫖娼去啊	piao chang qu a
 嫖娼事件	piao chang shi jian
 朴成民	piao cheng min
+票房惨淡	piao fang can dan
 票房大卖	piao fang da mai
 票房高	piao fang gao
 飘浮灵	piao fu ling
@@ -45067,6 +45140,7 @@ vocabulary: essay-zh-hans
 平世剑	ping shi jian
 凭手气	ping shou qi
 平舒镇	ping shu zhen
+平潭映象	ping tan ying xiang
 平天大圣	ping tian da sheng
 平天山	ping tian shan
 平胃丸	ping wei wan
@@ -47184,6 +47258,7 @@ vocabulary: essay-zh-hans
 七七一一年	qi qi yi yi nian
 七千块钱	qi qian kuai qian
 齐桥镇	qi qiao zhen
+齐乔正	qi qiao zheng
 气球鬼	qi qiu gui
 祈求平安	qi qiu ping an
 祈求者	qi qiu zhe
@@ -48864,6 +48939,7 @@ vocabulary: essay-zh-hans
 荞麦疯长	qiao mai feng zhang
 巧瞒七星	qiao man qi xing
 乔慕生	qiao mu sheng
+乔姆斯基	qiao mu si ji
 敲木鱼	qiao mu yu
 乔尼亚斯	qiao ni ya si
 锹农炮虫	qiao nong pao chong
@@ -49473,6 +49549,7 @@ vocabulary: essay-zh-hans
 穷不拉几	qiong bu la ji
 穷屌	qiong diao
 穷屌丝	qiong diao si
+穹顶之下	qiong ding zhi xia
 琼恩	qiong en
 琼恩雪诺	qiong en xue nuo
 穷二代	qiong er dai
@@ -49650,6 +49727,7 @@ vocabulary: essay-zh-hans
 驱虎吞狼之计	qu hu tun lang zhi ji
 区划代码	qu hua dai ma
 去花店	qu hua dian
+去换取	qu huan qu
 去火星	qu huo xing
 区级赛	qu ji sai
 去加油站	qu jia you zhan
@@ -49705,6 +49783,8 @@ vocabulary: essay-zh-hans
 去年差不多	qu nian cha bu duo
 去年分数线	qu nian fen shu xian
 去年今日	qu nian jin ri
+去年买了个	qu nian mai le ge
+去年买了个表	qu nian mai le ge biao
 去年双十一	qu nian shuang shi yi
 去年疫情	qu nian yi qing
 去年这个时候	qu nian zhe ge shi hou
@@ -50898,6 +50978,7 @@ vocabulary: essay-zh-hans
 如鱼水	ru yu shui
 入园照	ru yuan zhao
 入职体检	ru zhi ti jian
+入座率	ru zuo lv
 阮成发	ruan cheng fa
 阮大师	ruan da shi
 阮丹青	ruan dan qing
@@ -51378,6 +51459,7 @@ vocabulary: essay-zh-hans
 三重罗生门	san chong luo sheng men
 三次分配	san ci fen pei
 三打白骨精	san da bai gu jing
+三大定律	san da ding lv
 三大技巧	san da ji qiao
 三大软狗	san da ruan gou
 三大赛	san da sai
@@ -51398,6 +51480,7 @@ vocabulary: essay-zh-hans
 三点的车	san dian de che
 伞电蜥	san dian xi
 三丁拐	san ding guai
+三定律	san ding lv
 三冬暖	san dong nuan
 三短一长	san duan yi zhang
 三二八八	san er ba ba
@@ -54322,6 +54405,7 @@ vocabulary: essay-zh-hans
 杀了我	sha le wo
 杀了我吧	sha le wo ba
 傻愣愣	sha leng leng
+沙里贝尔	sha li bei er
 沙粒公主	sha li gong zhu
 莎莉怀特迈恩	sha li huai te mai en
 纱丽迷情	sha li mi qing
@@ -55369,6 +55453,7 @@ vocabulary: essay-zh-hans
 什么叫惊喜	shen me jiao jing xi
 什么叫他妈的惊喜	shen me jiao ta ma de jing xi
 什么卷	shen me juan
+什么立场	shen me li chang
 什么品牌	shen me pin pai
 什么区别	shen me qu bie
 什么渠道	shen me qu dao
@@ -55389,6 +55474,7 @@ vocabulary: essay-zh-hans
 什么想法	shen me xiang fa
 什么学历	shen me xue li
 什么液	shen me ye
+什么资格	shen me zi ge
 沈美人	shen mei ren
 沈梦辰	shen meng chen
 沈梦雨	shen meng yu
@@ -55838,7 +55924,6 @@ vocabulary: essay-zh-hans
 生日直播	sheng ri zhi bo
 生肉丸	sheng rou wan
 生三胎	sheng san tai
-声生不息	sheng sheng bu xi
 声生不息官宣	sheng sheng bu xi guan xuan
 盛世芳华	sheng shi fang hua
 盛世福	sheng shi fu
@@ -55876,6 +55961,7 @@ vocabulary: essay-zh-hans
 生酮饮食	sheng tong yin shi
 盛屯矿业	sheng tun kuang ye
 省位次	sheng wei ci
+生为牛马	sheng wei niu ma
 生我养我	sheng wo yang wo
 生物安全法	sheng wu an quan fa
 圣物匠	sheng wu jiang
@@ -55914,6 +56000,7 @@ vocabulary: essay-zh-hans
 生于盛世	sheng yu sheng shi
 生育旺盛期	sheng yu wang sheng qi
 生在红旗下	sheng zai hong qi xia
+生在罗马	sheng zai luo ma
 生张	sheng zhang
 生长节律	sheng zhang jie lv
 胜者即是正义	sheng zhe ji shi zheng yi
@@ -56057,10 +56144,12 @@ vocabulary: essay-zh-hans
 十二礼	shi er li
 十二路谭腿	shi er lu tan tui
 十二落抬	shi er luo tai
+十二门徒	shi er men tu
 十二强	shi er qiang
 十二上根器	shi er shang gen qi
 十二时辰	shi er shi chen
 十二试炼	shi er shi lian
+十二使徒	shi er shi tu
 十二谭	shi er tan
 史尔特尔	shi er te er
 十二月八	shi er yue ba
@@ -56170,12 +56259,14 @@ vocabulary: essay-zh-hans
 十番	shi fan
 示范卷	shi fan juan
 师范专业	shi fan zhuan ye
+释放一下	shi fang yi xia
 释放自我	shi fang zi wo
 是非成败转头空	shi fei cheng bai zhuan tou kong
 湿粉膏	shi fen gao
 十分开心	shi fen kai xin
 十分吝啬	shi fen lin se
 十分自私	shi fen zi si
+始丰街道	shi feng jie dao
 石佛沟	shi fo gou
 是否多久都一样	shi fou duo jiu dou yi yang
 是否关闭	shi fou guan bi
@@ -57117,6 +57208,7 @@ vocabulary: essay-zh-hans
 狮子混种	shi zi hun zhong
 狮子火	shi zi huo
 十字结	shi zi jie
+十字军东征	shi zi jun dong zheng
 狮子连弹	shi zi lian dan
 十字路口客栈	shi zi lu kou ke zhan
 十字弩	shi zi nu
@@ -57370,6 +57462,7 @@ vocabulary: essay-zh-hans
 兽研所	shou yan suo
 瘦腰	shou yao
 兽妖	shou yao
+首药控股	shou yao kong gu
 守野区	shou ye qu
 受疫情影响	shou yi qing ying xiang
 守艺人	shou yi ren
@@ -57421,6 +57514,7 @@ vocabulary: essay-zh-hans
 曙光守护者	shu guang shou hu zhe
 曙光新城	shu guang xin cheng
 曙光英雄	shu guang ying xiong
+曙光执事	shu guang zhi shi
 蜀汉衰矣	shu han shuai yi
 沭河古道	shu he gu dao
 舒痕胶	shu hen jiao
@@ -58338,6 +58432,7 @@ vocabulary: essay-zh-hans
 四点底	si dian di
 四叠半	si die ban
 厮斗	si dou
+四对四	si dui si
 四颚针龙	si e zhen long
 四二八八	si er ba ba
 四二八八年	si er ba ba nian
@@ -58646,6 +58741,7 @@ vocabulary: essay-zh-hans
 四盒院	si he yuan
 四黑雾阵	si hei wu zhen
 四后	si hou
+死狐狸精	si hu li jing
 四环内	si huan nei
 四皇	si huang
 撕毁协议	si hui xie yi
@@ -61553,6 +61649,7 @@ vocabulary: essay-zh-hans
 酸笋	suan sun
 算他倒霉	suan ta dao mei
 酸汤子	suan tang zi
+酸甜苦辣咸	suan tian ku la xian
 算我倒霉	suan wo dao mei
 随便吃了点	sui bian chi le dian
 随便逛	sui bian guang
@@ -61768,6 +61865,7 @@ vocabulary: essay-zh-hans
 所求皆如愿	suo qiu jie ru yuan
 索瑞森	suo rui sen
 所失皆无碍	suo shi jie wu ai
+所束缚	suo shu fu
 索斯盖特	suo si gai te
 索斯罗斯	suo si luo si
 所思所盼	suo si suo pan
@@ -62203,6 +62301,8 @@ vocabulary: essay-zh-hans
 太壮观	tai zhuang guan
 太子长琴	tai zi chang qin
 太子丹	tai zi dan
+太自负	tai zi fu
+太自负了	tai zi fu le
 太子岭	tai zi ling
 太祖武皇帝	tai zu wu huang di
 谈癌色变	tan ai se bian
@@ -62901,6 +63001,7 @@ vocabulary: essay-zh-hans
 天才小熊猫	tian cai xiao xiong mao
 天藏	tian cang
 填仓日	tian cang ri
+天朝朝情	tian chao chao qing
 天辰花园	tian chen hua yuan
 天城燐音	tian cheng lin yin
 天秤偶	tian cheng ou
@@ -65332,6 +65433,7 @@ vocabulary: essay-zh-hans
 为保威名垂千古	wei bao wei ming chui qian gu
 违背的青春	wei bei de qing chun
 煨被窝	wei bei wo
+为别人而活	wei bie ren er huo
 卫彬月	wei bin yue
 渭滨中学	wei bin zhong xue
 微博杯	wei bo bei
@@ -65581,6 +65683,7 @@ vocabulary: essay-zh-hans
 未立寸功	wei li cun gong
 微粒贷	wei li dai
 威利·戴巴	wei li dai ba
+威利格林	wei li ge lin
 威力加强	wei li jia qiang
 威力加强版	wei li jia qiang ban
 未离津	wei li jin
@@ -66469,6 +66572,7 @@ vocabulary: essay-zh-hans
 我伙呆	wo huo dai
 我计不成	wo ji bu cheng
 我集齐	wo ji qi
+我机器人	wo ji qi ren
 我家大师兄	wo jia da shi xiong
 我家大师兄脑子有坑	wo jia da shi xiong nao zi you keng
 我家的表叔	wo jia de biao shu
@@ -66606,11 +66710,13 @@ vocabulary: essay-zh-hans
 我没男朋友	wo mei nan peng you
 我没女朋友	wo mei nv peng you
 我没抢上	wo mei qiang shang
+我没杀人	wo mei sha ren
 我没事就吃	wo mei shi jiu chi
 我没衣服穿	wo mei yi fu chuan
 我没有假期	wo mei you jia qi
 我没有男朋友	wo mei you nan peng you
 我没有拼多多	wo mei you pin duo duo
+我没有杀人	wo mei you sha ren
 我没有作业	wo mei you zuo ye
 我们班男生	wo men ban nan sheng
 我们班女生	wo men ban nv sheng
@@ -66777,6 +66883,7 @@ vocabulary: essay-zh-hans
 我去打疫苗	wo qu da yi miao
 我去接他	wo qu jie ta
 我去你妈	wo qu ni ma
+我去年买了个表	wo qu nian mai le ge biao
 我去上学校	wo qu shang xue xiao
 我去炸学校	wo qu zha xue xiao
 我全部家当	wo quan bu jia dang
@@ -67596,6 +67703,7 @@ vocabulary: essay-zh-hans
 五毒兽	wu du shou
 五毒月	wu du yue
 无对抗	wu dui kang
+五对五	wu dui wu
 乌顿	wu dun
 五朵山	wu duo shan
 无舵雪橇	wu duo xue qiao
@@ -70398,6 +70506,7 @@ vocabulary: essay-zh-hans
 巫妖王之怒	wu yao wang zhi nu
 吴耀文	wu yao wen
 巫妖之祸	wu yao zhi huo
+午夜档	wu ye dang
 午夜风暴	wu ye feng bao
 午夜歌剧院	wu ye ge ju yuan
 午夜后宫	wu ye hou gong
@@ -70439,6 +70548,7 @@ vocabulary: essay-zh-hans
 五一的假	wu yi de jia
 五一的课	wu yi de ke
 无意点开	wu yi dian kai
+五一都不放假	wu yi dou bu fang jia
 无一二	wu yi er
 五一二八	wu yi er ba
 五一二八年	wu yi er ba nian
@@ -70985,6 +71095,7 @@ vocabulary: essay-zh-hans
 希尔瓦娜斯风行者	xi er wa na si feng xing zhe
 戏法师	xi fa shi
 西方节日	xi fang jie ri
+西方亮	xi fang liang
 西方情人节	xi fang qing ren jie
 西方主题	xi fang zhu ti
 西风长枪	xi feng chang qiang
@@ -71237,6 +71348,7 @@ vocabulary: essay-zh-hans
 西野花	xi ye hua
 西野迦南	xi ye jia nan
 蜥蜴博士	xi yi bo shi
+蜥蜴女孩	xi yi nv hai
 西一区	xi yi qu
 蜥蜴王	xi yi wang
 蜥蜴先生	xi yi xian sheng
@@ -72025,6 +72137,7 @@ vocabulary: essay-zh-hans
 相竞争	xiang jing zheng
 相聚北京	xiang ju bei jing
 想开空调	xiang kai kong tiao
+相看两厌	xiang kan liang yan
 想看哪个	xiang kan na ge
 想看雪	xiang kan xue
 想看这个	xiang kan zhe ge
@@ -72500,6 +72613,8 @@ vocabulary: essay-zh-hans
 小卡德罗夫	xiao ka de luo fu
 小卡尔	xiao ka er
 小咖啡	xiao ka fei
+小卡片	xiao ka pian
+小卡片儿	xiao ka pian er
 肖凯中	xiao kai zhong
 笑看江湖	xiao kan jiang hu
 晓看天色	xiao kan tian se
@@ -72832,10 +72947,12 @@ vocabulary: essay-zh-hans
 小小梦魇	xiao xiao meng yan
 肖小胖	xiao xiao pang
 小小炮娘	xiao xiao pao niang
+笑笑十开	xiao xiao shi kai
 小小桃	xiao xiao tao
 小小甜心	xiao xiao tian xin
 小小突击队	xiao xiao tu ji dui
 小小象	xiao xiao xiang
+小孝孝于家	xiao xiao xiao yu jia
 小小勇者	xiao xiao yong zhe
 小小优趣	xiao xiao you qu
 小谢尔顿	xiao xie er dun
@@ -74640,6 +74757,7 @@ vocabulary: essay-zh-hans
 雪人套	xue ren tao
 雪绒草	xue rong cao
 雪容融	xue rong rong
+雪瑞姑姑	xue rui gu gu
 雪三月	xue san yue
 血色的开场	xue se de kai chang
 血色浪漫	xue se lang man
@@ -75271,6 +75389,7 @@ vocabulary: essay-zh-hans
 养成类游戏	yang cheng lei you xi
 杨成瑞	yang cheng rui
 杨呈伟	yang cheng wei
+养成一个习惯	yang cheng yi ge xi guan
 杨川平	yang chuan ping
 羊村守护者	yang cun shou hu zhe
 杨大妞	yang da niu
@@ -75347,7 +75466,6 @@ vocabulary: essay-zh-hans
 杨克强	yang ke qiang
 杨科璋	yang ke zhang
 洋坑塘	yang keng tang
-养鲲	yang kun
 杨腊梅	yang la mei
 养老服务	yang lao fu wu
 养老事业	yang lao shi ye
@@ -75453,6 +75571,7 @@ vocabulary: essay-zh-hans
 杨孝君	yang xiao jun
 杨小琳	yang xiao lin
 杨小萍	yang xiao ping
+杨笑汝	yang xiao ru
 杨笑天	yang xiao tian
 杨晓欣	yang xiao xin
 羊小雪	yang xiao xue
@@ -75765,6 +75884,7 @@ vocabulary: essay-zh-hans
 要学什么	yao xue shen me
 要压岁钱	yao ya sui qian
 要延迟	yao yan chi
+妖艳贱货	yao yan jian huo
 要延期	yao yan qi
 妖妖铃	yao yao ling
 摇摇薯条	yao yao shu tiao
@@ -75934,6 +76054,7 @@ vocabulary: essay-zh-hans
 叶倩倩	ye qian qian
 叶倩彤	ye qian tong
 夜勤人	ye qin ren
+椰青冰萃	ye qing bing cui
 爷青回	ye qing hui
 叶清明	ye qing ming
 夜轻染	ye qing ran
@@ -75993,6 +76114,7 @@ vocabulary: essay-zh-hans
 叶小天	ye xiao tian
 叶晓文	ye xiao wen
 也姓毕	ye xing bi
+野性时代	ye xing shi dai
 野性消费	ye xing xiao fei
 叶雪青	ye xue qing
 夜巡灵	ye xun ling
@@ -76039,6 +76161,7 @@ vocabulary: essay-zh-hans
 以爱为囚	yi ai wei qiu
 以爱之名	yi ai zhi ming
 易鞍码	yi an ma
+已安全到家	yi an quan dao jia
 易安音乐社	yi an yin yue she
 一八八八	yi ba ba ba
 一八八八年	yi ba ba ba nian
@@ -78488,6 +78611,7 @@ vocabulary: essay-zh-hans
 一人一口	yi ren yi kou
 一人一票	yi ren yi piao
 一人一箱	yi ren yi xiang
+已认真阅读	yi ren zhen yue du
 一人之力	yi ren zhi li
 彝人制造	yi ren zhi zao
 一人之罪	yi ren zhi zui
@@ -79097,6 +79221,7 @@ vocabulary: essay-zh-hans
 一体化发展	yi ti hua fa zhan
 遗体捐赠	yi ti juan zeng
 一体推进	yi ti tui jin
+一天到晚游泳的鱼	yi tian dao wan you yong de yu
 一天都不放	yi tian dou bu fang
 一天假期	yi tian jia qi
 倚天剑屠龙刀	yi tian jian tu long dao
@@ -80468,6 +80593,7 @@ vocabulary: essay-zh-hans
 英语字帖	ying yu zi tie
 应援板	ying yuan ban
 迎元旦	ying yuan dan
+影院倒闭	ying yuan dao bi
 应援灯	ying yuan deng
 应援法	ying yuan fa
 应援寮	ying yuan liao
@@ -80753,6 +80879,7 @@ vocabulary: essay-zh-hans
 有点拘束	you dian ju shu
 有点辣	you dian la
 有点老火	you dian lao huo
+有点绿	you dian lv
 有电热毯	you dian re tan
 有点实力	you dian shi li
 有点失误	you dian shi wu
@@ -81077,6 +81204,7 @@ vocabulary: essay-zh-hans
 有什么想法	you shen me xiang fa
 有什么颜色	you shen me yan se
 有什么优惠	you shen me you hui
+有什么资格	you shen me zi ge
 有声小说	you sheng xiao shuo
 有绳子	you sheng zi
 有时而穷	you shi er qiong
@@ -81249,6 +81377,7 @@ vocabulary: essay-zh-hans
 又赢	you ying
 又赢了	you ying le
 有用的人	you yong de ren
+游泳的鱼	you yong de yu
 游泳接力	you yong jie li
 游泳起来像鸭子	you yong qi lai xiang ya zi
 游泳运动员	you yong yun dong yuan
@@ -81376,6 +81505,7 @@ vocabulary: essay-zh-hans
 御风骁将	yu feng xiao jiang
 鱼腹藏羊	yu fu cang yang
 玉符河	yu fu he
+羽感防晒	yu gan fang shai
 预更新	yu geng xin
 与公瑾	yu gong jin
 与公瑾共某天下	yu gong jin gong mou tian xia
@@ -82817,7 +82947,6 @@ vocabulary: essay-zh-hans
 扎门乌德	zha men wu de
 炸面鱼	zha mian yu
 扎姆德	zha mu de
-渣男	zha nan
 炸年货	zha nian huo
 炸年兽	zha nian shou
 渣女	zha nv
@@ -82942,6 +83071,7 @@ vocabulary: essay-zh-hans
 湛江机场	zhan jiang ji chang
 蘸酱油	zhan jiang you
 占教室	zhan jiao shi
+栈结构	zhan jie gou
 站姐团建	zhan jie tuan jian
 展开讲讲	zhan kai jiang jiang
 占考场	zhan kao chang
@@ -83919,6 +84049,7 @@ vocabulary: essay-zh-hans
 这样设计	zhe yang she ji
 这样也行	zhe yang ye xing
 这也行	zhe ye xing
+这也行吗	zhe ye xing ma
 这一抛媚眼	zhe yi pao mei yan
 折跃门	zhe yue men
 浙政钉	zhe zheng ding
@@ -83981,6 +84112,7 @@ vocabulary: essay-zh-hans
 真粉丝	zhen fen si
 针锋对决	zhen feng dui jue
 振风塔	zhen feng ta
+甄夫人	zhen fu ren
 真敷衍	zhen fu yan
 震感明显	zhen gan ming xian
 震感强烈	zhen gan qiang lie
@@ -84009,6 +84141,9 @@ vocabulary: essay-zh-hans
 振徽苑	zhen hui yuan
 镇魂女鬼	zhen hun nv gui
 振魂石	zhen hun shi
+震级达	zhen ji da
+震级达到	zhen ji da dao
+震级高达	zhen ji gao da
 珍集嘉苑	zhen ji jia yuan
 真激烈	zhen ji lie
 甄姬皮肤	zhen ji pi fu
@@ -84959,6 +85094,7 @@ vocabulary: essay-zh-hans
 中村丰	zhong cun feng
 中村一叶	zhong cun yi ye
 重大风险	zhong da feng xian
+中大奖了	zhong da jiang le
 重大利好	zhong da li hao
 重大生态	zhong da sheng tai
 重大失误	zhong da shi wu
@@ -85412,6 +85548,7 @@ vocabulary: essay-zh-hans
 终止合作	zhong zhi he zuo
 中植集团	zhong zhi ji tuan
 终止交易	zhong zhi jiao yi
+中指通	zhong zhi tong
 中植系	zhong zhi xi
 种种珍宝	zhong zhong zhen bao
 中州城	zhong zhou cheng
@@ -85889,6 +86026,7 @@ vocabulary: essay-zh-hans
 朱彦霖	zhu yan lin
 朱颜曼滋	zhu yan man zi
 驻颜术	zhu yan shu
+猪羊满圈	zhu yang man juan
 煮羊肉	zhu yang rou
 主要电影	zhu yao dian ying
 住窑洞	zhu yao dong
