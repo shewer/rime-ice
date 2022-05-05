@@ -55,7 +55,7 @@ engine:
     - script_translator  # ※ 腳本翻譯器，用於拼音等基於音節表的輸入方案
     - lua_translator@date_translator  # 时间、日期、星期 # 这个顺序要在 table_translator@melt_eng 上面，否则动态时间（输入sj）的候选项不会在第一个，不知道为啥。。。
     - table_translator@custom_phrase  # 自定义文本（固顶字）
-    - table_translator@melt_eng        # 英文输入
+    - table_translator@melt_eng       # 英文输入
   filters: # ※ 默认组件：過濾翻譯的結果
     - simplifier@emoji           # Emoji
     - simplifier@traditionalize  # 简繁切换
@@ -132,11 +132,14 @@ speller:
     - erase/^m$/
     - erase/^n$/
     - erase/^ng$/
-    - abbrev/^([a-z]).+$/$1/  # 超级简拼
+    - abbrev/^([a-z]).+$/$1/   # 超级简拼
     - abbrev/^([zcs]h).+$/$1/  # 超级简拼中，zh ch sh 视为整体（ch'sh → 城市），而不是像这样分开（c'h、s'h → 从还是很）。
     # 原装的 v u 转换
     - derive/^([nl])ue$/$1ve/
     - derive/^([jqxy])u/$1v/
+    # 增加对词库中「nue/nve」「qu/qv」等不同注音的支持
+    - derive/^([nl])ve$/$1ue/
+    - derive/^([jqxy])v/$1u/
     # 原装的模糊拼音
     - derive/un$/uen/
     - derive/ui$/uei/
