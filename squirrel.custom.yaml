@@ -12,9 +12,10 @@ patch:
         ascii_mode: false   # 关闭默认英文
 
 
-  # 选择皮肤
+  # 选择皮肤：
   style/color_scheme: purity_of_form_custom
-
+  # 暗色主题：
+  style/color_scheme_dark: purity_of_form_custom
 
   # 皮肤列表
   preset_color_schemes:
@@ -33,6 +34,7 @@ patch:
       font_face: "PingFangSC"
       font_point: 18
       label_font_point: 13
+      # inline_preedit: false
 
     # 以下开始都是官方内置皮肤
     # /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
