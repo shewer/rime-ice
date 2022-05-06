@@ -18,8 +18,8 @@
 -   融合「[melt_eng](https://github.com/tumuyan/rime-melt)」英文输入方案和词库
 -   纯简体字表、词库（这样在用户词典中也是简体了）
     - 字表：[《通用规范汉字表》的 8105 字字表](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)
-    - 词库：「[华宇野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)」 +「[清华大学开源词库](https://github.com/thunlp/THUOCL)」
-    - 「[简体八股文语言模型](https://github.com/lotem/rime-octagram-data/tree/hans)」
+    - 词库：「[华宇野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)」 +「[清华大学开源词库](https://github.com/thunlp/THUOCL)」+「[中文维基词库](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)」
+    - 「[简化字八股文语言模型](https://github.com/lotem/rime-octagram-data/tree/hans)」
 
 <br>
 
