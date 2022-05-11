@@ -22,9 +22,9 @@ patch:
   switcher/caption: 〔方案选单〕
   switcher/hotkeys:
     # - Control+grave
-    # - Control+Shift+grave
+    # - Alt+grave
+    - Control+Shift+grave
     # - F4
-    ~ # 无快捷键：只有一个方案、不切换全半角、不切换简繁等，可以设置为空（简繁、中英标点等可以弄其他单独的快捷键）
 
 
   # 匹配 patterns 时，自动英文
