@@ -7,30 +7,10 @@
 #
 ---
 name: others
-version: "2022-05-12"
+version: "2022-05-13"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
-##### 方便词
-# ！ 会导致 zh 无法参与超级简拼
-# 这	zh
-# ！ 单编码的声母同样会导致无法参与超级简拼，如「lir」无法响应「例如」。
-# 儿	r
-一	i
-有	u
-一个	ig
-有个	ug
-是一个	sig
-有一个	uig
-有一个	uige
-有一个	uyig
-有一个	uyge
-有一个	uyige
-又有	uu
-又又又	uuu
-又双叒叕	uuuu
-
-
 ##### 容错词
 # 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」「密钥yao、yue」已在 sys 中实现
 # ---
