@@ -38,8 +38,8 @@ patch:
   # 快捷键设定
   key_binder:
     # 以词定字的快捷键，不设置的话默认为 bracketleft bracketright 左右方括号 [ ]
-    select_first_character: "comma"  # 逗号
-    select_last_character: "period"  # 句号
+    select_first_character: "grave"
+    select_last_character: "slash"
     bindings:
       # 简繁切换
       - {accept: "Control+Shift+4", toggle: traditionalization, when: always}
