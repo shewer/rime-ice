@@ -25,7 +25,7 @@ switches:
     states: [ 半角, 全角 ]
   - name: ascii_punct
     reset: 0
-    states: [ 。，, ．， ] # 中英文标点
+    states: [ 中文标点, 英文标点 ]
   - name: emoji
     reset: 1  # 默认永远开启
   - name: traditionalization
