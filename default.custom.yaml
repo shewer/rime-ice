@@ -1,4 +1,6 @@
 # 继承自 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/default.yaml
+# 按键速查在最下面
+
 patch:
   # 方案列表
   schema_list:
@@ -37,19 +39,20 @@ patch:
 
   # 快捷键设定
   key_binder:
-    # 以词定字的快捷键，不设置的话默认为 bracketleft bracketright 左右方括号 [ ]
+    # 以词定字的快捷键
     select_first_character: "grave"
     select_last_character: "slash"
     bindings:
       # 简繁切换
       - {accept: "Control+Shift+4", toggle: traditionalization, when: always}
       - {accept: "Control+Shift+F", toggle: traditionalization, when: always}
-      - {accept: "Control+slash",   toggle: traditionalization, when: always}  # Ctrl + /
+      - {accept: "Control+slash",   toggle: traditionalization, when: always}
       # 切换中英文标点
-      # - {accept: "Control+Shift+A", toggle: ascii_punct, when: always}
+      - {accept: "Control+Shift+A", toggle: ascii_punct, when: always}
 
       # 以下复制于： https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
       # 也可也看本地文件： /Library/Input Methods/Squirrel.app/Contents/SharedSupport/key_bindings.yaml
+
       # emacs_editing:
       # - { when: composing, accept: Control+p, send: Up }
       # - { when: composing, accept: Control+n, send: Down }
@@ -109,6 +112,7 @@ patch:
     
 
 # 按键速查：
+# （没有 Command 键，不支持）
 # BackSpace	退格
 # Tab	水平定位符
 # Linefeed	换行
