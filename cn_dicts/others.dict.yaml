@@ -3,14 +3,20 @@
 #
 # https://github.com/iDvel/rime-settings/
 #
-# 一些杂项
+# 一些杂项，按需选择
 #
 ---
 name: others
-version: "2022-05-13"
+version: "2022-06-15"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
+##### 方便词（已经在 custom_phrase 写过了，这里再写一遍，可以让这些字词参与组词）
+一	i
+有	u
+又有	uu
+
+
 ##### 容错词
 # 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」「密钥yao、yue」已在 sys 中实现
 # ---
@@ -94,6 +100,7 @@ vocabulary: essay-zh-hans
 龘	long long long
 叒	you you you
 叕	you you you you
+赑	bei bei bei
 # 仌	ren ren
 # 其他拼字
 蟊	mao chong chong
