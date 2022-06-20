@@ -7,7 +7,7 @@
 #
 ---
 name: others
-version: "2022-06-15"
+version: "2022-06-20"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -108,5 +108,6 @@ vocabulary: essay-zh-hans
 飚	feng huo huo huo
 嫐	nv nan nv
 嬲	nan nv nan
+楙	mu mao mu
 # 粜	chu mi
 # 籴	ru mi
