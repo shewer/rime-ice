@@ -10,21 +10,19 @@
     - 鼠须管 Squirrel 0.15.2 
     - 小狼毫 Weasel 0.14.3
 -   「[袖珍简化字方案](https://github.com/rime/rime-pinyin-simp)」作为基础
-    - [简繁切换](https://github.com/rime/home/issues/388#issuecomment-504572224)
-    - [日期、时间、星期](https://github.com/KyleBing/rime-wubi86-jidian)
+    - 简繁切换
+    - 日期、时间、星期
+    - Emoji
     - [以词定字](https://github.com/BlindingDark/rime-lua-select-character)
     - [长词优先](https://github.com/tumuyan/rime-melt/blob/master/lua/melt.lua)
-    - Emoji
     - 所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
     - 增加了许多拼音纠错
--   「[melt_eng](https://github.com/tumuyan/rime-melt)」英文输入方案
+-   [melt_eng](https://github.com/tumuyan/rime-melt) 英文输入方案
 -   简体字表、词库
     -   [《通用规范汉字表》的 8105 字字表](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)
     -   [华宇野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)
     -   [现代汉语常用词表](https://gist.github.com/indiejoseph/eae09c673460aa0b56db)
-    -   [简化字八股文](https://github.com/rime/rime-essay-simp)
     -   [清华大学开源词库](https://github.com/thunlp/THUOCL)
-    -   [中文维基词库](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)
     -   [八股文语言模型](https://github.com/lotem/rime-octagram-data/tree/hans)
 -   词库更新
     - 已经校对了大量词汇，主要参考[校对网](http://www.jiaodui.com/bbs/)
