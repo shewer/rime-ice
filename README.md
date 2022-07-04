@@ -36,8 +36,6 @@
 
 **请先将 `pinyin_simp.dict.yaml` 中的  `- cn_dicts/private` 这行删除，这是我自己的私人词库（联系人之类的），否则鼠须管无法部署，小狼毫只能输入英文。**
 
-调教/折腾期间建议在 `pinyin_simp.dict.yaml` 注释掉维基词库，以提高部署速度。
-
 <br>
 
 ## 长期维护词库
