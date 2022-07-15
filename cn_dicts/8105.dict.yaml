@@ -27,7 +27,6 @@
 # （「增加」不代表新增不存在的注音，只是维基的这个数据中没有这个注音，可能《现汉》或《现规》有）
 # 去重，如「曲 qū qǔ」去掉声调后都是「qu」。
 # 调整大量字频
-# 「这 zhe 那 na」没有增加注音「这 zhei」「那 nei」
 # 只有「桔 jie」，没有增加《现汉7》含有的 ju 音，词库中所有的「桔子」都改成了「橘子」（「桔」是「橘」的俗写，书面语一般用「橘」。）
 # 「嗯 n ng eng」改为「eng、en」。
 # 「哟 yo」增加「you」
@@ -36,8 +35,16 @@
 # 「欸 e ai」增加「ei」(字表里没有「诶」,《现汉》《现规》都没有收录「诶」)
 # 「孛 bei」增加「bo」（多用于人名）
 # 「椑 bei」增加「pi」（古代盛酒器）
-#
-# 一些缺失的但极度冷门的读音，几乎只在单个的固定词语中使用。
+# 「镡 tan chan」（姓氏）增加「xin」（兵器）
+---
+name: 8105
+version: "2022-07-15"
+sort: by_weight
+vocabulary: essay-zh-hans
+...
+### 按需启用
+# 「这 zhe 那 na」没有增加注音「这 zhei」「那 nei」
+## 其他的一些缺失的但极度冷门的读音，几乎只在单个的固定词语中使用：
 # 「育 yu」没有增加注音「育 yo」，以注音的词组「杭育yo」填补
 # 「忒 tei tui」没有增加注音「忒 te」，以注音的词组「差忒te」填补
 # 「稽 ji」没有增加注音「稽 qi」，以注音的词组「稽qi首」填补
@@ -47,13 +54,6 @@
 # 「裨 bi」没有增加「pi」，有了词语「裨pi将」「偏裨pi」
 # 「邲 bi」没有增加「bian」，有了词语「邲bian水」
 # 「噌 ceng」没有增加「cheng」，有了词语「噌cheng吰hong」
----
-name: 8105
-version: "2022-07-10"
-sort: by_weight
-vocabulary: essay-zh-hans
-...
-# 按需启用
 # 这	zhei	21896611
 # 那	nei	32521150
 # 育	yo	1
@@ -82,6 +82,7 @@ vocabulary: essay-zh-hans
 # 車	ju
 # 祂	ta
 # 觍	tian
+# 𪨊	song
 
 
 # 小时候没学过的拼音。。。
@@ -97,7 +98,7 @@ vocabulary: essay-zh-hans
 
 
 # 8105
-# TODO 校对进度到 拆	chai	356059
+# TODO 校对进度到 唱	chang	995365
 # +_+
 啊	a	10139710
 阿	a	1906625
@@ -674,11 +675,11 @@ vocabulary: essay-zh-hans
 柴	chai	164582
 钗	chai	65395
 豺	chai	36890
-虿	chai	34244
 侪	chai	33439
-瘥	chai	27781
-茝	chai	22802
 差	chai	20000
+瘥	chai	1
+茝	chai	1
+虿	chai	1
 产	chan	376078
 铲	chan	137390
 缠	chan	133359
@@ -689,35 +690,35 @@ vocabulary: essay-zh-hans
 婵	chan	56495
 谗	chan	50328
 搀	chan	49930
-澶	chan	46542
 蟾	chan	45562
 阐	chan	41696
 忏	chan	40800
 谄	chan	38520
 潺	chan	35173
-廛	chan	33072
-觇	chan	31345
-啴	chan	29641
-蒇	chan	28801
-躔	chan	28564
-浐	chan	28499
-巉	chan	28215
-羼	chan	26950
-辿	chan	26041
-瀍	chan	24786
-襜	chan	24734
-韂	chan	23827
-刬	chan	23702
-冁	chan	22980
-镵	chan	22923
-儳	chan	20560
 掺	chan	20221
-旵	chan	18661
-梴	chan	17265
 单	chan	781
 孱	chan	541
-骣	chan	124
-镡	chan	3
+儳	chan	1
+冁	chan	1
+刬	chan	1
+啴	chan	1
+巉	chan	1
+廛	chan	1
+旵	chan	1
+梴	chan	1
+浐	chan	1
+澶	chan	1
+瀍	chan	1
+羼	chan	1
+蒇	chan	1
+襜	chan	1
+觇	chan	1
+躔	chan	1
+辿	chan	1
+镡	chan	1
+镵	chan	1
+韂	chan	1
+骣	chan	1
 𬊤	chan	1
 唱	chang	995365
 常	chang	981142
@@ -2343,13 +2344,13 @@ vocabulary: essay-zh-hans
 竑	hong	29863
 蕻	hong	29221
 訇	hong	28929
-黉	hong	28745
 翃	hong	27122
 讧	hong	23835
 𫟹	hong	22081
 唝	hong	20461
 谼	hong	20341
 玒	hong	19981
+黉	hong	1
 𬭎	hong	1
 后	hou	16720873
 厚	hou	423498
@@ -5887,6 +5888,7 @@ vocabulary: essay-zh-hans
 耸	song	71426
 嵩	song	64262
 怂	song	52997
+𪨊	song	51111
 淞	song	50557
 讼	song	50189
 竦	song	39759
@@ -6942,6 +6944,7 @@ vocabulary: essay-zh-hans
 炘	xin	29461
 莘	xin	7141
 䜣	xin	1021
+镡	xin	1
 𫷷	xin	1
 行	xing	4000000
 性	xing	3004067
