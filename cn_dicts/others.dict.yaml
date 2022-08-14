@@ -6,7 +6,7 @@
 #
 ---
 name: others
-version: "2022-07-01"
+version: "2022-08-15"
 sort: by_weight
 vocabulary: essay-zh-hans
 ...
@@ -20,6 +20,7 @@ vocabulary: essay-zh-hans
 
 
 ##### 容错词
+什么	she me
 # 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」「密钥yao、yue」已在 sys 中实现
 # ---
 # 「馄饨」，正确是 tun，北方口语是 dun
