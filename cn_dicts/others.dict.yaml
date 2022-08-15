@@ -21,7 +21,7 @@ vocabulary: essay-zh-hans
 
 ##### 容错词
 什么	she me
-# 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」「密钥yao、yue」已在 sys 中实现
+# 「血xue、xie」「谁shui、shei」「露lu、lou」「熟shu、shou」「密钥yao、yue」已在 main 中实现
 # ---
 # 「馄饨」，正确是 tun，北方口语是 dun
 馄饨	hun tun
@@ -48,6 +48,14 @@ vocabulary: essay-zh-hans
 海鲜比萨	hai xian pi sa
 蔬菜比萨	shu cai bi sa
 蔬菜比萨	shu cai pi sa
+做比萨	zuo bi sa
+做比萨	zuo pi sa
+可口的比萨	ke kou de bi sa
+可口的比萨	ke kou de pi sa
+烤比萨	kao bi sa
+烤比萨	kao pi sa
+美味的比萨	mei wei de bi sa
+美味的比萨	mei wei de pi sa
 # 「扑街」，正确是 jie，口语是 gai
 扑街	pu jie
 扑街	pu gai
@@ -77,7 +85,8 @@ vocabulary: essay-zh-hans
 有模有样	you mo you yang
 一模一样	yi mu yi yang
 一模一样	yi mo yi yang
-
+装模作样	zhuang mu zuo yang
+装模作样	zhuang mo zuo yang
 
 ##### 叠字（「jjj」→「鑫」，「jinjj」→「鑫」，「jjjin」→「鑫」）
 鑫	jin jin jin
