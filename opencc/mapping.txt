@@ -2,7 +2,7 @@
 #
 # https://github.com/iDvel/rime-ice
 #
-# version: "2022-08-26"
+# version: "2022-08-28"
 #
 #
 # 数据分类来源：https://www.emojiall.com/zh-hans/all-emojis
@@ -873,7 +873,7 @@ S$ 新加坡元 新加坡币
 🥤 外带杯子 带吸管杯 吸管杯 饮料
 🧃 果汁盒 果汁
 🧉 马黛茶
-🧊 冰块
+🧊 冰块 冰 加冰
 🧋 波霸奶茶 珍珠奶茶 奶茶
 🫖 茶壶
 🫗 倾倒液体 倾倒 流出
