@@ -12,7 +12,7 @@ import_tables:
 
 
   - cn_dicts/main    # 基础词库
-  - cn_dicts/ext     # 扩展词库，建议与基础词库一同使用
+  - cn_dicts/ext     # 扩展词库，词库很大，部署时间较长，折腾期间建议先注释掉
   - cn_dicts/av      # 著名表演艺术家
 
 

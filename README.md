@@ -22,10 +22,11 @@
     -   [《通用规范汉字表》的 8105 字字表](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)
     -   [华宇野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)
     -   [清华大学开源词库](https://github.com/thunlp/THUOCL)
-    -   [现代汉语常用词表](https://gist.github.com/indiejoseph/eae09c673460aa0b56db)
-    -   [现代汉语词典](https://forum.freemdict.com/t/topic/12102)
-    -   [同义词词林](https://forum.freemdict.com/t/topic/1211)
-    -   [新华成语大词典](https://forum.freemdict.com/t/topic/11407)
+    -   [《现代汉语常用词表》](https://gist.github.com/indiejoseph/eae09c673460aa0b56db)
+    -   [《现代汉语词典》](https://forum.freemdict.com/t/topic/12102)
+    -   [《同义词词林》](https://forum.freemdict.com/t/topic/1211)
+    -   [《新华成语大词典》](https://forum.freemdict.com/t/topic/11407)
+    -   [腾讯词向量](https://ai.tencent.com/ailab/nlp/zh/download.html)
     -   [八股文语言模型](https://github.com/lotem/rime-octagram-data/tree/hans)
 -   词库更新
     - 已经校对了大量词汇，主要参考[校对网](http://www.jiaodui.com/bbs/)
@@ -38,6 +39,8 @@
 备份后删除 `~/Library/Rime/` 目录下原有的配置文件，再将仓库所有文件复制粘贴进去就好了。
 
 **请先将 `pinyin_simp.dict.yaml` 中的  `- cn_dicts/private` 这行删除，这是我自己的私人词库（联系人之类的），否则鼠须管无法部署，小狼毫只能输入英文。**
+
+同时请注意 `ext.dict.yaml` 是个大词库，折腾期间建议先注释掉，折腾完了再打开，
 
 <br>
 
