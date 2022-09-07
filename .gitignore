@@ -9,4 +9,9 @@ user.yaml
 
 cn_dicts/private.dict.yaml
 *private*
+
 opencc/.idea
+opencc/convert
+opencc/convert.go
+
+rime_*
