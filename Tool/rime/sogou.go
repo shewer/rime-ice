@@ -69,6 +69,20 @@ func Sogou() {
 	downloadAndWrite()
 	checkAndWrite()
 	PrintNewWords()
+
+	// 弄完了删除文件，否则 VSCode 搜索词汇时会搜索到
+	err := os.Remove("./scel2txt/scel/sogou.scel")
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = os.Remove("./scel2txt/out/luna_pinyin.sogou.dict.yaml")
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = os.Remove("./scel2txt/out/sogou.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 // downloadAndWrite 下载搜狗流行词，转换为 Rime 格式，然后加入到现有词库的后面

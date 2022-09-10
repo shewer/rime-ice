@@ -59,7 +59,7 @@ func Sort(dictPath string) {
 		text, code, weight := sp[0], "", ""
 
 		// 将 main 中注释了但没删除的词汇权重调为 0
-		if strings.HasPrefix(line, "# ") {
+		if dictPath == MainPath && strings.HasPrefix(line, "# ") {
 			line = sp[0] + "\t" + sp[1] + "\t" + "0"
 		}
 
