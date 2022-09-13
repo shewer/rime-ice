@@ -17,7 +17,7 @@ patch:
 
   ascii_composer/switch_key:
     # 打字打到一半时按下了 Caps/Shift 后： commit_code 上屏拼音的英文字母 | commit_text 上屏拼音拼出的词语
-    Caps_Lock: commit_text # noop | commit_code | commit_text
+    Caps_Lock: commit_text # commit_code | commit_text
     Shift_L: noop # noop | commit_code | commit_text
     Shift_R: noop # macOS 不会单独响应这个，设定上面那个，左右 Shift 都管用
     Control_L: noop
