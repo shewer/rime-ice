@@ -26,6 +26,16 @@ func UpdateSogou() {
 	fmt.Println("搜狗流行词：")
 	defer printTimeCost(time.Now())
 
+	// 是否有任何变动
+	oldSha1 := getSha1(SogouPath)
+	defer func(oldSha1 string) {
+		newSha1 := getSha1(SogouPath)
+		if newSha1 != oldSha1 {
+			fmt.Println("sorted")
+			updateVersion(SogouPath)
+		}
+	}(oldSha1)
+
 	makeFilterList(SogouPath) // 0.弄好过滤词列表
 	downloadSogou()           // 1.下载搜狗流行词加入到现有词库末尾
 	checkAndWrite(SogouPath)  // 2.过滤、去重、排序
