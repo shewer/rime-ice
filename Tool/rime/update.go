@@ -183,6 +183,13 @@ func checkAndWrite(dictPath string) {
 			wrongWordCount++
 			continue
 		}
+		// nue → nve，lue → lve
+		if strings.Contains(code, "nue") {
+			code = strings.ReplaceAll(code, "nue", "nve")
+		}
+		if strings.Contains(code, "lue") {
+			code = strings.ReplaceAll(code, "lue", "lve")
+		}
 		contents = append(contents, lemma{text: text, code: code})
 	}
 	fmt.Println("两个字及以下的 count：", twoWordCount)
