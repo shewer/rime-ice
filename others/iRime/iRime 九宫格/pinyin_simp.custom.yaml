@@ -7,6 +7,9 @@ patch:
   # 增加数字按键
   speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA1234567890
 
+  # 去掉电脑上打固顶字
+  fixed: ~
+
   # 九宫格拼写映射，直接覆盖，放弃 26 键的纠错，否则重码太多了
   speller/algebra:
     - "xlit|12345|+_*^0|"
