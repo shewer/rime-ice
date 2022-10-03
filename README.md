@@ -16,6 +16,7 @@
     -   自整理的 Emoji
     -   [以词定字](https://github.com/BlindingDark/rime-lua-select-character)
     -   [长词优先](https://github.com/tumuyan/rime-melt/blob/master/lua/melt.lua)
+    -   [两分输入法](http://cheonhyeong.com/Simplified/download.html)（拼字）
     -   [LaTeX](https://github.com/shenlebantongying/rime_latex)
     -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
     -   增加了许多拼音纠错
