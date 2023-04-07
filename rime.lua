@@ -237,24 +237,16 @@ end
 -- 把候选项应改为「ā á ǎ à …… van vain」，让单个字符的排在前面
 function v_filter(input, env)
     local code = env.engine.context.input -- 当前编码
+    env.arr = env.arr or  Set({ "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "Vs." })
     -- 仅当当前输入以 v 开头，并且编码长度为 2，才进行处理
-    if (string.len(code) == 2 and string.find(code, "v") == 1) then
+    if (string.len(code) == 2 and string.find(code, "^v") then
         local l = {}
         for cand in input:iter() do
             -- 特殊情况处理
-            if (cand.text == "Vs.") then
+            if ( env.arr[cand.text]) then
                 yield(cand)
-            end
-            -- 特殊情况处理
-            local arr = { "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣" }
-            for _, v in ipairs(arr) do
-                if (v == cand.text) then
-                    yield(cand)
-                    break
-                end
-            end
             -- 候选项为单个字符的，提到前面来。
-            if (utf8.len(cand.text) == 1) then
+            elseif (utf8.len(cand.text) == 1) then
                 yield(cand)
             else
                 table.insert(l, cand)
